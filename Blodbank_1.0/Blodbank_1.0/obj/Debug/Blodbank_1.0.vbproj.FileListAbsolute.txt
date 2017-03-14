@@ -10,3 +10,14 @@ C:\Users\Anders\AppData\Local\Temporary Projects\Blodbank_1.0\bin\Debug\Blodbank
 \\vmware-host\Shared Folders\Desktop\Blodbank-team9\Blodbank_1.0\Blodbank_1.0\obj\Debug\Blodbank_1.0.exe
 \\vmware-host\Shared Folders\Desktop\Blodbank-team9\Blodbank_1.0\Blodbank_1.0\obj\Debug\Blodbank_1.0.xml
 \\vmware-host\Shared Folders\Desktop\Blodbank-team9\Blodbank_1.0\Blodbank_1.0\obj\Debug\Blodbank_1.0.pdb
+C:\Users\Anders\Documents\NTNU\Vår 2017\OPProsjekt\Blodbank-team9\Blodbank_1.0\Blodbank_1.0\bin\Debug\Blodbank_1.0.exe.config
+C:\Users\Anders\Documents\NTNU\Vår 2017\OPProsjekt\Blodbank-team9\Blodbank_1.0\Blodbank_1.0\obj\Debug\Blodbank_1.0.exe
+C:\Users\Anders\Documents\NTNU\Vår 2017\OPProsjekt\Blodbank-team9\Blodbank_1.0\Blodbank_1.0\obj\Debug\Blodbank_1.0.xml
+C:\Users\Anders\Documents\NTNU\Vår 2017\OPProsjekt\Blodbank-team9\Blodbank_1.0\Blodbank_1.0\obj\Debug\Blodbank_1.0.pdb
+C:\Users\Anders\Documents\NTNU\Vår 2017\OPProsjekt\Blodbank-team9\Blodbank_1.0\Blodbank_1.0\bin\Debug\Blodbank_1.0.exe
+C:\Users\Anders\Documents\NTNU\Vår 2017\OPProsjekt\Blodbank-team9\Blodbank_1.0\Blodbank_1.0\bin\Debug\Blodbank_1.0.pdb
+C:\Users\Anders\Documents\NTNU\Vår 2017\OPProsjekt\Blodbank-team9\Blodbank_1.0\Blodbank_1.0\bin\Debug\Blodbank_1.0.xml
+C:\Users\Anders\Documents\NTNU\Vår 2017\OPProsjekt\Blodbank-team9\Blodbank_1.0\Blodbank_1.0\obj\Debug\Blodbank_1.0.vbprojResolveAssemblyReference.cache
+C:\Users\Anders\Documents\NTNU\Vår 2017\OPProsjekt\Blodbank-team9\Blodbank_1.0\Blodbank_1.0\obj\Debug\Blodbank_1._0.Form1.resources
+C:\Users\Anders\Documents\NTNU\Vår 2017\OPProsjekt\Blodbank-team9\Blodbank_1.0\Blodbank_1.0\obj\Debug\Blodbank_1._0.Resources.resources
+C:\Users\Anders\Documents\NTNU\Vår 2017\OPProsjekt\Blodbank-team9\Blodbank_1.0\Blodbank_1.0\obj\Debug\Blodbank_1.0.vbproj.GenerateResource.Cache
