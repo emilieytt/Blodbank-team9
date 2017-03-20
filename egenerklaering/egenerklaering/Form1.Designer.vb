@@ -23,14 +23,14 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
-        Me.TabPage10 = New System.Windows.Forms.TabPage()
+        Me.Mann = New System.Windows.Forms.TabPage()
         Me.Panel73 = New System.Windows.Forms.Panel()
         Me.Label73 = New System.Windows.Forms.Label()
         Me.Panel55 = New System.Windows.Forms.Panel()
         Me.RadioButton109 = New System.Windows.Forms.RadioButton()
         Me.RadioButton110 = New System.Windows.Forms.RadioButton()
         Me.Label55 = New System.Windows.Forms.Label()
-        Me.TabPage9 = New System.Windows.Forms.TabPage()
+        Me.Kvinne = New System.Windows.Forms.TabPage()
         Me.Panel72 = New System.Windows.Forms.Panel()
         Me.Label72 = New System.Windows.Forms.Label()
         Me.Panel51 = New System.Windows.Forms.Panel()
@@ -57,8 +57,6 @@ Partial Class Form1
         Me.Panel71 = New System.Windows.Forms.Panel()
         Me.Label71 = New System.Windows.Forms.Label()
         Me.Panel50 = New System.Windows.Forms.Panel()
-        Me.RadioButton99 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton100 = New System.Windows.Forms.RadioButton()
         Me.Label50 = New System.Windows.Forms.Label()
         Me.Panel62 = New System.Windows.Forms.Panel()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
@@ -301,10 +299,12 @@ Partial Class Form1
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
-        Me.TabPage10.SuspendLayout()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Mann.SuspendLayout()
         Me.Panel73.SuspendLayout()
         Me.Panel55.SuspendLayout()
-        Me.TabPage9.SuspendLayout()
+        Me.Kvinne.SuspendLayout()
         Me.Panel72.SuspendLayout()
         Me.Panel51.SuspendLayout()
         Me.Panel52.SuspendLayout()
@@ -386,23 +386,23 @@ Partial Class Form1
         Me.TabControl1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'TabPage10
+        'Mann
         '
-        Me.TabPage10.Controls.Add(Me.Panel73)
-        Me.TabPage10.Controls.Add(Me.Panel55)
-        Me.TabPage10.Location = New System.Drawing.Point(8, 39)
-        Me.TabPage10.Name = "TabPage10"
-        Me.TabPage10.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage10.Size = New System.Drawing.Size(1528, 1218)
-        Me.TabPage10.TabIndex = 9
-        Me.TabPage10.Text = "Mann"
-        Me.TabPage10.UseVisualStyleBackColor = True
+        Me.Mann.Controls.Add(Me.Panel73)
+        Me.Mann.Controls.Add(Me.Panel55)
+        Me.Mann.Location = New System.Drawing.Point(8, 39)
+        Me.Mann.Name = "Mann"
+        Me.Mann.Padding = New System.Windows.Forms.Padding(3)
+        Me.Mann.Size = New System.Drawing.Size(1528, 1218)
+        Me.Mann.TabIndex = 9
+        Me.Mann.Text = "Mann"
+        Me.Mann.UseVisualStyleBackColor = True
         '
         'Panel73
         '
         Me.Panel73.BackColor = System.Drawing.Color.SkyBlue
         Me.Panel73.Controls.Add(Me.Label73)
-        Me.Panel73.Location = New System.Drawing.Point(0, 3)
+        Me.Panel73.Location = New System.Drawing.Point(0, 0)
         Me.Panel73.Name = "Panel73"
         Me.Panel73.Size = New System.Drawing.Size(1528, 124)
         Me.Panel73.TabIndex = 22
@@ -419,6 +419,7 @@ Partial Class Form1
         '
         'Panel55
         '
+        Me.Panel55.BackColor = System.Drawing.Color.WhiteSmoke
         Me.Panel55.Controls.Add(Me.RadioButton109)
         Me.Panel55.Controls.Add(Me.RadioButton110)
         Me.Panel55.Controls.Add(Me.Label55)
@@ -435,6 +436,7 @@ Partial Class Form1
         Me.RadioButton109.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton109.TabIndex = 2
         Me.RadioButton109.TabStop = True
+        Me.RadioButton109.Tag = "0"
         Me.RadioButton109.Text = "Nei"
         Me.RadioButton109.UseVisualStyleBackColor = True
         '
@@ -446,6 +448,7 @@ Partial Class Form1
         Me.RadioButton110.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton110.TabIndex = 1
         Me.RadioButton110.TabStop = True
+        Me.RadioButton110.Tag = "1"
         Me.RadioButton110.Text = "Ja"
         Me.RadioButton110.UseVisualStyleBackColor = True
         '
@@ -458,26 +461,26 @@ Partial Class Form1
         Me.Label55.TabIndex = 0
         Me.Label55.Text = "Har eller har du hatt seksuell kontakt med andre menn?"
         '
-        'TabPage9
+        'Kvinne
         '
-        Me.TabPage9.Controls.Add(Me.Panel72)
-        Me.TabPage9.Controls.Add(Me.Panel51)
-        Me.TabPage9.Controls.Add(Me.Panel52)
-        Me.TabPage9.Controls.Add(Me.Panel53)
-        Me.TabPage9.Controls.Add(Me.Panel54)
-        Me.TabPage9.Location = New System.Drawing.Point(8, 39)
-        Me.TabPage9.Name = "TabPage9"
-        Me.TabPage9.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage9.Size = New System.Drawing.Size(1528, 1218)
-        Me.TabPage9.TabIndex = 8
-        Me.TabPage9.Text = "Kvinne"
-        Me.TabPage9.UseVisualStyleBackColor = True
+        Me.Kvinne.Controls.Add(Me.Panel72)
+        Me.Kvinne.Controls.Add(Me.Panel51)
+        Me.Kvinne.Controls.Add(Me.Panel52)
+        Me.Kvinne.Controls.Add(Me.Panel53)
+        Me.Kvinne.Controls.Add(Me.Panel54)
+        Me.Kvinne.Location = New System.Drawing.Point(8, 39)
+        Me.Kvinne.Name = "Kvinne"
+        Me.Kvinne.Padding = New System.Windows.Forms.Padding(3)
+        Me.Kvinne.Size = New System.Drawing.Size(1528, 1218)
+        Me.Kvinne.TabIndex = 8
+        Me.Kvinne.Text = "Kvinne"
+        Me.Kvinne.UseVisualStyleBackColor = True
         '
         'Panel72
         '
         Me.Panel72.BackColor = System.Drawing.Color.SkyBlue
         Me.Panel72.Controls.Add(Me.Label72)
-        Me.Panel72.Location = New System.Drawing.Point(0, 3)
+        Me.Panel72.Location = New System.Drawing.Point(0, 0)
         Me.Panel72.Name = "Panel72"
         Me.Panel72.Size = New System.Drawing.Size(1528, 124)
         Me.Panel72.TabIndex = 24
@@ -497,7 +500,7 @@ Partial Class Form1
         Me.Panel51.Controls.Add(Me.RadioButton101)
         Me.Panel51.Controls.Add(Me.RadioButton102)
         Me.Panel51.Controls.Add(Me.Label51)
-        Me.Panel51.Location = New System.Drawing.Point(3, 464)
+        Me.Panel51.Location = New System.Drawing.Point(0, 457)
         Me.Panel51.Name = "Panel51"
         Me.Panel51.Size = New System.Drawing.Size(1528, 88)
         Me.Panel51.TabIndex = 23
@@ -510,6 +513,7 @@ Partial Class Form1
         Me.RadioButton101.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton101.TabIndex = 2
         Me.RadioButton101.TabStop = True
+        Me.RadioButton101.Tag = "0"
         Me.RadioButton101.Text = "Nei"
         Me.RadioButton101.UseVisualStyleBackColor = True
         '
@@ -521,6 +525,7 @@ Partial Class Form1
         Me.RadioButton102.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton102.TabIndex = 1
         Me.RadioButton102.TabStop = True
+        Me.RadioButton102.Tag = "1"
         Me.RadioButton102.Text = "Ja"
         Me.RadioButton102.UseVisualStyleBackColor = True
         '
@@ -540,7 +545,7 @@ Partial Class Form1
         Me.Panel52.Controls.Add(Me.RadioButton103)
         Me.Panel52.Controls.Add(Me.RadioButton104)
         Me.Panel52.Controls.Add(Me.Label52)
-        Me.Panel52.Location = New System.Drawing.Point(0, 133)
+        Me.Panel52.Location = New System.Drawing.Point(0, 139)
         Me.Panel52.Name = "Panel52"
         Me.Panel52.Size = New System.Drawing.Size(1528, 88)
         Me.Panel52.TabIndex = 20
@@ -553,6 +558,7 @@ Partial Class Form1
         Me.RadioButton103.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton103.TabIndex = 2
         Me.RadioButton103.TabStop = True
+        Me.RadioButton103.Tag = "0"
         Me.RadioButton103.Text = "Nei"
         Me.RadioButton103.UseVisualStyleBackColor = True
         '
@@ -564,6 +570,7 @@ Partial Class Form1
         Me.RadioButton104.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton104.TabIndex = 1
         Me.RadioButton104.TabStop = True
+        Me.RadioButton104.Tag = "1"
         Me.RadioButton104.Text = "Ja"
         Me.RadioButton104.UseVisualStyleBackColor = True
         '
@@ -582,7 +589,7 @@ Partial Class Form1
         Me.Panel53.Controls.Add(Me.RadioButton105)
         Me.Panel53.Controls.Add(Me.RadioButton106)
         Me.Panel53.Controls.Add(Me.Label53)
-        Me.Panel53.Location = New System.Drawing.Point(3, 354)
+        Me.Panel53.Location = New System.Drawing.Point(0, 351)
         Me.Panel53.Name = "Panel53"
         Me.Panel53.Size = New System.Drawing.Size(1528, 88)
         Me.Panel53.TabIndex = 22
@@ -595,6 +602,7 @@ Partial Class Form1
         Me.RadioButton105.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton105.TabIndex = 2
         Me.RadioButton105.TabStop = True
+        Me.RadioButton105.Tag = "0"
         Me.RadioButton105.Text = "Nei"
         Me.RadioButton105.UseVisualStyleBackColor = True
         '
@@ -606,6 +614,7 @@ Partial Class Form1
         Me.RadioButton106.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton106.TabIndex = 1
         Me.RadioButton106.TabStop = True
+        Me.RadioButton106.Tag = "1"
         Me.RadioButton106.Text = "Ja"
         Me.RadioButton106.UseVisualStyleBackColor = True
         '
@@ -623,7 +632,7 @@ Partial Class Form1
         Me.Panel54.Controls.Add(Me.RadioButton107)
         Me.Panel54.Controls.Add(Me.RadioButton108)
         Me.Panel54.Controls.Add(Me.Label54)
-        Me.Panel54.Location = New System.Drawing.Point(3, 246)
+        Me.Panel54.Location = New System.Drawing.Point(0, 245)
         Me.Panel54.Name = "Panel54"
         Me.Panel54.Size = New System.Drawing.Size(1528, 88)
         Me.Panel54.TabIndex = 21
@@ -636,6 +645,7 @@ Partial Class Form1
         Me.RadioButton107.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton107.TabIndex = 2
         Me.RadioButton107.TabStop = True
+        Me.RadioButton107.Tag = "0"
         Me.RadioButton107.Text = "Nei"
         Me.RadioButton107.UseVisualStyleBackColor = True
         '
@@ -647,6 +657,7 @@ Partial Class Form1
         Me.RadioButton108.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton108.TabIndex = 1
         Me.RadioButton108.TabStop = True
+        Me.RadioButton108.Tag = "1"
         Me.RadioButton108.Text = "Ja"
         Me.RadioButton108.UseVisualStyleBackColor = True
         '
@@ -679,7 +690,7 @@ Partial Class Form1
         Me.Panel46.Controls.Add(Me.RadioButton33)
         Me.Panel46.Controls.Add(Me.RadioButton34)
         Me.Panel46.Controls.Add(Me.Label46)
-        Me.Panel46.Location = New System.Drawing.Point(3, 450)
+        Me.Panel46.Location = New System.Drawing.Point(0, 463)
         Me.Panel46.Name = "Panel46"
         Me.Panel46.Size = New System.Drawing.Size(1528, 88)
         Me.Panel46.TabIndex = 15
@@ -692,6 +703,7 @@ Partial Class Form1
         Me.RadioButton33.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton33.TabIndex = 2
         Me.RadioButton33.TabStop = True
+        Me.RadioButton33.Tag = "0"
         Me.RadioButton33.Text = "Nei"
         Me.RadioButton33.UseVisualStyleBackColor = True
         '
@@ -703,6 +715,7 @@ Partial Class Form1
         Me.RadioButton34.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton34.TabIndex = 1
         Me.RadioButton34.TabStop = True
+        Me.RadioButton34.Tag = "1"
         Me.RadioButton34.Text = "Ja"
         Me.RadioButton34.UseVisualStyleBackColor = True
         '
@@ -737,35 +750,12 @@ Partial Class Form1
         'Panel50
         '
         Me.Panel50.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.Panel50.Controls.Add(Me.RadioButton99)
-        Me.Panel50.Controls.Add(Me.RadioButton100)
+        Me.Panel50.Controls.Add(Me.TextBox1)
         Me.Panel50.Controls.Add(Me.Label50)
-        Me.Panel50.Location = New System.Drawing.Point(0, 348)
+        Me.Panel50.Location = New System.Drawing.Point(0, 357)
         Me.Panel50.Name = "Panel50"
         Me.Panel50.Size = New System.Drawing.Size(1528, 88)
         Me.Panel50.TabIndex = 15
-        '
-        'RadioButton99
-        '
-        Me.RadioButton99.AutoSize = True
-        Me.RadioButton99.Location = New System.Drawing.Point(1326, 24)
-        Me.RadioButton99.Name = "RadioButton99"
-        Me.RadioButton99.Size = New System.Drawing.Size(75, 29)
-        Me.RadioButton99.TabIndex = 2
-        Me.RadioButton99.TabStop = True
-        Me.RadioButton99.Text = "Nei"
-        Me.RadioButton99.UseVisualStyleBackColor = True
-        '
-        'RadioButton100
-        '
-        Me.RadioButton100.AutoSize = True
-        Me.RadioButton100.Location = New System.Drawing.Point(1112, 24)
-        Me.RadioButton100.Name = "RadioButton100"
-        Me.RadioButton100.Size = New System.Drawing.Size(66, 29)
-        Me.RadioButton100.TabIndex = 1
-        Me.RadioButton100.TabStop = True
-        Me.RadioButton100.Text = "Ja"
-        Me.RadioButton100.UseVisualStyleBackColor = True
         '
         'Label50
         '
@@ -780,7 +770,7 @@ Partial Class Form1
         '
         Me.Panel62.Controls.Add(Me.ComboBox1)
         Me.Panel62.Controls.Add(Me.Label62)
-        Me.Panel62.Location = New System.Drawing.Point(0, 238)
+        Me.Panel62.Location = New System.Drawing.Point(0, 247)
         Me.Panel62.Name = "Panel62"
         Me.Panel62.Size = New System.Drawing.Size(1528, 88)
         Me.Panel62.TabIndex = 14
@@ -799,9 +789,9 @@ Partial Class Form1
         Me.Label62.AutoSize = True
         Me.Label62.Location = New System.Drawing.Point(6, 28)
         Me.Label62.Name = "Label62"
-        Me.Label62.Size = New System.Drawing.Size(378, 25)
+        Me.Label62.Size = New System.Drawing.Size(364, 25)
         Me.Label62.TabIndex = 0
-        Me.Label62.Text = "I hvilke(t) land er du født og oppvokst?"
+        Me.Label62.Text = "I hvilket land er du født og oppvokst?"
         '
         'Panel63
         '
@@ -809,7 +799,7 @@ Partial Class Form1
         Me.Panel63.Controls.Add(Me.RadioButton125)
         Me.Panel63.Controls.Add(Me.RadioButton126)
         Me.Panel63.Controls.Add(Me.Label63)
-        Me.Panel63.Location = New System.Drawing.Point(0, 130)
+        Me.Panel63.Location = New System.Drawing.Point(0, 139)
         Me.Panel63.Name = "Panel63"
         Me.Panel63.Size = New System.Drawing.Size(1528, 88)
         Me.Panel63.TabIndex = 13
@@ -822,6 +812,7 @@ Partial Class Form1
         Me.RadioButton125.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton125.TabIndex = 2
         Me.RadioButton125.TabStop = True
+        Me.RadioButton125.Tag = "0"
         Me.RadioButton125.Text = "Nei"
         Me.RadioButton125.UseVisualStyleBackColor = True
         '
@@ -833,6 +824,7 @@ Partial Class Form1
         Me.RadioButton126.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton126.TabIndex = 1
         Me.RadioButton126.TabStop = True
+        Me.RadioButton126.Tag = "1"
         Me.RadioButton126.Text = "Ja"
         Me.RadioButton126.UseVisualStyleBackColor = True
         '
@@ -869,7 +861,7 @@ Partial Class Form1
         '
         Me.Panel70.BackColor = System.Drawing.Color.SkyBlue
         Me.Panel70.Controls.Add(Me.Label70)
-        Me.Panel70.Location = New System.Drawing.Point(0, 3)
+        Me.Panel70.Location = New System.Drawing.Point(0, 0)
         Me.Panel70.Name = "Panel70"
         Me.Panel70.Size = New System.Drawing.Size(1528, 124)
         Me.Panel70.TabIndex = 28
@@ -890,7 +882,7 @@ Partial Class Form1
         Me.Panel47.Controls.Add(Me.RadioButton93)
         Me.Panel47.Controls.Add(Me.RadioButton94)
         Me.Panel47.Controls.Add(Me.Label47)
-        Me.Panel47.Location = New System.Drawing.Point(0, 728)
+        Me.Panel47.Location = New System.Drawing.Point(0, 731)
         Me.Panel47.Name = "Panel47"
         Me.Panel47.Size = New System.Drawing.Size(1528, 68)
         Me.Panel47.TabIndex = 26
@@ -903,6 +895,7 @@ Partial Class Form1
         Me.RadioButton93.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton93.TabIndex = 2
         Me.RadioButton93.TabStop = True
+        Me.RadioButton93.Tag = "0"
         Me.RadioButton93.Text = "Nei"
         Me.RadioButton93.UseVisualStyleBackColor = True
         '
@@ -914,6 +907,7 @@ Partial Class Form1
         Me.RadioButton94.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton94.TabIndex = 1
         Me.RadioButton94.TabStop = True
+        Me.RadioButton94.Tag = "1"
         Me.RadioButton94.Text = "Ja"
         Me.RadioButton94.UseVisualStyleBackColor = True
         '
@@ -931,7 +925,7 @@ Partial Class Form1
         Me.Panel48.Controls.Add(Me.RadioButton95)
         Me.Panel48.Controls.Add(Me.RadioButton96)
         Me.Panel48.Controls.Add(Me.Label48)
-        Me.Panel48.Location = New System.Drawing.Point(0, 654)
+        Me.Panel48.Location = New System.Drawing.Point(0, 657)
         Me.Panel48.Name = "Panel48"
         Me.Panel48.Size = New System.Drawing.Size(1528, 68)
         Me.Panel48.TabIndex = 25
@@ -944,6 +938,7 @@ Partial Class Form1
         Me.RadioButton95.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton95.TabIndex = 2
         Me.RadioButton95.TabStop = True
+        Me.RadioButton95.Tag = "0"
         Me.RadioButton95.Text = "Nei"
         Me.RadioButton95.UseVisualStyleBackColor = True
         '
@@ -955,6 +950,7 @@ Partial Class Form1
         Me.RadioButton96.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton96.TabIndex = 1
         Me.RadioButton96.TabStop = True
+        Me.RadioButton96.Tag = "1"
         Me.RadioButton96.Text = "Ja"
         Me.RadioButton96.UseVisualStyleBackColor = True
         '
@@ -973,7 +969,7 @@ Partial Class Form1
         Me.Panel49.Controls.Add(Me.RadioButton97)
         Me.Panel49.Controls.Add(Me.RadioButton98)
         Me.Panel49.Controls.Add(Me.Label49)
-        Me.Panel49.Location = New System.Drawing.Point(0, 580)
+        Me.Panel49.Location = New System.Drawing.Point(0, 583)
         Me.Panel49.Name = "Panel49"
         Me.Panel49.Size = New System.Drawing.Size(1528, 68)
         Me.Panel49.TabIndex = 24
@@ -986,6 +982,7 @@ Partial Class Form1
         Me.RadioButton97.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton97.TabIndex = 2
         Me.RadioButton97.TabStop = True
+        Me.RadioButton97.Tag = "0"
         Me.RadioButton97.Text = "Nei"
         Me.RadioButton97.UseVisualStyleBackColor = True
         '
@@ -997,6 +994,7 @@ Partial Class Form1
         Me.RadioButton98.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton98.TabIndex = 1
         Me.RadioButton98.TabStop = True
+        Me.RadioButton98.Tag = "1"
         Me.RadioButton98.Text = "Ja"
         Me.RadioButton98.UseVisualStyleBackColor = True
         '
@@ -1014,7 +1012,7 @@ Partial Class Form1
         Me.Panel56.Controls.Add(Me.RadioButton111)
         Me.Panel56.Controls.Add(Me.RadioButton112)
         Me.Panel56.Controls.Add(Me.Label56)
-        Me.Panel56.Location = New System.Drawing.Point(0, 506)
+        Me.Panel56.Location = New System.Drawing.Point(0, 509)
         Me.Panel56.Name = "Panel56"
         Me.Panel56.Size = New System.Drawing.Size(1528, 68)
         Me.Panel56.TabIndex = 23
@@ -1027,6 +1025,7 @@ Partial Class Form1
         Me.RadioButton111.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton111.TabIndex = 2
         Me.RadioButton111.TabStop = True
+        Me.RadioButton111.Tag = "0"
         Me.RadioButton111.Text = "Nei"
         Me.RadioButton111.UseVisualStyleBackColor = True
         '
@@ -1038,6 +1037,7 @@ Partial Class Form1
         Me.RadioButton112.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton112.TabIndex = 1
         Me.RadioButton112.TabStop = True
+        Me.RadioButton112.Tag = "1"
         Me.RadioButton112.Text = "Ja"
         Me.RadioButton112.UseVisualStyleBackColor = True
         '
@@ -1056,7 +1056,7 @@ Partial Class Form1
         Me.Panel57.Controls.Add(Me.RadioButton113)
         Me.Panel57.Controls.Add(Me.RadioButton114)
         Me.Panel57.Controls.Add(Me.Label57)
-        Me.Panel57.Location = New System.Drawing.Point(0, 432)
+        Me.Panel57.Location = New System.Drawing.Point(0, 435)
         Me.Panel57.Name = "Panel57"
         Me.Panel57.Size = New System.Drawing.Size(1528, 68)
         Me.Panel57.TabIndex = 19
@@ -1069,6 +1069,7 @@ Partial Class Form1
         Me.RadioButton113.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton113.TabIndex = 2
         Me.RadioButton113.TabStop = True
+        Me.RadioButton113.Tag = "0"
         Me.RadioButton113.Text = "Nei"
         Me.RadioButton113.UseVisualStyleBackColor = True
         '
@@ -1080,6 +1081,7 @@ Partial Class Form1
         Me.RadioButton114.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton114.TabIndex = 1
         Me.RadioButton114.TabStop = True
+        Me.RadioButton114.Tag = "1"
         Me.RadioButton114.Text = "Ja"
         Me.RadioButton114.UseVisualStyleBackColor = True
         '
@@ -1098,7 +1100,7 @@ Partial Class Form1
         Me.Panel58.Controls.Add(Me.RadioButton115)
         Me.Panel58.Controls.Add(Me.RadioButton116)
         Me.Panel58.Controls.Add(Me.Label58)
-        Me.Panel58.Location = New System.Drawing.Point(-3, 358)
+        Me.Panel58.Location = New System.Drawing.Point(-3, 361)
         Me.Panel58.Name = "Panel58"
         Me.Panel58.Size = New System.Drawing.Size(1528, 68)
         Me.Panel58.TabIndex = 22
@@ -1111,6 +1113,7 @@ Partial Class Form1
         Me.RadioButton115.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton115.TabIndex = 2
         Me.RadioButton115.TabStop = True
+        Me.RadioButton115.Tag = "0"
         Me.RadioButton115.Text = "Nei"
         Me.RadioButton115.UseVisualStyleBackColor = True
         '
@@ -1122,6 +1125,7 @@ Partial Class Form1
         Me.RadioButton116.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton116.TabIndex = 1
         Me.RadioButton116.TabStop = True
+        Me.RadioButton116.Tag = "1"
         Me.RadioButton116.Text = "Ja"
         Me.RadioButton116.UseVisualStyleBackColor = True
         '
@@ -1140,7 +1144,7 @@ Partial Class Form1
         Me.Panel59.Controls.Add(Me.RadioButton117)
         Me.Panel59.Controls.Add(Me.RadioButton118)
         Me.Panel59.Controls.Add(Me.Label59)
-        Me.Panel59.Location = New System.Drawing.Point(0, 284)
+        Me.Panel59.Location = New System.Drawing.Point(0, 287)
         Me.Panel59.Name = "Panel59"
         Me.Panel59.Size = New System.Drawing.Size(1528, 68)
         Me.Panel59.TabIndex = 21
@@ -1153,6 +1157,7 @@ Partial Class Form1
         Me.RadioButton117.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton117.TabIndex = 2
         Me.RadioButton117.TabStop = True
+        Me.RadioButton117.Tag = "0"
         Me.RadioButton117.Text = "Nei"
         Me.RadioButton117.UseVisualStyleBackColor = True
         '
@@ -1164,6 +1169,7 @@ Partial Class Form1
         Me.RadioButton118.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton118.TabIndex = 1
         Me.RadioButton118.TabStop = True
+        Me.RadioButton118.Tag = "1"
         Me.RadioButton118.Text = "Ja"
         Me.RadioButton118.UseVisualStyleBackColor = True
         '
@@ -1182,7 +1188,7 @@ Partial Class Form1
         Me.Panel60.Controls.Add(Me.RadioButton119)
         Me.Panel60.Controls.Add(Me.RadioButton120)
         Me.Panel60.Controls.Add(Me.Label60)
-        Me.Panel60.Location = New System.Drawing.Point(0, 210)
+        Me.Panel60.Location = New System.Drawing.Point(0, 213)
         Me.Panel60.Name = "Panel60"
         Me.Panel60.Size = New System.Drawing.Size(1528, 68)
         Me.Panel60.TabIndex = 20
@@ -1195,6 +1201,7 @@ Partial Class Form1
         Me.RadioButton119.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton119.TabIndex = 2
         Me.RadioButton119.TabStop = True
+        Me.RadioButton119.Tag = "0"
         Me.RadioButton119.Text = "Nei"
         Me.RadioButton119.UseVisualStyleBackColor = True
         '
@@ -1206,6 +1213,7 @@ Partial Class Form1
         Me.RadioButton120.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton120.TabIndex = 1
         Me.RadioButton120.TabStop = True
+        Me.RadioButton120.Tag = "1"
         Me.RadioButton120.Text = "Ja"
         Me.RadioButton120.UseVisualStyleBackColor = True
         '
@@ -1224,7 +1232,7 @@ Partial Class Form1
         Me.Panel61.Controls.Add(Me.RadioButton121)
         Me.Panel61.Controls.Add(Me.RadioButton122)
         Me.Panel61.Controls.Add(Me.Label61)
-        Me.Panel61.Location = New System.Drawing.Point(0, 136)
+        Me.Panel61.Location = New System.Drawing.Point(0, 139)
         Me.Panel61.Name = "Panel61"
         Me.Panel61.Size = New System.Drawing.Size(1528, 68)
         Me.Panel61.TabIndex = 18
@@ -1237,6 +1245,7 @@ Partial Class Form1
         Me.RadioButton121.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton121.TabIndex = 2
         Me.RadioButton121.TabStop = True
+        Me.RadioButton121.Tag = "0"
         Me.RadioButton121.Text = "Nei"
         Me.RadioButton121.UseVisualStyleBackColor = True
         '
@@ -1248,6 +1257,7 @@ Partial Class Form1
         Me.RadioButton122.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton122.TabIndex = 1
         Me.RadioButton122.TabStop = True
+        Me.RadioButton122.Tag = "1"
         Me.RadioButton122.Text = "Ja"
         Me.RadioButton122.UseVisualStyleBackColor = True
         '
@@ -1290,7 +1300,7 @@ Partial Class Form1
         '
         Me.Panel69.BackColor = System.Drawing.Color.SkyBlue
         Me.Panel69.Controls.Add(Me.Label69)
-        Me.Panel69.Location = New System.Drawing.Point(0, 3)
+        Me.Panel69.Location = New System.Drawing.Point(0, 0)
         Me.Panel69.Name = "Panel69"
         Me.Panel69.Size = New System.Drawing.Size(1528, 124)
         Me.Panel69.TabIndex = 32
@@ -1311,7 +1321,7 @@ Partial Class Form1
         Me.Panel41.Controls.Add(Me.RadioButton81)
         Me.Panel41.Controls.Add(Me.RadioButton82)
         Me.Panel41.Controls.Add(Me.Label41)
-        Me.Panel41.Location = New System.Drawing.Point(6, 976)
+        Me.Panel41.Location = New System.Drawing.Point(6, 979)
         Me.Panel41.Name = "Panel41"
         Me.Panel41.Size = New System.Drawing.Size(1528, 54)
         Me.Panel41.TabIndex = 28
@@ -1324,6 +1334,7 @@ Partial Class Form1
         Me.RadioButton81.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton81.TabIndex = 2
         Me.RadioButton81.TabStop = True
+        Me.RadioButton81.Tag = "0"
         Me.RadioButton81.Text = "Nei"
         Me.RadioButton81.UseVisualStyleBackColor = True
         '
@@ -1335,6 +1346,7 @@ Partial Class Form1
         Me.RadioButton82.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton82.TabIndex = 1
         Me.RadioButton82.TabStop = True
+        Me.RadioButton82.Tag = "1"
         Me.RadioButton82.Text = "Ja"
         Me.RadioButton82.UseVisualStyleBackColor = True
         '
@@ -1352,7 +1364,7 @@ Partial Class Form1
         Me.Panel42.Controls.Add(Me.RadioButton83)
         Me.Panel42.Controls.Add(Me.RadioButton84)
         Me.Panel42.Controls.Add(Me.Label42)
-        Me.Panel42.Location = New System.Drawing.Point(6, 916)
+        Me.Panel42.Location = New System.Drawing.Point(6, 919)
         Me.Panel42.Name = "Panel42"
         Me.Panel42.Size = New System.Drawing.Size(1528, 54)
         Me.Panel42.TabIndex = 31
@@ -1365,6 +1377,7 @@ Partial Class Form1
         Me.RadioButton83.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton83.TabIndex = 2
         Me.RadioButton83.TabStop = True
+        Me.RadioButton83.Tag = "0"
         Me.RadioButton83.Text = "Nei"
         Me.RadioButton83.UseVisualStyleBackColor = True
         '
@@ -1376,6 +1389,7 @@ Partial Class Form1
         Me.RadioButton84.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton84.TabIndex = 1
         Me.RadioButton84.TabStop = True
+        Me.RadioButton84.Tag = "1"
         Me.RadioButton84.Text = "Ja"
         Me.RadioButton84.UseVisualStyleBackColor = True
         '
@@ -1394,7 +1408,7 @@ Partial Class Form1
         Me.Panel43.Controls.Add(Me.RadioButton85)
         Me.Panel43.Controls.Add(Me.RadioButton86)
         Me.Panel43.Controls.Add(Me.Label43)
-        Me.Panel43.Location = New System.Drawing.Point(6, 856)
+        Me.Panel43.Location = New System.Drawing.Point(6, 859)
         Me.Panel43.Name = "Panel43"
         Me.Panel43.Size = New System.Drawing.Size(1528, 54)
         Me.Panel43.TabIndex = 30
@@ -1407,6 +1421,7 @@ Partial Class Form1
         Me.RadioButton85.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton85.TabIndex = 2
         Me.RadioButton85.TabStop = True
+        Me.RadioButton85.Tag = "0"
         Me.RadioButton85.Text = "Nei"
         Me.RadioButton85.UseVisualStyleBackColor = True
         '
@@ -1418,6 +1433,7 @@ Partial Class Form1
         Me.RadioButton86.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton86.TabIndex = 1
         Me.RadioButton86.TabStop = True
+        Me.RadioButton86.Tag = "1"
         Me.RadioButton86.Text = "Ja"
         Me.RadioButton86.UseVisualStyleBackColor = True
         '
@@ -1435,7 +1451,7 @@ Partial Class Form1
         Me.Panel44.Controls.Add(Me.RadioButton87)
         Me.Panel44.Controls.Add(Me.RadioButton88)
         Me.Panel44.Controls.Add(Me.Label44)
-        Me.Panel44.Location = New System.Drawing.Point(3, 796)
+        Me.Panel44.Location = New System.Drawing.Point(3, 799)
         Me.Panel44.Name = "Panel44"
         Me.Panel44.Size = New System.Drawing.Size(1528, 54)
         Me.Panel44.TabIndex = 29
@@ -1448,6 +1464,7 @@ Partial Class Form1
         Me.RadioButton87.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton87.TabIndex = 2
         Me.RadioButton87.TabStop = True
+        Me.RadioButton87.Tag = "0"
         Me.RadioButton87.Text = "Nei"
         Me.RadioButton87.UseVisualStyleBackColor = True
         '
@@ -1459,6 +1476,7 @@ Partial Class Form1
         Me.RadioButton88.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton88.TabIndex = 1
         Me.RadioButton88.TabStop = True
+        Me.RadioButton88.Tag = "1"
         Me.RadioButton88.Text = "Ja"
         Me.RadioButton88.UseVisualStyleBackColor = True
         '
@@ -1477,7 +1495,7 @@ Partial Class Form1
         Me.Panel45.Controls.Add(Me.RadioButton89)
         Me.Panel45.Controls.Add(Me.RadioButton90)
         Me.Panel45.Controls.Add(Me.Label45)
-        Me.Panel45.Location = New System.Drawing.Point(3, 736)
+        Me.Panel45.Location = New System.Drawing.Point(3, 739)
         Me.Panel45.Name = "Panel45"
         Me.Panel45.Size = New System.Drawing.Size(1528, 54)
         Me.Panel45.TabIndex = 27
@@ -1490,6 +1508,7 @@ Partial Class Form1
         Me.RadioButton89.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton89.TabIndex = 2
         Me.RadioButton89.TabStop = True
+        Me.RadioButton89.Tag = "0"
         Me.RadioButton89.Text = "Nei"
         Me.RadioButton89.UseVisualStyleBackColor = True
         '
@@ -1501,6 +1520,7 @@ Partial Class Form1
         Me.RadioButton90.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton90.TabIndex = 1
         Me.RadioButton90.TabStop = True
+        Me.RadioButton90.Tag = "1"
         Me.RadioButton90.Text = "Ja"
         Me.RadioButton90.UseVisualStyleBackColor = True
         '
@@ -1518,7 +1538,7 @@ Partial Class Form1
         Me.Panel35.Controls.Add(Me.RadioButton69)
         Me.Panel35.Controls.Add(Me.RadioButton70)
         Me.Panel35.Controls.Add(Me.Label35)
-        Me.Panel35.Location = New System.Drawing.Point(3, 676)
+        Me.Panel35.Location = New System.Drawing.Point(3, 679)
         Me.Panel35.Name = "Panel35"
         Me.Panel35.Size = New System.Drawing.Size(1528, 54)
         Me.Panel35.TabIndex = 23
@@ -1531,6 +1551,7 @@ Partial Class Form1
         Me.RadioButton69.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton69.TabIndex = 2
         Me.RadioButton69.TabStop = True
+        Me.RadioButton69.Tag = "0"
         Me.RadioButton69.Text = "Nei"
         Me.RadioButton69.UseVisualStyleBackColor = True
         '
@@ -1542,6 +1563,7 @@ Partial Class Form1
         Me.RadioButton70.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton70.TabIndex = 1
         Me.RadioButton70.TabStop = True
+        Me.RadioButton70.Tag = "1"
         Me.RadioButton70.Text = "Ja"
         Me.RadioButton70.UseVisualStyleBackColor = True
         '
@@ -1560,7 +1582,7 @@ Partial Class Form1
         Me.Panel34.Controls.Add(Me.RadioButton67)
         Me.Panel34.Controls.Add(Me.RadioButton68)
         Me.Panel34.Controls.Add(Me.Label34)
-        Me.Panel34.Location = New System.Drawing.Point(3, 376)
+        Me.Panel34.Location = New System.Drawing.Point(3, 379)
         Me.Panel34.Name = "Panel34"
         Me.Panel34.Size = New System.Drawing.Size(1528, 54)
         Me.Panel34.TabIndex = 19
@@ -1573,6 +1595,7 @@ Partial Class Form1
         Me.RadioButton67.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton67.TabIndex = 2
         Me.RadioButton67.TabStop = True
+        Me.RadioButton67.Tag = "0"
         Me.RadioButton67.Text = "Nei"
         Me.RadioButton67.UseVisualStyleBackColor = True
         '
@@ -1584,6 +1607,7 @@ Partial Class Form1
         Me.RadioButton68.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton68.TabIndex = 1
         Me.RadioButton68.TabStop = True
+        Me.RadioButton68.Tag = "1"
         Me.RadioButton68.Text = "Ja"
         Me.RadioButton68.UseVisualStyleBackColor = True
         '
@@ -1602,7 +1626,7 @@ Partial Class Form1
         Me.Panel36.Controls.Add(Me.RadioButton71)
         Me.Panel36.Controls.Add(Me.RadioButton72)
         Me.Panel36.Controls.Add(Me.Label36)
-        Me.Panel36.Location = New System.Drawing.Point(3, 616)
+        Me.Panel36.Location = New System.Drawing.Point(3, 619)
         Me.Panel36.Name = "Panel36"
         Me.Panel36.Size = New System.Drawing.Size(1528, 54)
         Me.Panel36.TabIndex = 26
@@ -1615,6 +1639,7 @@ Partial Class Form1
         Me.RadioButton71.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton71.TabIndex = 2
         Me.RadioButton71.TabStop = True
+        Me.RadioButton71.Tag = "0"
         Me.RadioButton71.Text = "Nei"
         Me.RadioButton71.UseVisualStyleBackColor = True
         '
@@ -1626,6 +1651,7 @@ Partial Class Form1
         Me.RadioButton72.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton72.TabIndex = 1
         Me.RadioButton72.TabStop = True
+        Me.RadioButton72.Tag = "1"
         Me.RadioButton72.Text = "Ja"
         Me.RadioButton72.UseVisualStyleBackColor = True
         '
@@ -1643,7 +1669,7 @@ Partial Class Form1
         Me.Panel33.Controls.Add(Me.RadioButton65)
         Me.Panel33.Controls.Add(Me.RadioButton66)
         Me.Panel33.Controls.Add(Me.Label33)
-        Me.Panel33.Location = New System.Drawing.Point(3, 316)
+        Me.Panel33.Location = New System.Drawing.Point(3, 319)
         Me.Panel33.Name = "Panel33"
         Me.Panel33.Size = New System.Drawing.Size(1528, 54)
         Me.Panel33.TabIndex = 21
@@ -1656,6 +1682,7 @@ Partial Class Form1
         Me.RadioButton65.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton65.TabIndex = 2
         Me.RadioButton65.TabStop = True
+        Me.RadioButton65.Tag = "0"
         Me.RadioButton65.Text = "Nei"
         Me.RadioButton65.UseVisualStyleBackColor = True
         '
@@ -1667,6 +1694,7 @@ Partial Class Form1
         Me.RadioButton66.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton66.TabIndex = 1
         Me.RadioButton66.TabStop = True
+        Me.RadioButton66.Tag = "1"
         Me.RadioButton66.Text = "Ja"
         Me.RadioButton66.UseVisualStyleBackColor = True
         '
@@ -1684,7 +1712,7 @@ Partial Class Form1
         Me.Panel37.Controls.Add(Me.RadioButton73)
         Me.Panel37.Controls.Add(Me.RadioButton74)
         Me.Panel37.Controls.Add(Me.Label37)
-        Me.Panel37.Location = New System.Drawing.Point(3, 556)
+        Me.Panel37.Location = New System.Drawing.Point(3, 559)
         Me.Panel37.Name = "Panel37"
         Me.Panel37.Size = New System.Drawing.Size(1528, 54)
         Me.Panel37.TabIndex = 25
@@ -1697,6 +1725,7 @@ Partial Class Form1
         Me.RadioButton73.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton73.TabIndex = 2
         Me.RadioButton73.TabStop = True
+        Me.RadioButton73.Tag = "0"
         Me.RadioButton73.Text = "Nei"
         Me.RadioButton73.UseVisualStyleBackColor = True
         '
@@ -1708,6 +1737,7 @@ Partial Class Form1
         Me.RadioButton74.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton74.TabIndex = 1
         Me.RadioButton74.TabStop = True
+        Me.RadioButton74.Tag = "1"
         Me.RadioButton74.Text = "Ja"
         Me.RadioButton74.UseVisualStyleBackColor = True
         '
@@ -1726,7 +1756,7 @@ Partial Class Form1
         Me.Panel32.Controls.Add(Me.RadioButton63)
         Me.Panel32.Controls.Add(Me.RadioButton64)
         Me.Panel32.Controls.Add(Me.Label32)
-        Me.Panel32.Location = New System.Drawing.Point(3, 256)
+        Me.Panel32.Location = New System.Drawing.Point(3, 259)
         Me.Panel32.Name = "Panel32"
         Me.Panel32.Size = New System.Drawing.Size(1528, 54)
         Me.Panel32.TabIndex = 20
@@ -1739,6 +1769,7 @@ Partial Class Form1
         Me.RadioButton63.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton63.TabIndex = 2
         Me.RadioButton63.TabStop = True
+        Me.RadioButton63.Tag = "0"
         Me.RadioButton63.Text = "Nei"
         Me.RadioButton63.UseVisualStyleBackColor = True
         '
@@ -1750,6 +1781,7 @@ Partial Class Form1
         Me.RadioButton64.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton64.TabIndex = 1
         Me.RadioButton64.TabStop = True
+        Me.RadioButton64.Tag = "1"
         Me.RadioButton64.Text = "Ja"
         Me.RadioButton64.UseVisualStyleBackColor = True
         '
@@ -1768,7 +1800,7 @@ Partial Class Form1
         Me.Panel38.Controls.Add(Me.RadioButton75)
         Me.Panel38.Controls.Add(Me.RadioButton76)
         Me.Panel38.Controls.Add(Me.Label38)
-        Me.Panel38.Location = New System.Drawing.Point(0, 496)
+        Me.Panel38.Location = New System.Drawing.Point(0, 499)
         Me.Panel38.Name = "Panel38"
         Me.Panel38.Size = New System.Drawing.Size(1528, 54)
         Me.Panel38.TabIndex = 24
@@ -1781,6 +1813,7 @@ Partial Class Form1
         Me.RadioButton75.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton75.TabIndex = 2
         Me.RadioButton75.TabStop = True
+        Me.RadioButton75.Tag = "0"
         Me.RadioButton75.Text = "Nei"
         Me.RadioButton75.UseVisualStyleBackColor = True
         '
@@ -1792,6 +1825,7 @@ Partial Class Form1
         Me.RadioButton76.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton76.TabIndex = 1
         Me.RadioButton76.TabStop = True
+        Me.RadioButton76.Tag = "1"
         Me.RadioButton76.Text = "Ja"
         Me.RadioButton76.UseVisualStyleBackColor = True
         '
@@ -1809,7 +1843,7 @@ Partial Class Form1
         Me.Panel31.Controls.Add(Me.RadioButton61)
         Me.Panel31.Controls.Add(Me.RadioButton62)
         Me.Panel31.Controls.Add(Me.Label31)
-        Me.Panel31.Location = New System.Drawing.Point(0, 196)
+        Me.Panel31.Location = New System.Drawing.Point(0, 199)
         Me.Panel31.Name = "Panel31"
         Me.Panel31.Size = New System.Drawing.Size(1528, 54)
         Me.Panel31.TabIndex = 19
@@ -1833,6 +1867,7 @@ Partial Class Form1
         Me.RadioButton62.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton62.TabIndex = 1
         Me.RadioButton62.TabStop = True
+        Me.RadioButton62.Tag = "1"
         Me.RadioButton62.Text = "Ja"
         Me.RadioButton62.UseVisualStyleBackColor = True
         '
@@ -1850,7 +1885,7 @@ Partial Class Form1
         Me.Panel39.Controls.Add(Me.RadioButton77)
         Me.Panel39.Controls.Add(Me.RadioButton78)
         Me.Panel39.Controls.Add(Me.Label39)
-        Me.Panel39.Location = New System.Drawing.Point(0, 436)
+        Me.Panel39.Location = New System.Drawing.Point(0, 439)
         Me.Panel39.Name = "Panel39"
         Me.Panel39.Size = New System.Drawing.Size(1528, 54)
         Me.Panel39.TabIndex = 22
@@ -1874,6 +1909,7 @@ Partial Class Form1
         Me.RadioButton78.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton78.TabIndex = 1
         Me.RadioButton78.TabStop = True
+        Me.RadioButton78.Tag = "1"
         Me.RadioButton78.Text = "Ja"
         Me.RadioButton78.UseVisualStyleBackColor = True
         '
@@ -1892,7 +1928,7 @@ Partial Class Form1
         Me.Panel40.Controls.Add(Me.RadioButton79)
         Me.Panel40.Controls.Add(Me.RadioButton80)
         Me.Panel40.Controls.Add(Me.Label40)
-        Me.Panel40.Location = New System.Drawing.Point(0, 136)
+        Me.Panel40.Location = New System.Drawing.Point(0, 139)
         Me.Panel40.Name = "Panel40"
         Me.Panel40.Size = New System.Drawing.Size(1528, 54)
         Me.Panel40.TabIndex = 18
@@ -1905,6 +1941,7 @@ Partial Class Form1
         Me.RadioButton79.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton79.TabIndex = 2
         Me.RadioButton79.TabStop = True
+        Me.RadioButton79.Tag = "0"
         Me.RadioButton79.Text = "Nei"
         Me.RadioButton79.UseVisualStyleBackColor = True
         '
@@ -1916,6 +1953,7 @@ Partial Class Form1
         Me.RadioButton80.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton80.TabIndex = 1
         Me.RadioButton80.TabStop = True
+        Me.RadioButton80.Tag = "1"
         Me.RadioButton80.Text = "Ja"
         Me.RadioButton80.UseVisualStyleBackColor = True
         '
@@ -1944,7 +1982,7 @@ Partial Class Form1
         '
         Me.Panel68.BackColor = System.Drawing.Color.SkyBlue
         Me.Panel68.Controls.Add(Me.Label68)
-        Me.Panel68.Location = New System.Drawing.Point(0, 3)
+        Me.Panel68.Location = New System.Drawing.Point(0, 0)
         Me.Panel68.Name = "Panel68"
         Me.Panel68.Size = New System.Drawing.Size(1528, 124)
         Me.Panel68.TabIndex = 10
@@ -1961,10 +1999,11 @@ Partial Class Form1
         '
         'Panel30
         '
+        Me.Panel30.BackColor = System.Drawing.Color.WhiteSmoke
         Me.Panel30.Controls.Add(Me.RadioButton59)
         Me.Panel30.Controls.Add(Me.RadioButton60)
         Me.Panel30.Controls.Add(Me.Label30)
-        Me.Panel30.Location = New System.Drawing.Point(3, 133)
+        Me.Panel30.Location = New System.Drawing.Point(0, 139)
         Me.Panel30.Name = "Panel30"
         Me.Panel30.Size = New System.Drawing.Size(1528, 88)
         Me.Panel30.TabIndex = 9
@@ -1977,6 +2016,7 @@ Partial Class Form1
         Me.RadioButton59.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton59.TabIndex = 2
         Me.RadioButton59.TabStop = True
+        Me.RadioButton59.Tag = "0"
         Me.RadioButton59.Text = "Nei"
         Me.RadioButton59.UseVisualStyleBackColor = True
         '
@@ -1988,6 +2028,7 @@ Partial Class Form1
         Me.RadioButton60.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton60.TabIndex = 1
         Me.RadioButton60.TabStop = True
+        Me.RadioButton60.Tag = "1"
         Me.RadioButton60.Text = "Ja"
         Me.RadioButton60.UseVisualStyleBackColor = True
         '
@@ -2025,7 +2066,7 @@ Partial Class Form1
         '
         Me.Panel67.BackColor = System.Drawing.Color.SkyBlue
         Me.Panel67.Controls.Add(Me.Label67)
-        Me.Panel67.Location = New System.Drawing.Point(0, 3)
+        Me.Panel67.Location = New System.Drawing.Point(0, 0)
         Me.Panel67.Name = "Panel67"
         Me.Panel67.Size = New System.Drawing.Size(1528, 124)
         Me.Panel67.TabIndex = 18
@@ -2045,7 +2086,7 @@ Partial Class Form1
         Me.Panel29.Controls.Add(Me.RadioButton57)
         Me.Panel29.Controls.Add(Me.RadioButton58)
         Me.Panel29.Controls.Add(Me.Label29)
-        Me.Panel29.Location = New System.Drawing.Point(0, 802)
+        Me.Panel29.Location = New System.Drawing.Point(0, 805)
         Me.Panel29.Name = "Panel29"
         Me.Panel29.Size = New System.Drawing.Size(1528, 68)
         Me.Panel29.TabIndex = 17
@@ -2058,6 +2099,7 @@ Partial Class Form1
         Me.RadioButton57.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton57.TabIndex = 2
         Me.RadioButton57.TabStop = True
+        Me.RadioButton57.Tag = "0"
         Me.RadioButton57.Text = "Nei"
         Me.RadioButton57.UseVisualStyleBackColor = True
         '
@@ -2069,6 +2111,7 @@ Partial Class Form1
         Me.RadioButton58.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton58.TabIndex = 1
         Me.RadioButton58.TabStop = True
+        Me.RadioButton58.Tag = "1"
         Me.RadioButton58.Text = "Ja"
         Me.RadioButton58.UseVisualStyleBackColor = True
         '
@@ -2087,7 +2130,7 @@ Partial Class Form1
         Me.Panel28.Controls.Add(Me.RadioButton55)
         Me.Panel28.Controls.Add(Me.RadioButton56)
         Me.Panel28.Controls.Add(Me.Label28)
-        Me.Panel28.Location = New System.Drawing.Point(0, 728)
+        Me.Panel28.Location = New System.Drawing.Point(0, 731)
         Me.Panel28.Name = "Panel28"
         Me.Panel28.Size = New System.Drawing.Size(1528, 68)
         Me.Panel28.TabIndex = 16
@@ -2100,6 +2143,7 @@ Partial Class Form1
         Me.RadioButton55.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton55.TabIndex = 2
         Me.RadioButton55.TabStop = True
+        Me.RadioButton55.Tag = "0"
         Me.RadioButton55.Text = "Nei"
         Me.RadioButton55.UseVisualStyleBackColor = True
         '
@@ -2111,6 +2155,7 @@ Partial Class Form1
         Me.RadioButton56.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton56.TabIndex = 1
         Me.RadioButton56.TabStop = True
+        Me.RadioButton56.Tag = "1"
         Me.RadioButton56.Text = "Ja"
         Me.RadioButton56.UseVisualStyleBackColor = True
         '
@@ -2128,7 +2173,7 @@ Partial Class Form1
         Me.Panel27.Controls.Add(Me.RadioButton53)
         Me.Panel27.Controls.Add(Me.RadioButton54)
         Me.Panel27.Controls.Add(Me.Label27)
-        Me.Panel27.Location = New System.Drawing.Point(0, 654)
+        Me.Panel27.Location = New System.Drawing.Point(0, 657)
         Me.Panel27.Name = "Panel27"
         Me.Panel27.Size = New System.Drawing.Size(1528, 68)
         Me.Panel27.TabIndex = 15
@@ -2141,6 +2186,7 @@ Partial Class Form1
         Me.RadioButton53.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton53.TabIndex = 2
         Me.RadioButton53.TabStop = True
+        Me.RadioButton53.Tag = "0"
         Me.RadioButton53.Text = "Nei"
         Me.RadioButton53.UseVisualStyleBackColor = True
         '
@@ -2152,6 +2198,7 @@ Partial Class Form1
         Me.RadioButton54.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton54.TabIndex = 1
         Me.RadioButton54.TabStop = True
+        Me.RadioButton54.Tag = "1"
         Me.RadioButton54.Text = "Ja"
         Me.RadioButton54.UseVisualStyleBackColor = True
         '
@@ -2171,7 +2218,7 @@ Partial Class Form1
         Me.Panel26.Controls.Add(Me.RadioButton51)
         Me.Panel26.Controls.Add(Me.RadioButton52)
         Me.Panel26.Controls.Add(Me.Label26)
-        Me.Panel26.Location = New System.Drawing.Point(0, 580)
+        Me.Panel26.Location = New System.Drawing.Point(0, 583)
         Me.Panel26.Name = "Panel26"
         Me.Panel26.Size = New System.Drawing.Size(1528, 68)
         Me.Panel26.TabIndex = 14
@@ -2184,6 +2231,7 @@ Partial Class Form1
         Me.RadioButton51.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton51.TabIndex = 2
         Me.RadioButton51.TabStop = True
+        Me.RadioButton51.Tag = "0"
         Me.RadioButton51.Text = "Nei"
         Me.RadioButton51.UseVisualStyleBackColor = True
         '
@@ -2195,6 +2243,7 @@ Partial Class Form1
         Me.RadioButton52.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton52.TabIndex = 1
         Me.RadioButton52.TabStop = True
+        Me.RadioButton52.Tag = "1"
         Me.RadioButton52.Text = "Ja"
         Me.RadioButton52.UseVisualStyleBackColor = True
         '
@@ -2212,7 +2261,7 @@ Partial Class Form1
         Me.Panel25.Controls.Add(Me.RadioButton49)
         Me.Panel25.Controls.Add(Me.RadioButton50)
         Me.Panel25.Controls.Add(Me.Label25)
-        Me.Panel25.Location = New System.Drawing.Point(0, 506)
+        Me.Panel25.Location = New System.Drawing.Point(0, 509)
         Me.Panel25.Name = "Panel25"
         Me.Panel25.Size = New System.Drawing.Size(1528, 68)
         Me.Panel25.TabIndex = 13
@@ -2225,6 +2274,7 @@ Partial Class Form1
         Me.RadioButton49.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton49.TabIndex = 2
         Me.RadioButton49.TabStop = True
+        Me.RadioButton49.Tag = "0"
         Me.RadioButton49.Text = "Nei"
         Me.RadioButton49.UseVisualStyleBackColor = True
         '
@@ -2236,6 +2286,7 @@ Partial Class Form1
         Me.RadioButton50.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton50.TabIndex = 1
         Me.RadioButton50.TabStop = True
+        Me.RadioButton50.Tag = "1"
         Me.RadioButton50.Text = "Ja"
         Me.RadioButton50.UseVisualStyleBackColor = True
         '
@@ -2255,7 +2306,7 @@ Partial Class Form1
         Me.Panel24.Controls.Add(Me.RadioButton47)
         Me.Panel24.Controls.Add(Me.RadioButton48)
         Me.Panel24.Controls.Add(Me.Label24)
-        Me.Panel24.Location = New System.Drawing.Point(0, 432)
+        Me.Panel24.Location = New System.Drawing.Point(0, 435)
         Me.Panel24.Name = "Panel24"
         Me.Panel24.Size = New System.Drawing.Size(1528, 68)
         Me.Panel24.TabIndex = 10
@@ -2268,6 +2319,7 @@ Partial Class Form1
         Me.RadioButton47.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton47.TabIndex = 2
         Me.RadioButton47.TabStop = True
+        Me.RadioButton47.Tag = "0"
         Me.RadioButton47.Text = "Nei"
         Me.RadioButton47.UseVisualStyleBackColor = True
         '
@@ -2279,6 +2331,7 @@ Partial Class Form1
         Me.RadioButton48.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton48.TabIndex = 1
         Me.RadioButton48.TabStop = True
+        Me.RadioButton48.Tag = "1"
         Me.RadioButton48.Text = "Ja"
         Me.RadioButton48.UseVisualStyleBackColor = True
         '
@@ -2296,7 +2349,7 @@ Partial Class Form1
         Me.Panel23.Controls.Add(Me.RadioButton45)
         Me.Panel23.Controls.Add(Me.RadioButton46)
         Me.Panel23.Controls.Add(Me.Label23)
-        Me.Panel23.Location = New System.Drawing.Point(-3, 358)
+        Me.Panel23.Location = New System.Drawing.Point(-3, 361)
         Me.Panel23.Name = "Panel23"
         Me.Panel23.Size = New System.Drawing.Size(1528, 68)
         Me.Panel23.TabIndex = 12
@@ -2309,6 +2362,7 @@ Partial Class Form1
         Me.RadioButton45.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton45.TabIndex = 2
         Me.RadioButton45.TabStop = True
+        Me.RadioButton45.Tag = "0"
         Me.RadioButton45.Text = "Nei"
         Me.RadioButton45.UseVisualStyleBackColor = True
         '
@@ -2320,6 +2374,7 @@ Partial Class Form1
         Me.RadioButton46.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton46.TabIndex = 1
         Me.RadioButton46.TabStop = True
+        Me.RadioButton46.Tag = "1"
         Me.RadioButton46.Text = "Ja"
         Me.RadioButton46.UseVisualStyleBackColor = True
         '
@@ -2338,7 +2393,7 @@ Partial Class Form1
         Me.Panel22.Controls.Add(Me.RadioButton43)
         Me.Panel22.Controls.Add(Me.RadioButton44)
         Me.Panel22.Controls.Add(Me.Label22)
-        Me.Panel22.Location = New System.Drawing.Point(0, 284)
+        Me.Panel22.Location = New System.Drawing.Point(0, 287)
         Me.Panel22.Name = "Panel22"
         Me.Panel22.Size = New System.Drawing.Size(1528, 68)
         Me.Panel22.TabIndex = 11
@@ -2351,6 +2406,7 @@ Partial Class Form1
         Me.RadioButton43.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton43.TabIndex = 2
         Me.RadioButton43.TabStop = True
+        Me.RadioButton43.Tag = "0"
         Me.RadioButton43.Text = "Nei"
         Me.RadioButton43.UseVisualStyleBackColor = True
         '
@@ -2362,6 +2418,7 @@ Partial Class Form1
         Me.RadioButton44.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton44.TabIndex = 1
         Me.RadioButton44.TabStop = True
+        Me.RadioButton44.Tag = "1"
         Me.RadioButton44.Text = "Ja"
         Me.RadioButton44.UseVisualStyleBackColor = True
         '
@@ -2379,7 +2436,7 @@ Partial Class Form1
         Me.Panel21.Controls.Add(Me.RadioButton41)
         Me.Panel21.Controls.Add(Me.RadioButton42)
         Me.Panel21.Controls.Add(Me.Label21)
-        Me.Panel21.Location = New System.Drawing.Point(0, 210)
+        Me.Panel21.Location = New System.Drawing.Point(0, 213)
         Me.Panel21.Name = "Panel21"
         Me.Panel21.Size = New System.Drawing.Size(1528, 68)
         Me.Panel21.TabIndex = 10
@@ -2392,6 +2449,7 @@ Partial Class Form1
         Me.RadioButton41.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton41.TabIndex = 2
         Me.RadioButton41.TabStop = True
+        Me.RadioButton41.Tag = "0"
         Me.RadioButton41.Text = "Nei"
         Me.RadioButton41.UseVisualStyleBackColor = True
         '
@@ -2403,6 +2461,7 @@ Partial Class Form1
         Me.RadioButton42.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton42.TabIndex = 1
         Me.RadioButton42.TabStop = True
+        Me.RadioButton42.Tag = "1"
         Me.RadioButton42.Text = "Ja"
         Me.RadioButton42.UseVisualStyleBackColor = True
         '
@@ -2422,7 +2481,7 @@ Partial Class Form1
         Me.Panel20.Controls.Add(Me.RadioButton39)
         Me.Panel20.Controls.Add(Me.RadioButton40)
         Me.Panel20.Controls.Add(Me.Label20)
-        Me.Panel20.Location = New System.Drawing.Point(0, 136)
+        Me.Panel20.Location = New System.Drawing.Point(0, 139)
         Me.Panel20.Name = "Panel20"
         Me.Panel20.Size = New System.Drawing.Size(1528, 68)
         Me.Panel20.TabIndex = 9
@@ -2435,6 +2494,7 @@ Partial Class Form1
         Me.RadioButton39.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton39.TabIndex = 2
         Me.RadioButton39.TabStop = True
+        Me.RadioButton39.Tag = "0"
         Me.RadioButton39.Text = "Nei"
         Me.RadioButton39.UseVisualStyleBackColor = True
         '
@@ -2446,6 +2506,7 @@ Partial Class Form1
         Me.RadioButton40.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton40.TabIndex = 1
         Me.RadioButton40.TabStop = True
+        Me.RadioButton40.Tag = "1"
         Me.RadioButton40.Text = "Ja"
         Me.RadioButton40.UseVisualStyleBackColor = True
         '
@@ -2480,7 +2541,7 @@ Partial Class Form1
         '
         Me.Panel66.BackColor = System.Drawing.Color.SkyBlue
         Me.Panel66.Controls.Add(Me.Label66)
-        Me.Panel66.Location = New System.Drawing.Point(0, 6)
+        Me.Panel66.Location = New System.Drawing.Point(0, 0)
         Me.Panel66.Name = "Panel66"
         Me.Panel66.Size = New System.Drawing.Size(1528, 124)
         Me.Panel66.TabIndex = 16
@@ -2501,7 +2562,7 @@ Partial Class Form1
         Me.Panel12.Controls.Add(Me.RadioButton23)
         Me.Panel12.Controls.Add(Me.RadioButton24)
         Me.Panel12.Controls.Add(Me.Label12)
-        Me.Panel12.Location = New System.Drawing.Point(3, 567)
+        Me.Panel12.Location = New System.Drawing.Point(0, 573)
         Me.Panel12.Name = "Panel12"
         Me.Panel12.Size = New System.Drawing.Size(1528, 88)
         Me.Panel12.TabIndex = 12
@@ -2514,6 +2575,7 @@ Partial Class Form1
         Me.RadioButton23.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton23.TabIndex = 2
         Me.RadioButton23.TabStop = True
+        Me.RadioButton23.Tag = "0"
         Me.RadioButton23.Text = "Nei"
         Me.RadioButton23.UseVisualStyleBackColor = True
         '
@@ -2525,6 +2587,7 @@ Partial Class Form1
         Me.RadioButton24.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton24.TabIndex = 1
         Me.RadioButton24.TabStop = True
+        Me.RadioButton24.Tag = "1"
         Me.RadioButton24.Text = "Ja"
         Me.RadioButton24.UseVisualStyleBackColor = True
         '
@@ -2544,7 +2607,7 @@ Partial Class Form1
         Me.Panel18.Controls.Add(Me.RadioButton35)
         Me.Panel18.Controls.Add(Me.RadioButton36)
         Me.Panel18.Controls.Add(Me.Label18)
-        Me.Panel18.Location = New System.Drawing.Point(6, 788)
+        Me.Panel18.Location = New System.Drawing.Point(3, 794)
         Me.Panel18.Name = "Panel18"
         Me.Panel18.Size = New System.Drawing.Size(1528, 88)
         Me.Panel18.TabIndex = 14
@@ -2557,6 +2620,7 @@ Partial Class Form1
         Me.RadioButton35.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton35.TabIndex = 2
         Me.RadioButton35.TabStop = True
+        Me.RadioButton35.Tag = "0"
         Me.RadioButton35.Text = "Nei"
         Me.RadioButton35.UseVisualStyleBackColor = True
         '
@@ -2568,6 +2632,7 @@ Partial Class Form1
         Me.RadioButton36.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton36.TabIndex = 1
         Me.RadioButton36.TabStop = True
+        Me.RadioButton36.Tag = "1"
         Me.RadioButton36.Text = "Ja"
         Me.RadioButton36.UseVisualStyleBackColor = True
         '
@@ -2585,7 +2650,7 @@ Partial Class Form1
         Me.Panel13.Controls.Add(Me.RadioButton25)
         Me.Panel13.Controls.Add(Me.RadioButton26)
         Me.Panel13.Controls.Add(Me.Label13)
-        Me.Panel13.Location = New System.Drawing.Point(3, 457)
+        Me.Panel13.Location = New System.Drawing.Point(0, 463)
         Me.Panel13.Name = "Panel13"
         Me.Panel13.Size = New System.Drawing.Size(1528, 88)
         Me.Panel13.TabIndex = 11
@@ -2598,6 +2663,7 @@ Partial Class Form1
         Me.RadioButton25.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton25.TabIndex = 2
         Me.RadioButton25.TabStop = True
+        Me.RadioButton25.Tag = "0"
         Me.RadioButton25.Text = "Nei"
         Me.RadioButton25.UseVisualStyleBackColor = True
         '
@@ -2609,6 +2675,7 @@ Partial Class Form1
         Me.RadioButton26.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton26.TabIndex = 1
         Me.RadioButton26.TabStop = True
+        Me.RadioButton26.Tag = "1"
         Me.RadioButton26.Text = "Ja"
         Me.RadioButton26.UseVisualStyleBackColor = True
         '
@@ -2628,7 +2695,7 @@ Partial Class Form1
         Me.Panel19.Controls.Add(Me.RadioButton37)
         Me.Panel19.Controls.Add(Me.RadioButton38)
         Me.Panel19.Controls.Add(Me.Label19)
-        Me.Panel19.Location = New System.Drawing.Point(6, 680)
+        Me.Panel19.Location = New System.Drawing.Point(3, 686)
         Me.Panel19.Name = "Panel19"
         Me.Panel19.Size = New System.Drawing.Size(1528, 88)
         Me.Panel19.TabIndex = 13
@@ -2641,6 +2708,7 @@ Partial Class Form1
         Me.RadioButton37.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton37.TabIndex = 2
         Me.RadioButton37.TabStop = True
+        Me.RadioButton37.Tag = "0"
         Me.RadioButton37.Text = "Nei"
         Me.RadioButton37.UseVisualStyleBackColor = True
         '
@@ -2652,6 +2720,7 @@ Partial Class Form1
         Me.RadioButton38.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton38.TabIndex = 1
         Me.RadioButton38.TabStop = True
+        Me.RadioButton38.Tag = "1"
         Me.RadioButton38.Text = "Ja"
         Me.RadioButton38.UseVisualStyleBackColor = True
         '
@@ -2670,7 +2739,7 @@ Partial Class Form1
         Me.Panel14.Controls.Add(Me.RadioButton27)
         Me.Panel14.Controls.Add(Me.RadioButton28)
         Me.Panel14.Controls.Add(Me.Label14)
-        Me.Panel14.Location = New System.Drawing.Point(3, 349)
+        Me.Panel14.Location = New System.Drawing.Point(0, 355)
         Me.Panel14.Name = "Panel14"
         Me.Panel14.Size = New System.Drawing.Size(1528, 88)
         Me.Panel14.TabIndex = 10
@@ -2683,6 +2752,7 @@ Partial Class Form1
         Me.RadioButton27.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton27.TabIndex = 2
         Me.RadioButton27.TabStop = True
+        Me.RadioButton27.Tag = "0"
         Me.RadioButton27.Text = "Nei"
         Me.RadioButton27.UseVisualStyleBackColor = True
         '
@@ -2694,6 +2764,7 @@ Partial Class Form1
         Me.RadioButton28.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton28.TabIndex = 1
         Me.RadioButton28.TabStop = True
+        Me.RadioButton28.Tag = "1"
         Me.RadioButton28.Text = "Ja"
         Me.RadioButton28.UseVisualStyleBackColor = True
         '
@@ -2711,7 +2782,7 @@ Partial Class Form1
         Me.Panel15.Controls.Add(Me.RadioButton29)
         Me.Panel15.Controls.Add(Me.RadioButton30)
         Me.Panel15.Controls.Add(Me.Label15)
-        Me.Panel15.Location = New System.Drawing.Point(3, 243)
+        Me.Panel15.Location = New System.Drawing.Point(0, 249)
         Me.Panel15.Name = "Panel15"
         Me.Panel15.Size = New System.Drawing.Size(1528, 88)
         Me.Panel15.TabIndex = 9
@@ -2724,6 +2795,7 @@ Partial Class Form1
         Me.RadioButton29.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton29.TabIndex = 2
         Me.RadioButton29.TabStop = True
+        Me.RadioButton29.Tag = "0"
         Me.RadioButton29.Text = "Nei"
         Me.RadioButton29.UseVisualStyleBackColor = True
         '
@@ -2735,6 +2807,7 @@ Partial Class Form1
         Me.RadioButton30.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton30.TabIndex = 1
         Me.RadioButton30.TabStop = True
+        Me.RadioButton30.Tag = "1"
         Me.RadioButton30.Text = "Ja"
         Me.RadioButton30.UseVisualStyleBackColor = True
         '
@@ -2753,7 +2826,7 @@ Partial Class Form1
         Me.Panel16.Controls.Add(Me.RadioButton31)
         Me.Panel16.Controls.Add(Me.RadioButton32)
         Me.Panel16.Controls.Add(Me.Label16)
-        Me.Panel16.Location = New System.Drawing.Point(3, 133)
+        Me.Panel16.Location = New System.Drawing.Point(0, 139)
         Me.Panel16.Name = "Panel16"
         Me.Panel16.Size = New System.Drawing.Size(1528, 88)
         Me.Panel16.TabIndex = 8
@@ -2766,6 +2839,7 @@ Partial Class Form1
         Me.RadioButton31.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton31.TabIndex = 2
         Me.RadioButton31.TabStop = True
+        Me.RadioButton31.Tag = "0"
         Me.RadioButton31.Text = "Nei"
         Me.RadioButton31.UseVisualStyleBackColor = True
         '
@@ -2777,6 +2851,7 @@ Partial Class Form1
         Me.RadioButton32.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton32.TabIndex = 1
         Me.RadioButton32.TabStop = True
+        Me.RadioButton32.Tag = "1"
         Me.RadioButton32.Text = "Ja"
         Me.RadioButton32.UseVisualStyleBackColor = True
         '
@@ -2812,7 +2887,7 @@ Partial Class Form1
         Me.Panel64.Controls.Add(Me.RadioButton127)
         Me.Panel64.Controls.Add(Me.RadioButton128)
         Me.Panel64.Controls.Add(Me.Label64)
-        Me.Panel64.Location = New System.Drawing.Point(6, 552)
+        Me.Panel64.Location = New System.Drawing.Point(0, 557)
         Me.Panel64.Name = "Panel64"
         Me.Panel64.Size = New System.Drawing.Size(1528, 88)
         Me.Panel64.TabIndex = 13
@@ -2825,6 +2900,7 @@ Partial Class Form1
         Me.RadioButton127.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton127.TabIndex = 2
         Me.RadioButton127.TabStop = True
+        Me.RadioButton127.Tag = "0"
         Me.RadioButton127.Text = "Nei"
         Me.RadioButton127.UseVisualStyleBackColor = True
         '
@@ -2853,7 +2929,7 @@ Partial Class Form1
         Me.Panel7.Controls.Add(Me.RadioButton13)
         Me.Panel7.Controls.Add(Me.RadioButton14)
         Me.Panel7.Controls.Add(Me.Label7)
-        Me.Panel7.Location = New System.Drawing.Point(3, 445)
+        Me.Panel7.Location = New System.Drawing.Point(3, 451)
         Me.Panel7.Name = "Panel7"
         Me.Panel7.Size = New System.Drawing.Size(1528, 88)
         Me.Panel7.TabIndex = 12
@@ -2866,6 +2942,7 @@ Partial Class Form1
         Me.RadioButton13.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton13.TabIndex = 2
         Me.RadioButton13.TabStop = True
+        Me.RadioButton13.Tag = "0"
         Me.RadioButton13.Text = "Nei"
         Me.RadioButton13.UseVisualStyleBackColor = True
         '
@@ -2877,6 +2954,7 @@ Partial Class Form1
         Me.RadioButton14.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton14.TabIndex = 1
         Me.RadioButton14.TabStop = True
+        Me.RadioButton14.Tag = "1"
         Me.RadioButton14.Text = "Ja"
         Me.RadioButton14.UseVisualStyleBackColor = True
         '
@@ -2895,7 +2973,7 @@ Partial Class Form1
         Me.Panel8.Controls.Add(Me.RadioButton15)
         Me.Panel8.Controls.Add(Me.RadioButton16)
         Me.Panel8.Controls.Add(Me.Label8)
-        Me.Panel8.Location = New System.Drawing.Point(3, 335)
+        Me.Panel8.Location = New System.Drawing.Point(3, 347)
         Me.Panel8.Name = "Panel8"
         Me.Panel8.Size = New System.Drawing.Size(1528, 88)
         Me.Panel8.TabIndex = 11
@@ -2908,6 +2986,7 @@ Partial Class Form1
         Me.RadioButton15.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton15.TabIndex = 2
         Me.RadioButton15.TabStop = True
+        Me.RadioButton15.Tag = "0"
         Me.RadioButton15.Text = "Nei"
         Me.RadioButton15.UseVisualStyleBackColor = True
         '
@@ -2919,6 +2998,7 @@ Partial Class Form1
         Me.RadioButton16.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton16.TabIndex = 1
         Me.RadioButton16.TabStop = True
+        Me.RadioButton16.Tag = "1"
         Me.RadioButton16.Text = "Ja"
         Me.RadioButton16.UseVisualStyleBackColor = True
         '
@@ -2936,7 +3016,7 @@ Partial Class Form1
         Me.Panel9.Controls.Add(Me.RadioButton17)
         Me.Panel9.Controls.Add(Me.RadioButton18)
         Me.Panel9.Controls.Add(Me.Label9)
-        Me.Panel9.Location = New System.Drawing.Point(3, 227)
+        Me.Panel9.Location = New System.Drawing.Point(0, 243)
         Me.Panel9.Name = "Panel9"
         Me.Panel9.Size = New System.Drawing.Size(1528, 88)
         Me.Panel9.TabIndex = 10
@@ -2949,6 +3029,7 @@ Partial Class Form1
         Me.RadioButton17.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton17.TabIndex = 2
         Me.RadioButton17.TabStop = True
+        Me.RadioButton17.Tag = "0"
         Me.RadioButton17.Text = "Nei"
         Me.RadioButton17.UseVisualStyleBackColor = True
         '
@@ -2960,6 +3041,7 @@ Partial Class Form1
         Me.RadioButton18.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton18.TabIndex = 1
         Me.RadioButton18.TabStop = True
+        Me.RadioButton18.Tag = "1"
         Me.RadioButton18.Text = "Ja"
         Me.RadioButton18.UseVisualStyleBackColor = True
         '
@@ -2978,7 +3060,7 @@ Partial Class Form1
         Me.Panel10.Controls.Add(Me.RadioButton19)
         Me.Panel10.Controls.Add(Me.RadioButton20)
         Me.Panel10.Controls.Add(Me.Label10)
-        Me.Panel10.Location = New System.Drawing.Point(3, 121)
+        Me.Panel10.Location = New System.Drawing.Point(0, 139)
         Me.Panel10.Name = "Panel10"
         Me.Panel10.Size = New System.Drawing.Size(1528, 88)
         Me.Panel10.TabIndex = 9
@@ -2991,6 +3073,7 @@ Partial Class Form1
         Me.RadioButton19.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton19.TabIndex = 2
         Me.RadioButton19.TabStop = True
+        Me.RadioButton19.Tag = "0"
         Me.RadioButton19.Text = "Nei"
         Me.RadioButton19.UseVisualStyleBackColor = True
         '
@@ -3002,6 +3085,7 @@ Partial Class Form1
         Me.RadioButton20.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton20.TabIndex = 1
         Me.RadioButton20.TabStop = True
+        Me.RadioButton20.Tag = "1"
         Me.RadioButton20.Text = "Ja"
         Me.RadioButton20.UseVisualStyleBackColor = True
         '
@@ -3055,7 +3139,7 @@ Partial Class Form1
         '
         Me.Panel65.BackColor = System.Drawing.Color.SkyBlue
         Me.Panel65.Controls.Add(Me.Label65)
-        Me.Panel65.Location = New System.Drawing.Point(0, 3)
+        Me.Panel65.Location = New System.Drawing.Point(0, 0)
         Me.Panel65.Name = "Panel65"
         Me.Panel65.Size = New System.Drawing.Size(1528, 124)
         Me.Panel65.TabIndex = 9
@@ -3075,7 +3159,7 @@ Partial Class Form1
         Me.Panel6.Controls.Add(Me.RadioButton11)
         Me.Panel6.Controls.Add(Me.RadioButton12)
         Me.Panel6.Controls.Add(Me.Label6)
-        Me.Panel6.Location = New System.Drawing.Point(0, 673)
+        Me.Panel6.Location = New System.Drawing.Point(0, 669)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(1528, 88)
         Me.Panel6.TabIndex = 7
@@ -3088,6 +3172,7 @@ Partial Class Form1
         Me.RadioButton11.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton11.TabIndex = 2
         Me.RadioButton11.TabStop = True
+        Me.RadioButton11.Tag = "0"
         Me.RadioButton11.Text = "Nei"
         Me.RadioButton11.UseVisualStyleBackColor = True
         '
@@ -3099,6 +3184,7 @@ Partial Class Form1
         Me.RadioButton12.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton12.TabIndex = 1
         Me.RadioButton12.TabStop = True
+        Me.RadioButton12.Tag = "1"
         Me.RadioButton12.Text = "Ja"
         Me.RadioButton12.UseVisualStyleBackColor = True
         '
@@ -3117,7 +3203,7 @@ Partial Class Form1
         Me.Panel5.Controls.Add(Me.RadioButton9)
         Me.Panel5.Controls.Add(Me.RadioButton10)
         Me.Panel5.Controls.Add(Me.Label5)
-        Me.Panel5.Location = New System.Drawing.Point(3, 566)
+        Me.Panel5.Location = New System.Drawing.Point(0, 565)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(1528, 88)
         Me.Panel5.TabIndex = 6
@@ -3130,6 +3216,7 @@ Partial Class Form1
         Me.RadioButton9.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton9.TabIndex = 2
         Me.RadioButton9.TabStop = True
+        Me.RadioButton9.Tag = "0"
         Me.RadioButton9.Text = "Nei"
         Me.RadioButton9.UseVisualStyleBackColor = True
         '
@@ -3141,6 +3228,7 @@ Partial Class Form1
         Me.RadioButton10.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton10.TabIndex = 1
         Me.RadioButton10.TabStop = True
+        Me.RadioButton10.Tag = "1"
         Me.RadioButton10.Text = "Ja"
         Me.RadioButton10.UseVisualStyleBackColor = True
         '
@@ -3158,7 +3246,7 @@ Partial Class Form1
         Me.Panel4.Controls.Add(Me.RadioButton7)
         Me.Panel4.Controls.Add(Me.RadioButton8)
         Me.Panel4.Controls.Add(Me.Label4)
-        Me.Panel4.Location = New System.Drawing.Point(3, 458)
+        Me.Panel4.Location = New System.Drawing.Point(0, 459)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(1528, 88)
         Me.Panel4.TabIndex = 5
@@ -3171,6 +3259,7 @@ Partial Class Form1
         Me.RadioButton7.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton7.TabIndex = 2
         Me.RadioButton7.TabStop = True
+        Me.RadioButton7.Tag = "0"
         Me.RadioButton7.Text = "Nei"
         Me.RadioButton7.UseVisualStyleBackColor = True
         '
@@ -3182,6 +3271,7 @@ Partial Class Form1
         Me.RadioButton8.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton8.TabIndex = 1
         Me.RadioButton8.TabStop = True
+        Me.RadioButton8.Tag = "1"
         Me.RadioButton8.Text = "Ja"
         Me.RadioButton8.UseVisualStyleBackColor = True
         '
@@ -3200,7 +3290,7 @@ Partial Class Form1
         Me.Panel3.Controls.Add(Me.RadioButton5)
         Me.Panel3.Controls.Add(Me.RadioButton6)
         Me.Panel3.Controls.Add(Me.Label3)
-        Me.Panel3.Location = New System.Drawing.Point(3, 352)
+        Me.Panel3.Location = New System.Drawing.Point(0, 351)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(1528, 88)
         Me.Panel3.TabIndex = 4
@@ -3213,6 +3303,7 @@ Partial Class Form1
         Me.RadioButton5.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton5.TabIndex = 2
         Me.RadioButton5.TabStop = True
+        Me.RadioButton5.Tag = "0"
         Me.RadioButton5.Text = "Nei"
         Me.RadioButton5.UseVisualStyleBackColor = True
         '
@@ -3224,6 +3315,7 @@ Partial Class Form1
         Me.RadioButton6.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton6.TabIndex = 1
         Me.RadioButton6.TabStop = True
+        Me.RadioButton6.Tag = "1"
         Me.RadioButton6.Text = "Ja"
         Me.RadioButton6.UseVisualStyleBackColor = True
         '
@@ -3242,7 +3334,7 @@ Partial Class Form1
         Me.Panel2.Controls.Add(Me.RadioButton3)
         Me.Panel2.Controls.Add(Me.RadioButton4)
         Me.Panel2.Controls.Add(Me.Label2)
-        Me.Panel2.Location = New System.Drawing.Point(3, 242)
+        Me.Panel2.Location = New System.Drawing.Point(0, 245)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(1528, 88)
         Me.Panel2.TabIndex = 3
@@ -3255,6 +3347,7 @@ Partial Class Form1
         Me.RadioButton3.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton3.TabIndex = 2
         Me.RadioButton3.TabStop = True
+        Me.RadioButton3.Tag = "0"
         Me.RadioButton3.Text = "Nei"
         Me.RadioButton3.UseVisualStyleBackColor = True
         '
@@ -3266,6 +3359,7 @@ Partial Class Form1
         Me.RadioButton4.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton4.TabIndex = 1
         Me.RadioButton4.TabStop = True
+        Me.RadioButton4.Tag = "1"
         Me.RadioButton4.Text = "Ja"
         Me.RadioButton4.UseVisualStyleBackColor = True
         '
@@ -3284,7 +3378,7 @@ Partial Class Form1
         Me.Panel1.Controls.Add(Me.RadioButton2)
         Me.Panel1.Controls.Add(Me.RadioButton1)
         Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Location = New System.Drawing.Point(0, 133)
+        Me.Panel1.Location = New System.Drawing.Point(0, 139)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(1528, 88)
         Me.Panel1.TabIndex = 0
@@ -3297,6 +3391,7 @@ Partial Class Form1
         Me.RadioButton2.Size = New System.Drawing.Size(75, 29)
         Me.RadioButton2.TabIndex = 2
         Me.RadioButton2.TabStop = True
+        Me.RadioButton2.Tag = "0"
         Me.RadioButton2.Text = "Nei"
         Me.RadioButton2.UseVisualStyleBackColor = True
         '
@@ -3308,6 +3403,7 @@ Partial Class Form1
         Me.RadioButton1.Size = New System.Drawing.Size(66, 29)
         Me.RadioButton1.TabIndex = 1
         Me.RadioButton1.TabStop = True
+        Me.RadioButton1.Tag = "1"
         Me.RadioButton1.Text = "Ja"
         Me.RadioButton1.UseVisualStyleBackColor = True
         '
@@ -3330,28 +3426,46 @@ Partial Class Form1
         Me.TabControl1.Controls.Add(Me.TabPage6)
         Me.TabControl1.Controls.Add(Me.TabPage7)
         Me.TabControl1.Controls.Add(Me.TabPage8)
-        Me.TabControl1.Controls.Add(Me.TabPage9)
-        Me.TabControl1.Controls.Add(Me.TabPage10)
+        Me.TabControl1.Controls.Add(Me.Kvinne)
+        Me.TabControl1.Controls.Add(Me.Mann)
         Me.TabControl1.Location = New System.Drawing.Point(25, 12)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
         Me.TabControl1.Size = New System.Drawing.Size(1544, 1265)
         Me.TabControl1.TabIndex = 1
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(1213, 1310)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(351, 48)
+        Me.Button1.TabIndex = 2
+        Me.Button1.Text = "Send inn skjema"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(718, 22)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(683, 31)
+        Me.TextBox1.TabIndex = 1
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1590, 1289)
+        Me.ClientSize = New System.Drawing.Size(1594, 1401)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TabControl1)
         Me.Name = "Form1"
-        Me.Text = "Form1"
-        Me.TabPage10.ResumeLayout(False)
+        Me.Text = "Egenerklæringsskjema"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
+        Me.Mann.ResumeLayout(False)
         Me.Panel73.ResumeLayout(False)
         Me.Panel73.PerformLayout()
         Me.Panel55.ResumeLayout(False)
         Me.Panel55.PerformLayout()
-        Me.TabPage9.ResumeLayout(False)
+        Me.Kvinne.ResumeLayout(False)
         Me.Panel72.ResumeLayout(False)
         Me.Panel72.PerformLayout()
         Me.Panel51.ResumeLayout(False)
@@ -3504,8 +3618,8 @@ Partial Class Form1
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents TabPage10 As TabPage
-    Friend WithEvents TabPage9 As TabPage
+    Friend WithEvents Mann As TabPage
+    Friend WithEvents Kvinne As TabPage
     Friend WithEvents TabPage8 As TabPage
     Friend WithEvents TabPage7 As TabPage
     Friend WithEvents TabPage6 As TabPage
@@ -3606,8 +3720,6 @@ Partial Class Form1
     Friend WithEvents RadioButton108 As RadioButton
     Friend WithEvents Label54 As Label
     Friend WithEvents Panel50 As Panel
-    Friend WithEvents RadioButton99 As RadioButton
-    Friend WithEvents RadioButton100 As RadioButton
     Friend WithEvents Label50 As Label
     Friend WithEvents Panel62 As Panel
     Friend WithEvents Label62 As Label
@@ -3782,4 +3894,6 @@ Partial Class Form1
     Friend WithEvents RadioButton34 As RadioButton
     Friend WithEvents Label46 As Label
     Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents Button1 As Button
+    Friend WithEvents TextBox1 As TextBox
 End Class

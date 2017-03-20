@@ -13,19 +13,13 @@ Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
 
-        'Setter bakgrunnsfarge til hvit
-        Me.BackColor = Color.White
-
-        tilkobling = New MySqlConnection("Server=mysql.stud.iie.ntnu.no;" &
-                                             "Database=g_oops_09;" &
-                                             "Uid=g_oops_09;" &
-                                             "Pwd=IxKu1h4H;")
-
-        tilkobling.Open()
-        Me.tilkobling = tilkobling
+        'For Each TAB In Panel
 
 
+        'Next
 
+
+        'sporring(INSERT INTO Egenerklaering_svar(id, svar) VALUE (id, '"  & svar & "'))
 
     End Sub
 End Class

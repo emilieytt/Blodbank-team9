@@ -10,3 +10,5 @@ C:\Users\Bruker\AppData\Local\Temporary Projects\egenerklaering\bin\Debug\egener
 \\vmware-host\Shared Folders\Desktop\egenerklaering\egenerklaering\obj\Debug\egenerklaering.exe
 \\vmware-host\Shared Folders\Desktop\egenerklaering\egenerklaering\obj\Debug\egenerklaering.xml
 \\vmware-host\Shared Folders\Desktop\egenerklaering\egenerklaering\obj\Debug\egenerklaering.pdb
+\\vmware-host\Shared Folders\Desktop\egenerklaering\egenerklaering\bin\Debug\MySql.Data.dll
+\\vmware-host\Shared Folders\Desktop\egenerklaering\egenerklaering\bin\Debug\MySql.Data.xml
