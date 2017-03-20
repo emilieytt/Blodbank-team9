@@ -11,11 +11,14 @@ Public Class MinSideGiver
         Me.Text = "Blodbanken St. Olavs"
         MenuStrip1.BackColor = Color.Red
 
-        Dim ds As New DataSet
+        'SQL-spørring som henter ut personlig informasjon
+
         Dim navnSporring = "SELECT epost, f_navn, e_navn, postnr, adresse, tlf_nr, fodselsdato, blodtype
                             from Bruker WHERE epost='" & Startside.brukernavn & "'"
         Dim sqlnavn As New MySqlCommand(navnSporring, tilkobling)
         Dim lesernavn = sqlnavn.ExecuteReader()
+
+        'Leser som lister ut informasjonen i labelsene
 
         While lesernavn.Read()
 
@@ -28,6 +31,14 @@ Public Class MinSideGiver
             Blodtype.Text = lesernavn("blodtype")
         End While
         lesernavn.Close()
+
+        Dim giverSporring = "SELECT bg.givning_dato FROM Blodgivning bg, Bruker b WHERE bg.giver_id = b.bruker_id AND b.epost='" & Startside.brukernavn & "'"
+        Dim sqlgiver As New MySqlCommand(giverSporring, tilkobling)
+        Dim lesergiver = sqlgiver.ExecuteReader()
+
+        While lesergiver.Read()
+            Forrige.Text = lesergiver("givning_dato")
+        End While
 
     End Sub
 
