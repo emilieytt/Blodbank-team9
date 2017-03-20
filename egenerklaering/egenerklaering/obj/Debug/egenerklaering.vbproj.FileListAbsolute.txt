@@ -10,3 +10,7 @@ C:\Users\Bruker\AppData\Local\Temporary Projects\egenerklaering\bin\Debug\egener
 \\vmware-host\Shared Folders\Desktop\egenerklaering\egenerklaering\obj\Debug\egenerklaering.exe
 \\vmware-host\Shared Folders\Desktop\egenerklaering\egenerklaering\obj\Debug\egenerklaering.xml
 \\vmware-host\Shared Folders\Desktop\egenerklaering\egenerklaering\obj\Debug\egenerklaering.pdb
+Z:\Documents\Blodbank-team9\egenerklaering\egenerklaering\bin\Debug\egenerklaering.exe.config
+Z:\Documents\Blodbank-team9\egenerklaering\egenerklaering\obj\Debug\egenerklaering.exe
+Z:\Documents\Blodbank-team9\egenerklaering\egenerklaering\obj\Debug\egenerklaering.xml
+Z:\Documents\Blodbank-team9\egenerklaering\egenerklaering\obj\Debug\egenerklaering.pdb
