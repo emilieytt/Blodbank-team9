@@ -152,7 +152,8 @@ Public Class MinSideGiver
     End Sub
 
     Private Sub Se_tidligere_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles Se_tidligere.LinkClicked
-
+        Tappinger.Show()
+        Me.Hide()
     End Sub
 
 
