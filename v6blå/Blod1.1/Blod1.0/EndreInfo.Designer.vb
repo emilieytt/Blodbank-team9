@@ -41,22 +41,23 @@ Partial Class EndreInfo
         Me.RestartToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AvsluttToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Endre_passord2 = New System.Windows.Forms.TextBox()
-        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
         Me.Endre_tlfnr = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Endre_passord2 = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.MenuStrip1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Button1
         '
-        Me.Button1.BackColor = System.Drawing.Color.Red
+        Me.Button1.BackColor = System.Drawing.Color.CornflowerBlue
         Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(39, 350)
+        Me.Button1.Location = New System.Drawing.Point(52, 431)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(192, 50)
+        Me.Button1.Size = New System.Drawing.Size(256, 62)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Endre info"
         Me.Button1.UseVisualStyleBackColor = False
@@ -64,116 +65,131 @@ Partial Class EndreInfo
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(20, 64)
+        Me.Label1.Location = New System.Drawing.Point(27, 79)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(46, 13)
+        Me.Label1.Size = New System.Drawing.Size(60, 17)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Fornavn"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(20, 101)
+        Me.Label2.Location = New System.Drawing.Point(27, 124)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(53, 13)
+        Me.Label2.Size = New System.Drawing.Size(69, 17)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Etternavn"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(20, 136)
+        Me.Label3.Location = New System.Drawing.Point(27, 167)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(34, 13)
+        Me.Label3.Size = New System.Drawing.Size(44, 17)
         Me.Label3.TabIndex = 3
         Me.Label3.Text = "Epost"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(21, 239)
+        Me.Label4.Location = New System.Drawing.Point(28, 294)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(45, 13)
+        Me.Label4.Size = New System.Drawing.Size(60, 17)
         Me.Label4.TabIndex = 4
         Me.Label4.Text = "Adresse"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(21, 281)
+        Me.Label5.Location = New System.Drawing.Point(28, 346)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(37, 13)
+        Me.Label5.Size = New System.Drawing.Size(49, 17)
         Me.Label5.TabIndex = 5
         Me.Label5.Text = "Postnr"
         '
         'Endre_fornavn
         '
-        Me.Endre_fornavn.Location = New System.Drawing.Point(186, 61)
+        Me.Endre_fornavn.Location = New System.Drawing.Point(248, 75)
+        Me.Endre_fornavn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Endre_fornavn.Name = "Endre_fornavn"
-        Me.Endre_fornavn.Size = New System.Drawing.Size(271, 20)
+        Me.Endre_fornavn.Size = New System.Drawing.Size(360, 22)
         Me.Endre_fornavn.TabIndex = 6
         '
         'Endre_etternavn
         '
-        Me.Endre_etternavn.Location = New System.Drawing.Point(186, 98)
+        Me.Endre_etternavn.Location = New System.Drawing.Point(248, 121)
+        Me.Endre_etternavn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Endre_etternavn.Name = "Endre_etternavn"
-        Me.Endre_etternavn.Size = New System.Drawing.Size(271, 20)
+        Me.Endre_etternavn.Size = New System.Drawing.Size(360, 22)
         Me.Endre_etternavn.TabIndex = 7
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(20, 171)
+        Me.Label6.Location = New System.Drawing.Point(27, 210)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(45, 13)
+        Me.Label6.Size = New System.Drawing.Size(60, 17)
         Me.Label6.TabIndex = 8
         Me.Label6.Text = "Passord"
         '
         'Endre_epost
         '
-        Me.Endre_epost.Location = New System.Drawing.Point(186, 133)
+        Me.Endre_epost.Location = New System.Drawing.Point(248, 164)
+        Me.Endre_epost.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Endre_epost.Name = "Endre_epost"
-        Me.Endre_epost.Size = New System.Drawing.Size(271, 20)
+        Me.Endre_epost.Size = New System.Drawing.Size(360, 22)
         Me.Endre_epost.TabIndex = 9
         '
         'Endre_passord1
         '
-        Me.Endre_passord1.Location = New System.Drawing.Point(186, 168)
+        Me.Endre_passord1.Location = New System.Drawing.Point(248, 207)
+        Me.Endre_passord1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Endre_passord1.Name = "Endre_passord1"
-        Me.Endre_passord1.Size = New System.Drawing.Size(271, 20)
+        Me.Endre_passord1.Size = New System.Drawing.Size(360, 22)
         Me.Endre_passord1.TabIndex = 10
         '
         'Endre_adresse
         '
-        Me.Endre_adresse.Location = New System.Drawing.Point(186, 236)
+        Me.Endre_adresse.Location = New System.Drawing.Point(248, 290)
+        Me.Endre_adresse.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Endre_adresse.Name = "Endre_adresse"
-        Me.Endre_adresse.Size = New System.Drawing.Size(271, 20)
+        Me.Endre_adresse.Size = New System.Drawing.Size(360, 22)
         Me.Endre_adresse.TabIndex = 11
         '
         'Endre_postnr
         '
-        Me.Endre_postnr.Location = New System.Drawing.Point(186, 274)
+        Me.Endre_postnr.Location = New System.Drawing.Point(248, 337)
+        Me.Endre_postnr.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Endre_postnr.Name = "Endre_postnr"
-        Me.Endre_postnr.Size = New System.Drawing.Size(271, 20)
+        Me.Endre_postnr.Size = New System.Drawing.Size(360, 22)
         Me.Endre_postnr.TabIndex = 12
         '
         'Avbryt_knapp
         '
-        Me.Avbryt_knapp.BackColor = System.Drawing.Color.Red
+        Me.Avbryt_knapp.BackColor = System.Drawing.Color.CornflowerBlue
         Me.Avbryt_knapp.ForeColor = System.Drawing.Color.White
-        Me.Avbryt_knapp.Location = New System.Drawing.Point(294, 350)
+        Me.Avbryt_knapp.Location = New System.Drawing.Point(392, 431)
+        Me.Avbryt_knapp.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Avbryt_knapp.Name = "Avbryt_knapp"
-        Me.Avbryt_knapp.Size = New System.Drawing.Size(141, 50)
+        Me.Avbryt_knapp.Size = New System.Drawing.Size(188, 62)
         Me.Avbryt_knapp.TabIndex = 13
         Me.Avbryt_knapp.Text = "Avbryt"
         Me.Avbryt_knapp.UseVisualStyleBackColor = False
         '
         'MenuStrip1
         '
+        Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(717, 24)
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(8, 2, 0, 2)
+        Me.MenuStrip1.Size = New System.Drawing.Size(956, 28)
         Me.MenuStrip1.TabIndex = 14
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -181,19 +197,19 @@ Partial Class EndreInfo
         '
         Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RestartToolStripMenuItem, Me.AvsluttToolStripMenuItem})
         Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
-        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
+        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(44, 24)
         Me.FileToolStripMenuItem.Text = "File"
         '
         'RestartToolStripMenuItem
         '
         Me.RestartToolStripMenuItem.Name = "RestartToolStripMenuItem"
-        Me.RestartToolStripMenuItem.Size = New System.Drawing.Size(111, 22)
+        Me.RestartToolStripMenuItem.Size = New System.Drawing.Size(130, 26)
         Me.RestartToolStripMenuItem.Text = "Restart"
         '
         'AvsluttToolStripMenuItem
         '
         Me.AvsluttToolStripMenuItem.Name = "AvsluttToolStripMenuItem"
-        Me.AvsluttToolStripMenuItem.Size = New System.Drawing.Size(111, 22)
+        Me.AvsluttToolStripMenuItem.Size = New System.Drawing.Size(130, 26)
         Me.AvsluttToolStripMenuItem.Text = "Avslutt"
         '
         'Panel1
@@ -217,61 +233,68 @@ Partial Class EndreInfo
         Me.Panel1.Controls.Add(Me.Label5)
         Me.Panel1.Controls.Add(Me.Label6)
         Me.Panel1.Controls.Add(Me.Endre_etternavn)
-        Me.Panel1.Location = New System.Drawing.Point(128, 39)
+        Me.Panel1.Location = New System.Drawing.Point(171, 48)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(510, 404)
+        Me.Panel1.Size = New System.Drawing.Size(680, 497)
         Me.Panel1.TabIndex = 15
-        '
-        'Endre_passord2
-        '
-        Me.Endre_passord2.Location = New System.Drawing.Point(186, 201)
-        Me.Endre_passord2.Name = "Endre_passord2"
-        Me.Endre_passord2.Size = New System.Drawing.Size(271, 20)
-        Me.Endre_passord2.TabIndex = 15
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(20, 204)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(45, 13)
-        Me.Label7.TabIndex = 14
-        Me.Label7.Text = "Passord"
-        '
-        'Endre_tlfnr
-        '
-        Me.Endre_tlfnr.Location = New System.Drawing.Point(186, 310)
-        Me.Endre_tlfnr.Name = "Endre_tlfnr"
-        Me.Endre_tlfnr.Size = New System.Drawing.Size(271, 20)
-        Me.Endre_tlfnr.TabIndex = 17
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(21, 317)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(28, 13)
-        Me.Label8.TabIndex = 16
-        Me.Label8.Text = "Tlfnr"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(183, 23)
+        Me.Label9.Location = New System.Drawing.Point(244, 28)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(133, 16)
+        Me.Label9.Size = New System.Drawing.Size(162, 20)
         Me.Label9.TabIndex = 18
         Me.Label9.Text = "Endre informasjon"
         '
+        'Endre_tlfnr
+        '
+        Me.Endre_tlfnr.Location = New System.Drawing.Point(248, 382)
+        Me.Endre_tlfnr.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Endre_tlfnr.Name = "Endre_tlfnr"
+        Me.Endre_tlfnr.Size = New System.Drawing.Size(360, 22)
+        Me.Endre_tlfnr.TabIndex = 17
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(28, 390)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(37, 17)
+        Me.Label8.TabIndex = 16
+        Me.Label8.Text = "Tlfnr"
+        '
+        'Endre_passord2
+        '
+        Me.Endre_passord2.Location = New System.Drawing.Point(248, 247)
+        Me.Endre_passord2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Endre_passord2.Name = "Endre_passord2"
+        Me.Endre_passord2.Size = New System.Drawing.Size(360, 22)
+        Me.Endre_passord2.TabIndex = 15
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(27, 251)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(60, 17)
+        Me.Label7.TabIndex = 14
+        Me.Label7.Text = "Passord"
+        '
         'EndreInfo
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(717, 506)
+        Me.ClientSize = New System.Drawing.Size(956, 623)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "EndreInfo"
         Me.Text = "EndreInfo"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
