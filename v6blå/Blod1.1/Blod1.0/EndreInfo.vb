@@ -104,5 +104,19 @@ Public Class EndreInfo
         Me.Close()
     End Sub
 
+    Private Sub EndreInfo_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
 
+        Dim dialog As DialogResult
+
+        dialog = MessageBox.Show("Vil du avslutte?", "Avslutt", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
+        If dialog = DialogResult.No Then
+
+            e.Cancel = True
+
+        Else
+            Application.ExitThread()
+
+        End If
+
+    End Sub
 End Class

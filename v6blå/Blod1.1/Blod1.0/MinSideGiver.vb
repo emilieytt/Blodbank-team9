@@ -156,5 +156,18 @@ Public Class MinSideGiver
         Me.Hide()
     End Sub
 
+    Private Sub MinSideGiver_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
 
+        Dim dialog As DialogResult
+
+        dialog = MessageBox.Show("Vil du avslutte?", "Avslutt", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
+        If dialog = DialogResult.No Then
+
+            e.Cancel = True
+
+        Else
+            Application.ExitThread()
+
+        End If
+    End Sub
 End Class

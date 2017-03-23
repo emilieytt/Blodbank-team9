@@ -55,7 +55,7 @@ Partial Class EndreInfo
         Me.Button1.BackColor = System.Drawing.Color.CornflowerBlue
         Me.Button1.ForeColor = System.Drawing.Color.White
         Me.Button1.Location = New System.Drawing.Point(52, 431)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(256, 62)
         Me.Button1.TabIndex = 0
@@ -115,7 +115,7 @@ Partial Class EndreInfo
         'Endre_fornavn
         '
         Me.Endre_fornavn.Location = New System.Drawing.Point(248, 75)
-        Me.Endre_fornavn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Endre_fornavn.Margin = New System.Windows.Forms.Padding(4)
         Me.Endre_fornavn.Name = "Endre_fornavn"
         Me.Endre_fornavn.Size = New System.Drawing.Size(360, 22)
         Me.Endre_fornavn.TabIndex = 6
@@ -123,7 +123,7 @@ Partial Class EndreInfo
         'Endre_etternavn
         '
         Me.Endre_etternavn.Location = New System.Drawing.Point(248, 121)
-        Me.Endre_etternavn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Endre_etternavn.Margin = New System.Windows.Forms.Padding(4)
         Me.Endre_etternavn.Name = "Endre_etternavn"
         Me.Endre_etternavn.Size = New System.Drawing.Size(360, 22)
         Me.Endre_etternavn.TabIndex = 7
@@ -141,7 +141,7 @@ Partial Class EndreInfo
         'Endre_epost
         '
         Me.Endre_epost.Location = New System.Drawing.Point(248, 164)
-        Me.Endre_epost.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Endre_epost.Margin = New System.Windows.Forms.Padding(4)
         Me.Endre_epost.Name = "Endre_epost"
         Me.Endre_epost.Size = New System.Drawing.Size(360, 22)
         Me.Endre_epost.TabIndex = 9
@@ -149,7 +149,7 @@ Partial Class EndreInfo
         'Endre_passord1
         '
         Me.Endre_passord1.Location = New System.Drawing.Point(248, 207)
-        Me.Endre_passord1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Endre_passord1.Margin = New System.Windows.Forms.Padding(4)
         Me.Endre_passord1.Name = "Endre_passord1"
         Me.Endre_passord1.Size = New System.Drawing.Size(360, 22)
         Me.Endre_passord1.TabIndex = 10
@@ -157,7 +157,7 @@ Partial Class EndreInfo
         'Endre_adresse
         '
         Me.Endre_adresse.Location = New System.Drawing.Point(248, 290)
-        Me.Endre_adresse.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Endre_adresse.Margin = New System.Windows.Forms.Padding(4)
         Me.Endre_adresse.Name = "Endre_adresse"
         Me.Endre_adresse.Size = New System.Drawing.Size(360, 22)
         Me.Endre_adresse.TabIndex = 11
@@ -165,7 +165,7 @@ Partial Class EndreInfo
         'Endre_postnr
         '
         Me.Endre_postnr.Location = New System.Drawing.Point(248, 337)
-        Me.Endre_postnr.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Endre_postnr.Margin = New System.Windows.Forms.Padding(4)
         Me.Endre_postnr.Name = "Endre_postnr"
         Me.Endre_postnr.Size = New System.Drawing.Size(360, 22)
         Me.Endre_postnr.TabIndex = 12
@@ -175,7 +175,7 @@ Partial Class EndreInfo
         Me.Avbryt_knapp.BackColor = System.Drawing.Color.CornflowerBlue
         Me.Avbryt_knapp.ForeColor = System.Drawing.Color.White
         Me.Avbryt_knapp.Location = New System.Drawing.Point(392, 431)
-        Me.Avbryt_knapp.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Avbryt_knapp.Margin = New System.Windows.Forms.Padding(4)
         Me.Avbryt_knapp.Name = "Avbryt_knapp"
         Me.Avbryt_knapp.Size = New System.Drawing.Size(188, 62)
         Me.Avbryt_knapp.TabIndex = 13
@@ -184,6 +184,7 @@ Partial Class EndreInfo
         '
         'MenuStrip1
         '
+        Me.MenuStrip1.BackColor = System.Drawing.Color.CornflowerBlue
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
@@ -234,7 +235,7 @@ Partial Class EndreInfo
         Me.Panel1.Controls.Add(Me.Label6)
         Me.Panel1.Controls.Add(Me.Endre_etternavn)
         Me.Panel1.Location = New System.Drawing.Point(171, 48)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(680, 497)
         Me.Panel1.TabIndex = 15
@@ -254,7 +255,7 @@ Partial Class EndreInfo
         'Endre_tlfnr
         '
         Me.Endre_tlfnr.Location = New System.Drawing.Point(248, 382)
-        Me.Endre_tlfnr.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Endre_tlfnr.Margin = New System.Windows.Forms.Padding(4)
         Me.Endre_tlfnr.Name = "Endre_tlfnr"
         Me.Endre_tlfnr.Size = New System.Drawing.Size(360, 22)
         Me.Endre_tlfnr.TabIndex = 17
@@ -272,7 +273,7 @@ Partial Class EndreInfo
         'Endre_passord2
         '
         Me.Endre_passord2.Location = New System.Drawing.Point(248, 247)
-        Me.Endre_passord2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Endre_passord2.Margin = New System.Windows.Forms.Padding(4)
         Me.Endre_passord2.Name = "Endre_passord2"
         Me.Endre_passord2.Size = New System.Drawing.Size(360, 22)
         Me.Endre_passord2.TabIndex = 15
@@ -295,7 +296,7 @@ Partial Class EndreInfo
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "EndreInfo"
         Me.Text = "EndreInfo"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
