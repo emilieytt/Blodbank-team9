@@ -29,6 +29,7 @@ Partial Class MinSideAdmin
         Me.RestartToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AvsluttToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Retrieve_btn = New System.Windows.Forms.Button()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Endre_kjønn = New System.Windows.Forms.TextBox()
         Me.Endre_postnr = New System.Windows.Forms.TextBox()
@@ -60,7 +61,6 @@ Partial Class MinSideAdmin
         Me.Fodselsdato = New System.Windows.Forms.Label()
         Me.Delete_btn = New System.Windows.Forms.Button()
         Me.Update_btn = New System.Windows.Forms.Button()
-        Me.Retrieve_btn = New System.Windows.Forms.Button()
         Me.MenuStrip2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -116,6 +116,7 @@ Partial Class MinSideAdmin
         '
         Me.Panel1.Controls.Add(Me.Retrieve_btn)
         Me.Panel1.Controls.Add(Me.Label13)
+        Me.Panel1.Controls.Add(Me.DataGridView2)
         Me.Panel1.Controls.Add(Me.Endre_kjønn)
         Me.Panel1.Controls.Add(Me.Endre_postnr)
         Me.Panel1.Controls.Add(Me.Label12)
@@ -136,7 +137,6 @@ Partial Class MinSideAdmin
         Me.Panel1.Controls.Add(Me.Label7)
         Me.Panel1.Controls.Add(Me.Label8)
         Me.Panel1.Controls.Add(Me.Se_brukere)
-        Me.Panel1.Controls.Add(Me.DataGridView2)
         Me.Panel1.Controls.Add(Me.Add_btn)
         Me.Panel1.Controls.Add(Me.Endre_blodtype)
         Me.Panel1.Controls.Add(Me.Endre_passord)
@@ -146,10 +146,21 @@ Partial Class MinSideAdmin
         Me.Panel1.Controls.Add(Me.Fodselsdato)
         Me.Panel1.Controls.Add(Me.Delete_btn)
         Me.Panel1.Controls.Add(Me.Update_btn)
-        Me.Panel1.Location = New System.Drawing.Point(102, 78)
+        Me.Panel1.Location = New System.Drawing.Point(87, 67)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(951, 625)
+        Me.Panel1.Size = New System.Drawing.Size(1048, 825)
         Me.Panel1.TabIndex = 8
+        '
+        'Retrieve_btn
+        '
+        Me.Retrieve_btn.BackColor = System.Drawing.Color.CornflowerBlue
+        Me.Retrieve_btn.ForeColor = System.Drawing.Color.White
+        Me.Retrieve_btn.Location = New System.Drawing.Point(44, 43)
+        Me.Retrieve_btn.Name = "Retrieve_btn"
+        Me.Retrieve_btn.Size = New System.Drawing.Size(198, 42)
+        Me.Retrieve_btn.TabIndex = 96
+        Me.Retrieve_btn.Text = "Se brukere"
+        Me.Retrieve_btn.UseVisualStyleBackColor = False
         '
         'Label13
         '
@@ -287,7 +298,7 @@ Partial Class MinSideAdmin
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(40, 240)
+        Me.Label6.Location = New System.Drawing.Point(40, 243)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(34, 13)
         Me.Label6.TabIndex = 78
@@ -313,9 +324,9 @@ Partial Class MinSideAdmin
         '
         'Se_brukere
         '
-        Me.Se_brukere.Location = New System.Drawing.Point(43, 52)
+        Me.Se_brukere.Location = New System.Drawing.Point(33, 506)
         Me.Se_brukere.Name = "Se_brukere"
-        Me.Se_brukere.Size = New System.Drawing.Size(233, 23)
+        Me.Se_brukere.Size = New System.Drawing.Size(243, 240)
         Me.Se_brukere.TabIndex = 75
         Me.Se_brukere.Text = "Se brukere"
         Me.Se_brukere.UseVisualStyleBackColor = True
@@ -324,14 +335,14 @@ Partial Class MinSideAdmin
         '
         Me.DataGridView2.BackgroundColor = System.Drawing.SystemColors.ButtonFace
         Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView2.Location = New System.Drawing.Point(325, 41)
+        Me.DataGridView2.Location = New System.Drawing.Point(282, 14)
         Me.DataGridView2.Name = "DataGridView2"
-        Me.DataGridView2.Size = New System.Drawing.Size(770, 547)
+        Me.DataGridView2.Size = New System.Drawing.Size(1163, 773)
         Me.DataGridView2.TabIndex = 74
         '
         'Add_btn
         '
-        Me.Add_btn.Location = New System.Drawing.Point(22, 447)
+        Me.Add_btn.Location = New System.Drawing.Point(29, 448)
         Me.Add_btn.Name = "Add_btn"
         Me.Add_btn.Size = New System.Drawing.Size(75, 23)
         Me.Add_btn.TabIndex = 73
@@ -347,14 +358,14 @@ Partial Class MinSideAdmin
         '
         'Endre_passord
         '
-        Me.Endre_passord.Location = New System.Drawing.Point(129, 262)
+        Me.Endre_passord.Location = New System.Drawing.Point(129, 266)
         Me.Endre_passord.Name = "Endre_passord"
         Me.Endre_passord.Size = New System.Drawing.Size(100, 20)
         Me.Endre_passord.TabIndex = 71
         '
         'Endre_fodselsdato
         '
-        Me.Endre_fodselsdato.Location = New System.Drawing.Point(129, 156)
+        Me.Endre_fodselsdato.Location = New System.Drawing.Point(129, 161)
         Me.Endre_fodselsdato.Name = "Endre_fodselsdato"
         Me.Endre_fodselsdato.Size = New System.Drawing.Size(100, 20)
         Me.Endre_fodselsdato.TabIndex = 70
@@ -371,7 +382,7 @@ Partial Class MinSideAdmin
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(40, 267)
+        Me.Label4.Location = New System.Drawing.Point(41, 269)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(45, 13)
         Me.Label4.TabIndex = 68
@@ -380,7 +391,7 @@ Partial Class MinSideAdmin
         'Fodselsdato
         '
         Me.Fodselsdato.AutoSize = True
-        Me.Fodselsdato.Location = New System.Drawing.Point(40, 156)
+        Me.Fodselsdato.Location = New System.Drawing.Point(40, 159)
         Me.Fodselsdato.Name = "Fodselsdato"
         Me.Fodselsdato.Size = New System.Drawing.Size(64, 13)
         Me.Fodselsdato.TabIndex = 67
@@ -403,15 +414,6 @@ Partial Class MinSideAdmin
         Me.Update_btn.TabIndex = 65
         Me.Update_btn.Text = "Update"
         Me.Update_btn.UseVisualStyleBackColor = True
-        '
-        'Retrieve_btn
-        '
-        Me.Retrieve_btn.Location = New System.Drawing.Point(22, 477)
-        Me.Retrieve_btn.Name = "Retrieve_btn"
-        Me.Retrieve_btn.Size = New System.Drawing.Size(75, 23)
-        Me.Retrieve_btn.TabIndex = 96
-        Me.Retrieve_btn.Text = "Retrieve"
-        Me.Retrieve_btn.UseVisualStyleBackColor = True
         '
         'MinSideAdmin
         '
