@@ -6,7 +6,7 @@ Public Class MinSideAdmin
                                              "Database=g_oops_09;" &
                                              "Uid=g_oops_09;" &
                                              "Pwd=IxKu1h4H;"
-    Private tilkobling2 As MySqlConnection
+    'Private tilkobling2 As MySqlConnection
     Dim tilkobling3 As New MySqlConnection(constring)
     Dim dt As New DataTable()
     Dim adapter As MySqlDataAdapter
@@ -15,15 +15,16 @@ Public Class MinSideAdmin
 
 
     Private Sub MinSideAdmin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
         'Setter bakgrunnsfarge til hvit, endrer programmets tittel, endrer farge på menylinje
         Me.BackColor = Color.White
         Me.Text = "Blodbanken St. Olavs"
         MenuStrip2.BackColor = Color.CornflowerBlue
 
-        tilkobling2 = New MySqlConnection("Server=mysql.stud.iie.ntnu.no;" &
-                                             "Database=g_oops_09;" &
-                                             "Uid=g_oops_09;" &
-                                             "Pwd=IxKu1h4H;")
+        ' tilkobling2 = New MySqlConnection("Server=mysql.stud.iie.ntnu.no;" &
+        '"Database=g_oops_09;" &
+        '"Uid=g_oops_09;" &
+        '"Pwd=IxKu1h4H;")
 
 
 
@@ -33,7 +34,7 @@ Public Class MinSideAdmin
         ' load_table()
 
         'Try
-        tilkobling2.Open()
+        tilkobling3.Open()
 
         DataGridView2.ColumnCount = 13
         DataGridView2.Columns(0).Name = "bruker_id"
@@ -52,11 +53,12 @@ Public Class MinSideAdmin
 
 
         DataGridView2.SelectionMode = DataGridViewSelectionMode.FullRowSelect
-        tilkobling2.Close()
+
+        tilkobling3.Close()
         'Catch ex As MySqlException
         'MsgBox(ex.Message)
         ' End Try
-
+        Retrieve()
     End Sub
     Private Sub CLEARTEXT()
         Endre_bruker.Text = ""
@@ -77,7 +79,7 @@ Public Class MinSideAdmin
         Dim addSql As String = "INSERT INTO Bruker (bruker_id, bruker_type, fodselsdato, f_navn, e_navn, epost, passord, tlf_nr, adresse, postnr, kjonn, epost_godtatt, blodtype) 
                                             VALUES (@BRUKER_ID, @BRUKER_TYPE, @FODSELSDATO, @F_NAVN, @E_NAVN, @EPOST, @PASSORD, @TLF_NR, @ADRESSE, @POSTNR, @KJONN, @EPOST_GODTATT, @BLODTYPE) "
         Dim cmd As MySqlCommand
-        cmd = New MySqlCommand(addSql, tilkobling2)
+        cmd = New MySqlCommand(addSql, tilkobling3)
         cmd.Parameters.AddWithValue("@BRUKER_ID", Endre_bruker.Text)
         cmd.Parameters.AddWithValue("@BRUKER_TYPE", Endre_brukertype.Text)
         cmd.Parameters.AddWithValue("@FODSELSDATO", Endre_fodselsdato.Text)
@@ -93,14 +95,14 @@ Public Class MinSideAdmin
         cmd.Parameters.AddWithValue("@BLODTYPE", Endre_blodtype.Text)
 
         Try
-            tilkobling2.Open()
+            tilkobling3.Open()
             If cmd.ExecuteNonQuery() > 0 Then
                 MsgBox("Data inserted")
 
                 CLEARTEXT()
 
             End If
-            tilkobling2.Close()
+            tilkobling3.Close()
         Catch ex As Exception
 
         End Try
@@ -126,31 +128,31 @@ Public Class MinSideAdmin
         Dim cmd As New MySqlCommand(sql, tilkobling3)
 
         Try
-            tilkobling2.Open()
+            tilkobling3.Open()
 
             adapter = New MySqlDataAdapter(cmd)
             adapter.Fill(dt)
 
             'Fyll rad
             For Each row In dt.Rows
-                Try
-                    Populate(row(0), row(1), row(2), row(3), row(4), row(5), row(6), row(7), row(8), row(9), row(10), row(11), row(12))
 
-                Catch ex As Exception
-                    MsgBox(ex.Message)
-                End Try
+                Populate(row(0), row(1), row(2), row(3), row(4), row(5), row(6), row(7), row(8), row(9), row(10), row(11), row(12))
+
+                'Catch ex As Exception
+                '    MsgBox(ex.Message)
+                'End Try
 
                 'Catch ex As Exception
                 'dt.Rows.Add("NULL")
                 ' End Try
             Next
-            tilkobling2.Close()
+            tilkobling3.Close()
 
-            Retrieve()
+            'Retrieve()
 
         Catch ex As Exception
             MsgBox(ex.Message)
-            tilkobling2.Close()
+            tilkobling3.Close()
 
         End Try
 
@@ -158,44 +160,90 @@ Public Class MinSideAdmin
     End Sub
 
     Private Sub UpdateDG(bruker_id As String)
-        Dim sql As String = "UPDATE Bruker set bruker_id='" + Endre_bruker.Text + "', bruker_type='" + Endre_brukertype.Text + "', fodselsdato='" + Endre_fodselsdato.Text + "', f_navn='" + Endre_fornavn.Text + "', e_navn='" + Endre_enavn.Text + "', epost='" + Endre_epost.Text + "', passord='" + Endre_passord.Text + "', tlf_nr='" + Endre_tlfnr.Text + "', adresse='" + Endre_adresse.Text + "', postnr='" + Endre_postnr.Text + "', kjonn='" + Endre_kjønn.Text + "', epost_godtatt='" + Epost_godtatt.Text + "', blodtype='" + Endre_blodtype.Text + "') "
+        'bruker_id='" & Endre_bruker.Text & "', 
+        ' Dim sql As String = "UPDATE Bruker set bruker_type='" & Endre_brukertype.Text & "', fodselsdato='" & Endre_fodselsdato.Text & "', f_navn='" & Endre_fornavn.Text & "', e_navn='" & Endre_enavn.Text & "', epost='" & Endre_epost.Text & "', passord='" & Endre_passord.Text & "', tlf_nr='" & Endre_tlfnr.Text & "', adresse='" & Endre_adresse.Text & "', postnr='" & Endre_postnr.Text & "', kjonn='" & Endre_kjønn.Text & "', epost_godtatt='" & Epost_godtatt.Text & "', blodtype='" & Endre_blodtype.Text & "' "
+        Dim sql As String = "UPDATE Bruker Set bruker_type =@BRUKER_type, fodselsdato =@FODSELSDATO, f_navn = @F_NAVN , e_navn = @E_NAVN , passord = @PASSORD , adresse = @ADRESSE ,  tlf_nr = @TLF_NR ,  postnr = @POSTNR , kjonn =@KJONN , epost_godtatt = @EPOST_GODTATT , blodtype =@BLODTYPE WHERE Bruker_ID ='" & DataGridView2.SelectedRows(0).Cells(0).Value & "'"
 
 
         Try
-            tilkobling2.Open()
-            adapter.UpdateCommand = tilkobling2.CreateCommand()
-            adapter.UpdateCommand.CommandText = sql
+            tilkobling3.Open()
+            'adapter.UpdateCommand = tilkobling3.CreateCommand()
+            'adapter.UpdateCommand.CommandText = sql
 
-            If adapter.UpdateCommand.ExecuteNonQuery() > 0 Then
+            Dim cmd As New MySqlCommand(sql, tilkobling3)
+            'cmd.Parameters.AddWithValue("@BRUKER_ID", Endre_bruker.Text)
+            cmd.Parameters.AddWithValue("@BRUKER_TYPE", Endre_brukertype.Text)
+            cmd.Parameters.AddWithValue("@FODSELSDATO", Endre_fodselsdato.Text)
+            cmd.Parameters.AddWithValue("@F_NAVN", Endre_fornavn.Text)
+            cmd.Parameters.AddWithValue("@E_NAVN", Endre_enavn.Text)
+            'cmd.Parameters.AddWithValue("@EPOST", Endre_epost.Text)
+            cmd.Parameters.AddWithValue("@PASSORD", Endre_passord.Text)
+            cmd.Parameters.AddWithValue("@TLF_NR", Endre_tlfnr.Text)
+            cmd.Parameters.AddWithValue("@ADRESSE", Endre_adresse.Text)
+            cmd.Parameters.AddWithValue("@POSTNR", Endre_postnr.Text)
+            cmd.Parameters.AddWithValue("@KJONN", Endre_kjønn.Text)
+            cmd.Parameters.AddWithValue("@EPOST_GODTATT", Epost_godtatt.Text)
+            cmd.Parameters.AddWithValue("@BLODTYPE", Endre_blodtype.Text)
+
+            If cmd.ExecuteNonQuery() > 0 Then
                 MsgBox("JIPPI ")
 
             End If
 
-            tilkobling2.Close()
+            tilkobling3.Close()
 
         Catch ex As Exception
             MsgBox(ex.Message)
-            tilkobling2.Close()
+            tilkobling3.Close()
 
         End Try
+
+
+        'Try
+        '    If Endre_passord1.Text <> Endre_passord2.Text Then
+        '        MsgBox("Du må skrive inn samme passord")
+
+        '    Else
+
+
+        '        If MessageBox.Show("Vil du virkelig endre info?", "Endre info", MessageBoxButtons.YesNo) = vbYes Then
+        '            cmd.ExecuteNonQuery()
+        '            MsgBox("Info endret!")
+        '            Me.Close()
+        '            MinSideGiver.Show()
+
+        '        End If
+
+
+        '    End If
+
+
+        'Catch ex As MySqlException
+        '    MsgBox(ex.Message)
+
+        '    Throw New Exception("Error " + ex.Message)
+
+
+        'End Try
+
     End Sub
 
     Private Sub Delete(bruker_id As String)
         Dim sql As String = "DELETE FROM Bruker WHERE bruker_id='" + Endre_bruker.Text + "'"
-        Dim cmd As New MySqlCommand(sql, tilkobling2)
+        Dim cmd As New MySqlCommand(sql, tilkobling3)
 
         Try
-            tilkobling2.Open()
-            adapter.DeleteCommand = tilkobling2.CreateCommand()
+            tilkobling3.Open()
+            adapter.DeleteCommand = tilkobling3.CreateCommand()
             adapter.DeleteCommand.CommandText = sql
 
             ' If MessageBox.Show("Vil du slette data?", "Slett", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) = Window Then
-            tilkobling2.Close()
+            tilkobling3.Close()
 
 
         Catch ex As Exception
             MsgBox(ex.Message)
-            tilkobling2.Close()
+            tilkobling3.Close()
         End Try
 
     End Sub
@@ -258,7 +306,7 @@ Public Class MinSideAdmin
         Try
 
             Dim navnSporring = "Select bruker_id, f_navn, e_navn, epost, passord, adresse, tlf_nr, postnr from Bruker "
-            Dim sqlnavn2 As New MySqlCommand(navnSporring, tilkobling2)
+            Dim sqlnavn2 As New MySqlCommand(navnSporring, tilkobling3)
             SDA.SelectCommand = sqlnavn2
             SDA.Fill(dbDataset)
             bSource.DataSource = dbDataset
@@ -291,19 +339,19 @@ Public Class MinSideAdmin
     End Sub
 
     Private Sub DataGridView2_MouseClick(sender As Object, e As MouseEventArgs) Handles DataGridView2.MouseClick
-        Dim bruker_id As Integer = DataGridView2.SelectedRows(0).Cells(1).Value
-        Dim bruker_type As Integer = DataGridView2.SelectedRows(0).Cells(2).Value
-        Dim fodselsdato As Date = DataGridView2.SelectedRows(0).Cells(3).Value
-        Dim f_navn As String = DataGridView2.SelectedRows(0).Cells(4).Value
-        Dim e_navn As String = DataGridView2.SelectedRows(0).Cells(5).Value
-        Dim epost As String = DataGridView2.SelectedRows(0).Cells(6).Value
-        Dim passord As String = DataGridView2.SelectedRows(0).Cells(7).Value
-        Dim tlf_nr As Integer = DataGridView2.SelectedRows(0).Cells(8).Value
-        Dim adresse As String = DataGridView2.SelectedRows(0).Cells(9).Value
-        Dim postnr As Integer = DataGridView2.SelectedRows(0).Cells(10).Value
-        Dim kjonn As Integer = DataGridView2.SelectedRows(0).Cells(11).Value
-        Dim Epostgodtatt As Integer = DataGridView2.SelectedRows(0).Cells(12).Value
-        Dim blodtype As String = DataGridView2.SelectedRows(0).Cells(13).Value
+        Dim bruker_id As Integer = DataGridView2.SelectedRows(0).Cells(0).Value
+        Dim bruker_type As Integer = DataGridView2.SelectedRows(0).Cells(1).Value
+        Dim fodselsdato As Date = DataGridView2.SelectedRows(0).Cells(2).Value
+        Dim f_navn As String = DataGridView2.SelectedRows(0).Cells(3).Value
+        Dim e_navn As String = DataGridView2.SelectedRows(0).Cells(4).Value
+        Dim epost As String = DataGridView2.SelectedRows(0).Cells(5).Value
+        Dim passord As String = DataGridView2.SelectedRows(0).Cells(6).Value
+        Dim tlf_nr As Integer = DataGridView2.SelectedRows(0).Cells(7).Value
+        Dim adresse As String = DataGridView2.SelectedRows(0).Cells(8).Value
+        Dim postnr As Integer = DataGridView2.SelectedRows(0).Cells(9).Value
+        Dim kjonn As Integer = DataGridView2.SelectedRows(0).Cells(10).Value
+        Dim Epostgodtatt As Boolean = DataGridView2.SelectedRows(0).Cells(11).Value
+        Dim blodtype As String = DataGridView2.SelectedRows(0).Cells(12).Value
 
         'Try
         '    Dim Epostgodtatt As Integer = DataGridView2.SelectedRows(0).Cells(12).Value
@@ -344,6 +392,8 @@ Public Class MinSideAdmin
     End Sub
 
     Private Sub Retrieve_btn_Click(sender As Object, e As EventArgs) Handles Retrieve_btn.Click
+        DataGridView2.Rows.Clear()
+
         Retrieve()
     End Sub
 
