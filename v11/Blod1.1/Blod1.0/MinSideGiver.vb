@@ -3,7 +3,7 @@
 Public Class MinSideGiver
     Public tilkobling As MySqlConnection
     Private tilkobling3 As MySqlConnection
-    Dim BtnClickCount As Integer = 1
+    Dim BtnClickCount As Integer
 
 
     Private Sub MinSideGiver_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -88,7 +88,6 @@ Public Class MinSideGiver
 
 
     Private Sub RestartToolStripMenuItem2_Click(sender As Object, e As EventArgs) Handles RestartToolStripMenuItem2.Click
-        BtnClickCount = 0
         'Logger ut brukeren og restarter applikasjonen
         Application.Restart()
     End Sub
@@ -99,7 +98,7 @@ Public Class MinSideGiver
     End Sub
 
     Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles Endre_informasjon.LinkClicked
-        BtnClickCount = 0
+        BtnClickCount = 1
         EndreInfo.Show()
         Me.Close()
 
@@ -157,7 +156,6 @@ Public Class MinSideGiver
         If dialog = DialogResult.No Then
 
         Else
-            BtnClickCount = 2
             'Logger ut brukeren og restarter applikasjonen
             Application.Restart()
         End If
@@ -167,19 +165,14 @@ Public Class MinSideGiver
 
         If BtnClickCount = 1 Then
 
-            Dim dialog As DialogResult
-
-            dialog = MessageBox.Show("Vil du avslutte?", "Avslutt", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
-            If dialog = DialogResult.No Then
-
-                e.Cancel = True
-            Else
-                Application.ExitThread()
-
-            End If
         Else
-
+            Application.ExitThread()
         End If
 
+
+    End Sub
+
+    Private Sub Egenerklæring_knapp_Click(sender As Object, e As EventArgs) Handles Egenerklæring_knapp.Click
+        BtnClickCount = 1
     End Sub
 End Class
