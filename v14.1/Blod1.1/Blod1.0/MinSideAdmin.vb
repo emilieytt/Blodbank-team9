@@ -243,12 +243,13 @@ VALUES (1,1 ,'" & Endre_fornavn.Text & "','" & Endre_enavn.Text & "','" & Endre_
 
 
     Private Sub RestartToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RestartToolStripMenuItem.Click
-        BtnClickCount = 1
+
 
         Dim loggav As DialogResult
 
         loggav = MessageBox.Show("Vil du logge av?", "Logg av", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
         If loggav = DialogResult.Yes Then
+            BtnCLickCount = 1
             Application.Restart()
         Else
         End If

@@ -260,12 +260,12 @@ Public Class SeBestillinger
 
     Private Sub RestartToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RestartToolStripMenuItem.Click
 
-        BtnClickCount = 1
         'Restarter programmet
         Dim loggav As DialogResult
 
         loggav = MessageBox.Show("Vil du logge av?", "Logg av", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
         If loggav = DialogResult.Yes Then
+            BtnClickCount = 1
             Application.Restart()
         Else
         End If

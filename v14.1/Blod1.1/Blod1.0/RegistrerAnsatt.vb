@@ -471,12 +471,12 @@ VALUES (2,1 ,'" & Fornavn.Text & "','" & Etternavn.Text & "','" & År.Text + "/"
         Me.Close()
     End Sub
     Private Sub RestartToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RestartToolStripMenuItem.Click
-        BtnClickCount = 1
 
         Dim loggav As DialogResult
 
         loggav = MessageBox.Show("Er du sikker på at du vil avbryte?", "Avbryt", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
         If loggav = DialogResult.Yes Then
+            BtnClickCount = 1
             Application.Restart()
         Else
         End If

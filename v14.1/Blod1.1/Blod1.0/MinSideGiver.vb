@@ -88,12 +88,13 @@ Public Class MinSideGiver
 
 
     Private Sub RestartToolStripMenuItem2_Click(sender As Object, e As EventArgs) Handles RestartToolStripMenuItem2.Click
-        BtnClickCount = 1
+
 
         Dim loggav As DialogResult
 
         loggav = MessageBox.Show("Vil du logge av?", "Logg av", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
         If loggav = DialogResult.Yes Then
+            BtnClickCount = 1
             Application.Restart()
         Else
         End If
@@ -157,14 +158,13 @@ Public Class MinSideGiver
     End Sub
 
     Private Sub Logg_ut_Click(sender As Object, e As EventArgs) Handles Logg_ut.Click
-        Dim dialog As DialogResult
+        Dim loggav As DialogResult
 
-        dialog = MessageBox.Show("Vil du logge av?", "Logg av", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
-        If dialog = DialogResult.No Then
-
-        Else
-            'Logger ut brukeren og restarter applikasjonen
+        loggav = MessageBox.Show("Vil du logge av?", "Logg av", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
+        If loggav = DialogResult.Yes Then
+            BtnClickCount = 1
             Application.Restart()
+        Else
         End If
     End Sub
 
