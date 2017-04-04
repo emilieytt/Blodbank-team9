@@ -93,4 +93,8 @@ Public Class GlemtPassord
             End If
         End If
     End Sub
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 End Class

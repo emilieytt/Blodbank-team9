@@ -159,3 +159,29 @@ C:\Users\Anders\Documents\NTNU\Vår 2017\OPProsjekt\Blodbank-team9\v14.1\Blod1.1
 C:\Users\Anders\Documents\NTNU\Vår 2017\OPProsjekt\Blodbank-team9\v14.1\Blod1.1\Blod1.0\obj\Debug\Blod1._0.Statistikk.resources
 C:\Users\Anders\Documents\NTNU\Vår 2017\OPProsjekt\Blodbank-team9\v14.1\Blod1.1\Blod1.0\obj\Debug\Blod1._0.Tappinger.resources
 C:\Users\Anders\Documents\NTNU\Vår 2017\OPProsjekt\Blodbank-team9\v14.1\Blod1.1\Blod1.0\obj\Debug\Blod1.0.vbproj.GenerateResource.Cache
+Z:\Documents\Blodbank-team9\v14.1\Blod1.1\Blod1.0\obj\Debug\Blod1.0.vbprojResolveAssemblyReference.cache
+Z:\Documents\Blodbank-team9\v14.1\Blod1.1\Blod1.0\obj\Debug\Blod1._0.AdministrerBlod.resources
+Z:\Documents\Blodbank-team9\v14.1\Blod1.1\Blod1.0\obj\Debug\Blod1._0.EgenErklaering.resources
+Z:\Documents\Blodbank-team9\v14.1\Blod1.1\Blod1.0\obj\Debug\Blod1._0.EndreAnsatt.resources
+Z:\Documents\Blodbank-team9\v14.1\Blod1.1\Blod1.0\obj\Debug\Blod1._0.EndreInfo.resources
+Z:\Documents\Blodbank-team9\v14.1\Blod1.1\Blod1.0\obj\Debug\Blod1._0.GlemtPassord.resources
+Z:\Documents\Blodbank-team9\v14.1\Blod1.1\Blod1.0\obj\Debug\Blod1._0.RegistrerBruker.resources
+Z:\Documents\Blodbank-team9\v14.1\Blod1.1\Blod1.0\obj\Debug\Blod1._0.RegistrerAnsatt.resources
+Z:\Documents\Blodbank-team9\v14.1\Blod1.1\Blod1.0\obj\Debug\Blod1._0.SeBestillinger.resources
+Z:\Documents\Blodbank-team9\v14.1\Blod1.1\Blod1.0\obj\Debug\Blod1._0.Startside.resources
+Z:\Documents\Blodbank-team9\v14.1\Blod1.1\Blod1.0\obj\Debug\Blod1._0.MinSideGiver.resources
+Z:\Documents\Blodbank-team9\v14.1\Blod1.1\Blod1.0\obj\Debug\Blod1._0.MinSideAnsatt.resources
+Z:\Documents\Blodbank-team9\v14.1\Blod1.1\Blod1.0\obj\Debug\Blod1._0.MinSideAdmin.resources
+Z:\Documents\Blodbank-team9\v14.1\Blod1.1\Blod1.0\obj\Debug\Blod1._0.Resources.resources
+Z:\Documents\Blodbank-team9\v14.1\Blod1.1\Blod1.0\obj\Debug\Blod1._0.Statistikk.resources
+Z:\Documents\Blodbank-team9\v14.1\Blod1.1\Blod1.0\obj\Debug\Blod1._0.Tappinger.resources
+Z:\Documents\Blodbank-team9\v14.1\Blod1.1\Blod1.0\obj\Debug\Blod1.0.vbproj.GenerateResource.Cache
+Z:\Documents\Blodbank-team9\v14.1\Blod1.1\Blod1.0\obj\Debug\Blod1.0.exe
+Z:\Documents\Blodbank-team9\v14.1\Blod1.1\Blod1.0\obj\Debug\Blod1.0.xml
+Z:\Documents\Blodbank-team9\v14.1\Blod1.1\Blod1.0\obj\Debug\Blod1.0.pdb
+Z:\Documents\Blodbank-team9\v14.1\Blod1.1\Blod1.0\bin\Debug\Blod1.0.exe.config
+Z:\Documents\Blodbank-team9\v14.1\Blod1.1\Blod1.0\bin\Debug\Blod1.0.exe
+Z:\Documents\Blodbank-team9\v14.1\Blod1.1\Blod1.0\bin\Debug\Blod1.0.pdb
+Z:\Documents\Blodbank-team9\v14.1\Blod1.1\Blod1.0\bin\Debug\Blod1.0.xml
+Z:\Documents\Blodbank-team9\v14.1\Blod1.1\Blod1.0\bin\Debug\MySql.Data.dll
+Z:\Documents\Blodbank-team9\v14.1\Blod1.1\Blod1.0\bin\Debug\MySql.Data.xml
