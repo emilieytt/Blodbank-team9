@@ -466,9 +466,14 @@ VALUES (2,1 ,'" & Fornavn.Text & "','" & Etternavn.Text & "','" & År.Text + "/"
     End Sub
 
     Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
-        BtnClickCount = 1
-        Startside.Show()
-        Me.Close()
+        Dim loggav As DialogResult
+
+        loggav = MessageBox.Show("Er du sikker på at du vil avbryte?", "Avbryt", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
+        If loggav = DialogResult.Yes Then
+            BtnClickCount = 1
+            Application.Restart()
+        Else
+        End If
     End Sub
     Private Sub RestartToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RestartToolStripMenuItem.Click
 
