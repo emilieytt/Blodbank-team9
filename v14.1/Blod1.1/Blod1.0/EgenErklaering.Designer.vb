@@ -403,11 +403,11 @@ Partial Class EgenErklaering
         Me.TabControl1.Controls.Add(Me.TabPage8)
         Me.TabControl1.Controls.Add(Me.Kvinne)
         Me.TabControl1.Controls.Add(Me.Mann)
-        Me.TabControl1.Location = New System.Drawing.Point(40, 21)
-        Me.TabControl1.Margin = New System.Windows.Forms.Padding(2)
+        Me.TabControl1.Location = New System.Drawing.Point(53, 26)
+        Me.TabControl1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(772, 567)
+        Me.TabControl1.Size = New System.Drawing.Size(1029, 698)
         Me.TabControl1.TabIndex = 2
         '
         'TabPage1
@@ -419,12 +419,12 @@ Partial Class EgenErklaering
         Me.TabPage1.Controls.Add(Me.Panel3)
         Me.TabPage1.Controls.Add(Me.Panel2)
         Me.TabPage1.Controls.Add(Me.Panel1)
-        Me.TabPage1.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage1.Margin = New System.Windows.Forms.Padding(2)
+        Me.TabPage1.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(2)
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TabPage1.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.TabPage1.Size = New System.Drawing.Size(764, 541)
+        Me.TabPage1.Size = New System.Drawing.Size(1021, 669)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Del 1"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -434,19 +434,18 @@ Partial Class EgenErklaering
         Me.Panel65.BackColor = System.Drawing.Color.SkyBlue
         Me.Panel65.Controls.Add(Me.Label65)
         Me.Panel65.Location = New System.Drawing.Point(0, 0)
-        Me.Panel65.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel65.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel65.Name = "Panel65"
-        Me.Panel65.Size = New System.Drawing.Size(764, 64)
+        Me.Panel65.Size = New System.Drawing.Size(1019, 79)
         Me.Panel65.TabIndex = 9
         '
         'Label65
         '
         Me.Label65.AutoSize = True
         Me.Label65.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.875!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label65.Location = New System.Drawing.Point(3, 15)
-        Me.Label65.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label65.Location = New System.Drawing.Point(4, 18)
         Me.Label65.Name = "Label65"
-        Me.Label65.Size = New System.Drawing.Size(165, 24)
+        Me.Label65.Size = New System.Drawing.Size(206, 29)
         Me.Label65.TabIndex = 0
         Me.Label65.Text = "Vennligst besvar"
         '
@@ -455,19 +454,19 @@ Partial Class EgenErklaering
         Me.Panel6.Controls.Add(Me.RadioButton11)
         Me.Panel6.Controls.Add(Me.RadioButton12)
         Me.Panel6.Controls.Add(Me.Label6)
-        Me.Panel6.Location = New System.Drawing.Point(0, 348)
-        Me.Panel6.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel6.Location = New System.Drawing.Point(0, 428)
+        Me.Panel6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(764, 46)
+        Me.Panel6.Size = New System.Drawing.Size(1019, 57)
         Me.Panel6.TabIndex = 7
         '
         'RadioButton11
         '
         Me.RadioButton11.AutoSize = True
-        Me.RadioButton11.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton11.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton11.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton11.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton11.Name = "RadioButton11"
-        Me.RadioButton11.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton11.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton11.TabIndex = 2
         Me.RadioButton11.TabStop = True
         Me.RadioButton11.Tag = "0"
@@ -477,10 +476,10 @@ Partial Class EgenErklaering
         'RadioButton12
         '
         Me.RadioButton12.AutoSize = True
-        Me.RadioButton12.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton12.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton12.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton12.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton12.Name = "RadioButton12"
-        Me.RadioButton12.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton12.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton12.TabIndex = 1
         Me.RadioButton12.TabStop = True
         Me.RadioButton12.Tag = "1"
@@ -490,10 +489,9 @@ Partial Class EgenErklaering
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(3, 15)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label6.Location = New System.Drawing.Point(4, 18)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(136, 13)
+        Me.Label6.Size = New System.Drawing.Size(183, 17)
         Me.Label6.TabIndex = 0
         Me.Label6.Text = "Har du piercing i slimhinne?"
         '
@@ -503,19 +501,19 @@ Partial Class EgenErklaering
         Me.Panel5.Controls.Add(Me.RadioButton9)
         Me.Panel5.Controls.Add(Me.RadioButton10)
         Me.Panel5.Controls.Add(Me.Label5)
-        Me.Panel5.Location = New System.Drawing.Point(0, 294)
-        Me.Panel5.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel5.Location = New System.Drawing.Point(0, 362)
+        Me.Panel5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(764, 46)
+        Me.Panel5.Size = New System.Drawing.Size(1019, 57)
         Me.Panel5.TabIndex = 6
         '
         'RadioButton9
         '
         Me.RadioButton9.AutoSize = True
-        Me.RadioButton9.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton9.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton9.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton9.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton9.Name = "RadioButton9"
-        Me.RadioButton9.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton9.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton9.TabIndex = 2
         Me.RadioButton9.TabStop = True
         Me.RadioButton9.Tag = "0"
@@ -525,10 +523,10 @@ Partial Class EgenErklaering
         'RadioButton10
         '
         Me.RadioButton10.AutoSize = True
-        Me.RadioButton10.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton10.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton10.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton10.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton10.Name = "RadioButton10"
-        Me.RadioButton10.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton10.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton10.TabIndex = 1
         Me.RadioButton10.TabStop = True
         Me.RadioButton10.Tag = "1"
@@ -538,10 +536,9 @@ Partial Class EgenErklaering
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(3, 15)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label5.Location = New System.Drawing.Point(4, 18)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(205, 13)
+        Me.Label5.Size = New System.Drawing.Size(275, 17)
         Me.Label5.TabIndex = 0
         Me.Label5.Text = "Har du åpne sår, eksem eller hudsykdom?"
         '
@@ -550,19 +547,19 @@ Partial Class EgenErklaering
         Me.Panel4.Controls.Add(Me.RadioButton7)
         Me.Panel4.Controls.Add(Me.RadioButton8)
         Me.Panel4.Controls.Add(Me.Label4)
-        Me.Panel4.Location = New System.Drawing.Point(0, 239)
-        Me.Panel4.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel4.Location = New System.Drawing.Point(0, 294)
+        Me.Panel4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(764, 46)
+        Me.Panel4.Size = New System.Drawing.Size(1019, 57)
         Me.Panel4.TabIndex = 5
         '
         'RadioButton7
         '
         Me.RadioButton7.AutoSize = True
-        Me.RadioButton7.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton7.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton7.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton7.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton7.Name = "RadioButton7"
-        Me.RadioButton7.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton7.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton7.TabIndex = 2
         Me.RadioButton7.TabStop = True
         Me.RadioButton7.Tag = "0"
@@ -572,10 +569,10 @@ Partial Class EgenErklaering
         'RadioButton8
         '
         Me.RadioButton8.AutoSize = True
-        Me.RadioButton8.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton8.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton8.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton8.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton8.Name = "RadioButton8"
-        Me.RadioButton8.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton8.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton8.TabIndex = 1
         Me.RadioButton8.TabStop = True
         Me.RadioButton8.Tag = "1"
@@ -585,10 +582,9 @@ Partial Class EgenErklaering
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(3, 15)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label4.Location = New System.Drawing.Point(4, 18)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(124, 13)
+        Me.Label4.Size = New System.Drawing.Size(167, 17)
         Me.Label4.TabIndex = 0
         Me.Label4.Text = "Veier du 50 kg eller mer?"
         '
@@ -598,19 +594,19 @@ Partial Class EgenErklaering
         Me.Panel3.Controls.Add(Me.RadioButton5)
         Me.Panel3.Controls.Add(Me.RadioButton6)
         Me.Panel3.Controls.Add(Me.Label3)
-        Me.Panel3.Location = New System.Drawing.Point(0, 183)
-        Me.Panel3.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel3.Location = New System.Drawing.Point(0, 225)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(764, 46)
+        Me.Panel3.Size = New System.Drawing.Size(1019, 57)
         Me.Panel3.TabIndex = 4
         '
         'RadioButton5
         '
         Me.RadioButton5.AutoSize = True
-        Me.RadioButton5.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton5.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton5.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton5.Name = "RadioButton5"
-        Me.RadioButton5.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton5.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton5.TabIndex = 2
         Me.RadioButton5.TabStop = True
         Me.RadioButton5.Tag = "0"
@@ -620,10 +616,10 @@ Partial Class EgenErklaering
         'RadioButton6
         '
         Me.RadioButton6.AutoSize = True
-        Me.RadioButton6.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton6.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton6.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton6.Name = "RadioButton6"
-        Me.RadioButton6.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton6.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton6.TabIndex = 1
         Me.RadioButton6.TabStop = True
         Me.RadioButton6.Tag = "1"
@@ -633,10 +629,9 @@ Partial Class EgenErklaering
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(3, 15)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label3.Location = New System.Drawing.Point(4, 18)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(228, 26)
+        Me.Label3.Size = New System.Drawing.Size(307, 34)
         Me.Label3.TabIndex = 0
         Me.Label3.Text = "Hvis du har gitt blod tidligere, har du vært frisk i" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "perioden fra forrige blodgi" &
     "vning og til nå?"
@@ -646,19 +641,19 @@ Partial Class EgenErklaering
         Me.Panel2.Controls.Add(Me.RadioButton3)
         Me.Panel2.Controls.Add(Me.RadioButton4)
         Me.Panel2.Controls.Add(Me.Label2)
-        Me.Panel2.Location = New System.Drawing.Point(0, 127)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel2.Location = New System.Drawing.Point(0, 156)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(764, 46)
+        Me.Panel2.Size = New System.Drawing.Size(1019, 57)
         Me.Panel2.TabIndex = 3
         '
         'RadioButton3
         '
         Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton3.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton3.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton3.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton3.TabIndex = 2
         Me.RadioButton3.TabStop = True
         Me.RadioButton3.Tag = "0"
@@ -668,10 +663,10 @@ Partial Class EgenErklaering
         'RadioButton4
         '
         Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton4.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton4.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton4.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton4.TabIndex = 1
         Me.RadioButton4.TabStop = True
         Me.RadioButton4.Tag = "1"
@@ -681,10 +676,9 @@ Partial Class EgenErklaering
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(3, 15)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label2.Location = New System.Drawing.Point(4, 18)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(109, 13)
+        Me.Label2.Size = New System.Drawing.Size(146, 17)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Føler du deg frisk nå?"
         '
@@ -694,19 +688,19 @@ Partial Class EgenErklaering
         Me.Panel1.Controls.Add(Me.RadioButton2)
         Me.Panel1.Controls.Add(Me.RadioButton1)
         Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Location = New System.Drawing.Point(0, 72)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel1.Location = New System.Drawing.Point(0, 89)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(764, 46)
+        Me.Panel1.Size = New System.Drawing.Size(1019, 57)
         Me.Panel1.TabIndex = 0
         '
         'RadioButton2
         '
         Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton2.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton2.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton2.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton2.TabIndex = 2
         Me.RadioButton2.TabStop = True
         Me.RadioButton2.Tag = "0"
@@ -716,10 +710,10 @@ Partial Class EgenErklaering
         'RadioButton1
         '
         Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton1.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton1.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton1.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton1.TabIndex = 1
         Me.RadioButton1.TabStop = True
         Me.RadioButton1.Tag = "1"
@@ -729,10 +723,9 @@ Partial Class EgenErklaering
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(3, 15)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label1.Location = New System.Drawing.Point(4, 18)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(193, 13)
+        Me.Label1.Size = New System.Drawing.Size(259, 17)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Har du fått informasjon om blodgivning?"
         '
@@ -744,11 +737,11 @@ Partial Class EgenErklaering
         Me.TabPage2.Controls.Add(Me.Panel9)
         Me.TabPage2.Controls.Add(Me.Panel10)
         Me.TabPage2.Controls.Add(Me.Panel11)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage2.Margin = New System.Windows.Forms.Padding(2)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(2)
-        Me.TabPage2.Size = New System.Drawing.Size(764, 541)
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TabPage2.Size = New System.Drawing.Size(1021, 669)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Del 2"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -759,19 +752,19 @@ Partial Class EgenErklaering
         Me.Panel64.Controls.Add(Me.RadioButton127)
         Me.Panel64.Controls.Add(Me.RadioButton128)
         Me.Panel64.Controls.Add(Me.Label64)
-        Me.Panel64.Location = New System.Drawing.Point(0, 290)
-        Me.Panel64.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel64.Location = New System.Drawing.Point(0, 357)
+        Me.Panel64.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel64.Name = "Panel64"
-        Me.Panel64.Size = New System.Drawing.Size(764, 46)
+        Me.Panel64.Size = New System.Drawing.Size(1019, 57)
         Me.Panel64.TabIndex = 13
         '
         'RadioButton127
         '
         Me.RadioButton127.AutoSize = True
-        Me.RadioButton127.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton127.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton127.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton127.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton127.Name = "RadioButton127"
-        Me.RadioButton127.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton127.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton127.TabIndex = 2
         Me.RadioButton127.TabStop = True
         Me.RadioButton127.Tag = "0"
@@ -781,10 +774,10 @@ Partial Class EgenErklaering
         'RadioButton128
         '
         Me.RadioButton128.AutoSize = True
-        Me.RadioButton128.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton128.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton128.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton128.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton128.Name = "RadioButton128"
-        Me.RadioButton128.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton128.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton128.TabIndex = 1
         Me.RadioButton128.TabStop = True
         Me.RadioButton128.Text = "Ja"
@@ -793,10 +786,9 @@ Partial Class EgenErklaering
         'Label64
         '
         Me.Label64.AutoSize = True
-        Me.Label64.Location = New System.Drawing.Point(3, 15)
-        Me.Label64.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label64.Location = New System.Drawing.Point(4, 18)
         Me.Label64.Name = "Label64"
-        Me.Label64.Size = New System.Drawing.Size(176, 13)
+        Me.Label64.Size = New System.Drawing.Size(238, 17)
         Me.Label64.TabIndex = 0
         Me.Label64.Text = "- vært hos tannlege eller tannpleier?"
         '
@@ -805,19 +797,19 @@ Partial Class EgenErklaering
         Me.Panel7.Controls.Add(Me.RadioButton13)
         Me.Panel7.Controls.Add(Me.RadioButton14)
         Me.Panel7.Controls.Add(Me.Label7)
-        Me.Panel7.Location = New System.Drawing.Point(2, 235)
-        Me.Panel7.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel7.Location = New System.Drawing.Point(3, 289)
+        Me.Panel7.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(764, 46)
+        Me.Panel7.Size = New System.Drawing.Size(1019, 57)
         Me.Panel7.TabIndex = 12
         '
         'RadioButton13
         '
         Me.RadioButton13.AutoSize = True
-        Me.RadioButton13.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton13.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton13.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton13.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton13.Name = "RadioButton13"
-        Me.RadioButton13.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton13.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton13.TabIndex = 2
         Me.RadioButton13.TabStop = True
         Me.RadioButton13.Tag = "0"
@@ -827,10 +819,10 @@ Partial Class EgenErklaering
         'RadioButton14
         '
         Me.RadioButton14.AutoSize = True
-        Me.RadioButton14.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton14.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton14.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton14.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton14.Name = "RadioButton14"
-        Me.RadioButton14.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton14.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton14.TabIndex = 1
         Me.RadioButton14.TabStop = True
         Me.RadioButton14.Tag = "1"
@@ -840,10 +832,9 @@ Partial Class EgenErklaering
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(3, 15)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label7.Location = New System.Drawing.Point(4, 18)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(77, 13)
+        Me.Label7.Size = New System.Drawing.Size(101, 17)
         Me.Label7.TabIndex = 0
         Me.Label7.Text = "- fått vaksine? "
         '
@@ -853,19 +844,19 @@ Partial Class EgenErklaering
         Me.Panel8.Controls.Add(Me.RadioButton15)
         Me.Panel8.Controls.Add(Me.RadioButton16)
         Me.Panel8.Controls.Add(Me.Label8)
-        Me.Panel8.Location = New System.Drawing.Point(2, 180)
-        Me.Panel8.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel8.Location = New System.Drawing.Point(3, 222)
+        Me.Panel8.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(764, 46)
+        Me.Panel8.Size = New System.Drawing.Size(1019, 57)
         Me.Panel8.TabIndex = 11
         '
         'RadioButton15
         '
         Me.RadioButton15.AutoSize = True
-        Me.RadioButton15.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton15.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton15.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton15.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton15.Name = "RadioButton15"
-        Me.RadioButton15.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton15.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton15.TabIndex = 2
         Me.RadioButton15.TabStop = True
         Me.RadioButton15.Tag = "0"
@@ -875,10 +866,10 @@ Partial Class EgenErklaering
         'RadioButton16
         '
         Me.RadioButton16.AutoSize = True
-        Me.RadioButton16.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton16.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton16.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton16.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton16.Name = "RadioButton16"
-        Me.RadioButton16.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton16.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton16.TabIndex = 1
         Me.RadioButton16.TabStop = True
         Me.RadioButton16.Tag = "1"
@@ -888,10 +879,9 @@ Partial Class EgenErklaering
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(3, 15)
-        Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label8.Location = New System.Drawing.Point(4, 18)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(94, 13)
+        Me.Label8.Size = New System.Drawing.Size(126, 17)
         Me.Label8.TabIndex = 0
         Me.Label8.Text = "- hatt løs avføring?"
         '
@@ -900,19 +890,19 @@ Partial Class EgenErklaering
         Me.Panel9.Controls.Add(Me.RadioButton17)
         Me.Panel9.Controls.Add(Me.RadioButton18)
         Me.Panel9.Controls.Add(Me.Label9)
-        Me.Panel9.Location = New System.Drawing.Point(0, 126)
-        Me.Panel9.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel9.Location = New System.Drawing.Point(0, 155)
+        Me.Panel9.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(764, 46)
+        Me.Panel9.Size = New System.Drawing.Size(1019, 57)
         Me.Panel9.TabIndex = 10
         '
         'RadioButton17
         '
         Me.RadioButton17.AutoSize = True
-        Me.RadioButton17.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton17.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton17.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton17.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton17.Name = "RadioButton17"
-        Me.RadioButton17.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton17.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton17.TabIndex = 2
         Me.RadioButton17.TabStop = True
         Me.RadioButton17.Tag = "0"
@@ -922,10 +912,10 @@ Partial Class EgenErklaering
         'RadioButton18
         '
         Me.RadioButton18.AutoSize = True
-        Me.RadioButton18.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton18.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton18.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton18.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton18.Name = "RadioButton18"
-        Me.RadioButton18.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton18.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton18.TabIndex = 1
         Me.RadioButton18.TabStop = True
         Me.RadioButton18.Tag = "1"
@@ -935,10 +925,9 @@ Partial Class EgenErklaering
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(3, 15)
-        Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label9.Location = New System.Drawing.Point(4, 18)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(130, 13)
+        Me.Label9.Size = New System.Drawing.Size(175, 17)
         Me.Label9.TabIndex = 0
         Me.Label9.Text = "- vært syk eller hatt feber?"
         '
@@ -948,19 +937,19 @@ Partial Class EgenErklaering
         Me.Panel10.Controls.Add(Me.RadioButton19)
         Me.Panel10.Controls.Add(Me.RadioButton20)
         Me.Panel10.Controls.Add(Me.Label10)
-        Me.Panel10.Location = New System.Drawing.Point(0, 72)
-        Me.Panel10.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel10.Location = New System.Drawing.Point(0, 89)
+        Me.Panel10.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(764, 46)
+        Me.Panel10.Size = New System.Drawing.Size(1019, 57)
         Me.Panel10.TabIndex = 9
         '
         'RadioButton19
         '
         Me.RadioButton19.AutoSize = True
-        Me.RadioButton19.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton19.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton19.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton19.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton19.Name = "RadioButton19"
-        Me.RadioButton19.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton19.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton19.TabIndex = 2
         Me.RadioButton19.TabStop = True
         Me.RadioButton19.Tag = "0"
@@ -970,10 +959,10 @@ Partial Class EgenErklaering
         'RadioButton20
         '
         Me.RadioButton20.AutoSize = True
-        Me.RadioButton20.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton20.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton20.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton20.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton20.Name = "RadioButton20"
-        Me.RadioButton20.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton20.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton20.TabIndex = 1
         Me.RadioButton20.TabStop = True
         Me.RadioButton20.Tag = "1"
@@ -983,10 +972,9 @@ Partial Class EgenErklaering
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(3, 15)
-        Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label10.Location = New System.Drawing.Point(4, 18)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(90, 13)
+        Me.Label10.Size = New System.Drawing.Size(122, 17)
         Me.Label10.TabIndex = 0
         Me.Label10.Text = "- brukt medisiner?"
         '
@@ -995,19 +983,18 @@ Partial Class EgenErklaering
         Me.Panel11.BackColor = System.Drawing.Color.SkyBlue
         Me.Panel11.Controls.Add(Me.Label11)
         Me.Panel11.Location = New System.Drawing.Point(0, 0)
-        Me.Panel11.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel11.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel11.Name = "Panel11"
-        Me.Panel11.Size = New System.Drawing.Size(764, 64)
+        Me.Panel11.Size = New System.Drawing.Size(1019, 79)
         Me.Panel11.TabIndex = 8
         '
         'Label11
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.875!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(3, 15)
-        Me.Label11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label11.Location = New System.Drawing.Point(4, 18)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(317, 24)
+        Me.Label11.Size = New System.Drawing.Size(398, 29)
         Me.Label11.TabIndex = 0
         Me.Label11.Text = "Har du iløpet av de siste fire uker"
         '
@@ -1021,11 +1008,11 @@ Partial Class EgenErklaering
         Me.TabPage3.Controls.Add(Me.Panel14)
         Me.TabPage3.Controls.Add(Me.Panel15)
         Me.TabPage3.Controls.Add(Me.Panel16)
-        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage3.Margin = New System.Windows.Forms.Padding(2)
+        Me.TabPage3.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Padding = New System.Windows.Forms.Padding(2)
-        Me.TabPage3.Size = New System.Drawing.Size(764, 541)
+        Me.TabPage3.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TabPage3.Size = New System.Drawing.Size(1021, 669)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "Del 3"
         Me.TabPage3.UseVisualStyleBackColor = True
@@ -1035,19 +1022,18 @@ Partial Class EgenErklaering
         Me.Panel66.BackColor = System.Drawing.Color.SkyBlue
         Me.Panel66.Controls.Add(Me.Label66)
         Me.Panel66.Location = New System.Drawing.Point(0, 0)
-        Me.Panel66.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel66.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel66.Name = "Panel66"
-        Me.Panel66.Size = New System.Drawing.Size(764, 64)
+        Me.Panel66.Size = New System.Drawing.Size(1019, 79)
         Me.Panel66.TabIndex = 16
         '
         'Label66
         '
         Me.Label66.AutoSize = True
         Me.Label66.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.875!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label66.Location = New System.Drawing.Point(3, 15)
-        Me.Label66.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label66.Location = New System.Drawing.Point(4, 18)
         Me.Label66.Name = "Label66"
-        Me.Label66.Size = New System.Drawing.Size(372, 24)
+        Me.Label66.Size = New System.Drawing.Size(466, 29)
         Me.Label66.TabIndex = 0
         Me.Label66.Text = "Har du iløpet av de siste seks måneder"
         '
@@ -1057,19 +1043,19 @@ Partial Class EgenErklaering
         Me.Panel12.Controls.Add(Me.RadioButton23)
         Me.Panel12.Controls.Add(Me.RadioButton24)
         Me.Panel12.Controls.Add(Me.Label12)
-        Me.Panel12.Location = New System.Drawing.Point(0, 298)
-        Me.Panel12.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel12.Location = New System.Drawing.Point(0, 367)
+        Me.Panel12.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel12.Name = "Panel12"
-        Me.Panel12.Size = New System.Drawing.Size(764, 46)
+        Me.Panel12.Size = New System.Drawing.Size(1019, 57)
         Me.Panel12.TabIndex = 12
         '
         'RadioButton23
         '
         Me.RadioButton23.AutoSize = True
-        Me.RadioButton23.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton23.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton23.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton23.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton23.Name = "RadioButton23"
-        Me.RadioButton23.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton23.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton23.TabIndex = 2
         Me.RadioButton23.TabStop = True
         Me.RadioButton23.Tag = "0"
@@ -1079,10 +1065,10 @@ Partial Class EgenErklaering
         'RadioButton24
         '
         Me.RadioButton24.AutoSize = True
-        Me.RadioButton24.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton24.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton24.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton24.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton24.Name = "RadioButton24"
-        Me.RadioButton24.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton24.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton24.TabIndex = 1
         Me.RadioButton24.TabStop = True
         Me.RadioButton24.Tag = "1"
@@ -1092,10 +1078,9 @@ Partial Class EgenErklaering
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(3, 15)
-        Me.Label12.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label12.Location = New System.Drawing.Point(4, 18)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(525, 13)
+        Me.Label12.Size = New System.Drawing.Size(713, 17)
         Me.Label12.TabIndex = 0
         Me.Label12.Text = "- hatt seksuell kontakt med person som bruker eller har brukt dopingmidler eller " &
     "narkotiske midler som sprøyter?"
@@ -1106,19 +1091,19 @@ Partial Class EgenErklaering
         Me.Panel18.Controls.Add(Me.RadioButton35)
         Me.Panel18.Controls.Add(Me.RadioButton36)
         Me.Panel18.Controls.Add(Me.Label18)
-        Me.Panel18.Location = New System.Drawing.Point(2, 413)
-        Me.Panel18.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel18.Location = New System.Drawing.Point(3, 508)
+        Me.Panel18.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel18.Name = "Panel18"
-        Me.Panel18.Size = New System.Drawing.Size(764, 46)
+        Me.Panel18.Size = New System.Drawing.Size(1019, 57)
         Me.Panel18.TabIndex = 14
         '
         'RadioButton35
         '
         Me.RadioButton35.AutoSize = True
-        Me.RadioButton35.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton35.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton35.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton35.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton35.Name = "RadioButton35"
-        Me.RadioButton35.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton35.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton35.TabIndex = 2
         Me.RadioButton35.TabStop = True
         Me.RadioButton35.Tag = "0"
@@ -1128,10 +1113,10 @@ Partial Class EgenErklaering
         'RadioButton36
         '
         Me.RadioButton36.AutoSize = True
-        Me.RadioButton36.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton36.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton36.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton36.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton36.Name = "RadioButton36"
-        Me.RadioButton36.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton36.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton36.TabIndex = 1
         Me.RadioButton36.TabStop = True
         Me.RadioButton36.Tag = "1"
@@ -1141,10 +1126,9 @@ Partial Class EgenErklaering
         'Label18
         '
         Me.Label18.AutoSize = True
-        Me.Label18.Location = New System.Drawing.Point(3, 15)
-        Me.Label18.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label18.Location = New System.Drawing.Point(4, 18)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(229, 13)
+        Me.Label18.Size = New System.Drawing.Size(310, 17)
         Me.Label18.TabIndex = 0
         Me.Label18.Text = "- blitt tatovert, fått piercing eller tatt hull i ørene?"
         '
@@ -1153,19 +1137,19 @@ Partial Class EgenErklaering
         Me.Panel13.Controls.Add(Me.RadioButton25)
         Me.Panel13.Controls.Add(Me.RadioButton26)
         Me.Panel13.Controls.Add(Me.Label13)
-        Me.Panel13.Location = New System.Drawing.Point(0, 241)
-        Me.Panel13.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel13.Location = New System.Drawing.Point(0, 297)
+        Me.Panel13.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel13.Name = "Panel13"
-        Me.Panel13.Size = New System.Drawing.Size(764, 46)
+        Me.Panel13.Size = New System.Drawing.Size(1019, 57)
         Me.Panel13.TabIndex = 11
         '
         'RadioButton25
         '
         Me.RadioButton25.AutoSize = True
-        Me.RadioButton25.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton25.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton25.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton25.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton25.Name = "RadioButton25"
-        Me.RadioButton25.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton25.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton25.TabIndex = 2
         Me.RadioButton25.TabStop = True
         Me.RadioButton25.Tag = "0"
@@ -1175,10 +1159,10 @@ Partial Class EgenErklaering
         'RadioButton26
         '
         Me.RadioButton26.AutoSize = True
-        Me.RadioButton26.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton26.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton26.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton26.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton26.Name = "RadioButton26"
-        Me.RadioButton26.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton26.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton26.TabIndex = 1
         Me.RadioButton26.TabStop = True
         Me.RadioButton26.Tag = "1"
@@ -1188,10 +1172,9 @@ Partial Class EgenErklaering
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(3, 15)
-        Me.Label13.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label13.Location = New System.Drawing.Point(4, 18)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(407, 26)
+        Me.Label13.Size = New System.Drawing.Size(545, 34)
         Me.Label13.TabIndex = 0
         Me.Label13.Text = "- hatt seksuell kontakt med person med HIV - infeksjon eller hepatitt B eller hep" &
     "atitt C," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " eller med person som har hatt positiv test for en av disse sykdommene" &
@@ -1202,19 +1185,19 @@ Partial Class EgenErklaering
         Me.Panel19.Controls.Add(Me.RadioButton37)
         Me.Panel19.Controls.Add(Me.RadioButton38)
         Me.Panel19.Controls.Add(Me.Label19)
-        Me.Panel19.Location = New System.Drawing.Point(2, 357)
-        Me.Panel19.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel19.Location = New System.Drawing.Point(3, 439)
+        Me.Panel19.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel19.Name = "Panel19"
-        Me.Panel19.Size = New System.Drawing.Size(764, 46)
+        Me.Panel19.Size = New System.Drawing.Size(1019, 57)
         Me.Panel19.TabIndex = 13
         '
         'RadioButton37
         '
         Me.RadioButton37.AutoSize = True
-        Me.RadioButton37.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton37.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton37.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton37.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton37.Name = "RadioButton37"
-        Me.RadioButton37.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton37.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton37.TabIndex = 2
         Me.RadioButton37.TabStop = True
         Me.RadioButton37.Tag = "0"
@@ -1224,10 +1207,10 @@ Partial Class EgenErklaering
         'RadioButton38
         '
         Me.RadioButton38.AutoSize = True
-        Me.RadioButton38.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton38.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton38.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton38.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton38.Name = "RadioButton38"
-        Me.RadioButton38.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton38.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton38.TabIndex = 1
         Me.RadioButton38.TabStop = True
         Me.RadioButton38.Tag = "1"
@@ -1237,10 +1220,9 @@ Partial Class EgenErklaering
         'Label19
         '
         Me.Label19.AutoSize = True
-        Me.Label19.Location = New System.Drawing.Point(3, 15)
-        Me.Label19.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label19.Location = New System.Drawing.Point(4, 18)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(311, 13)
+        Me.Label19.Size = New System.Drawing.Size(422, 17)
         Me.Label19.TabIndex = 0
         Me.Label19.Text = "- hatt seksuell kontakt med prostituerte eller tidligere prostituerte?"
         '
@@ -1250,19 +1232,19 @@ Partial Class EgenErklaering
         Me.Panel14.Controls.Add(Me.RadioButton27)
         Me.Panel14.Controls.Add(Me.RadioButton28)
         Me.Panel14.Controls.Add(Me.Label14)
-        Me.Panel14.Location = New System.Drawing.Point(0, 185)
-        Me.Panel14.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel14.Location = New System.Drawing.Point(0, 228)
+        Me.Panel14.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel14.Name = "Panel14"
-        Me.Panel14.Size = New System.Drawing.Size(764, 46)
+        Me.Panel14.Size = New System.Drawing.Size(1019, 57)
         Me.Panel14.TabIndex = 10
         '
         'RadioButton27
         '
         Me.RadioButton27.AutoSize = True
-        Me.RadioButton27.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton27.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton27.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton27.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton27.Name = "RadioButton27"
-        Me.RadioButton27.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton27.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton27.TabIndex = 2
         Me.RadioButton27.TabStop = True
         Me.RadioButton27.Tag = "0"
@@ -1272,10 +1254,10 @@ Partial Class EgenErklaering
         'RadioButton28
         '
         Me.RadioButton28.AutoSize = True
-        Me.RadioButton28.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton28.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton28.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton28.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton28.Name = "RadioButton28"
-        Me.RadioButton28.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton28.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton28.TabIndex = 1
         Me.RadioButton28.TabStop = True
         Me.RadioButton28.Tag = "1"
@@ -1285,10 +1267,9 @@ Partial Class EgenErklaering
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(3, 15)
-        Me.Label14.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label14.Location = New System.Drawing.Point(4, 18)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(290, 13)
+        Me.Label14.Size = New System.Drawing.Size(389, 17)
         Me.Label14.TabIndex = 0
         Me.Label14.Text = "- hatt kjønnssykdom, eller fått behandling for kjønnssykdom?"
         '
@@ -1297,19 +1278,19 @@ Partial Class EgenErklaering
         Me.Panel15.Controls.Add(Me.RadioButton29)
         Me.Panel15.Controls.Add(Me.RadioButton30)
         Me.Panel15.Controls.Add(Me.Label15)
-        Me.Panel15.Location = New System.Drawing.Point(0, 129)
-        Me.Panel15.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel15.Location = New System.Drawing.Point(0, 159)
+        Me.Panel15.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel15.Name = "Panel15"
-        Me.Panel15.Size = New System.Drawing.Size(764, 46)
+        Me.Panel15.Size = New System.Drawing.Size(1019, 57)
         Me.Panel15.TabIndex = 9
         '
         'RadioButton29
         '
         Me.RadioButton29.AutoSize = True
-        Me.RadioButton29.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton29.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton29.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton29.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton29.Name = "RadioButton29"
-        Me.RadioButton29.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton29.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton29.TabIndex = 2
         Me.RadioButton29.TabStop = True
         Me.RadioButton29.Tag = "0"
@@ -1319,10 +1300,10 @@ Partial Class EgenErklaering
         'RadioButton30
         '
         Me.RadioButton30.AutoSize = True
-        Me.RadioButton30.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton30.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton30.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton30.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton30.Name = "RadioButton30"
-        Me.RadioButton30.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton30.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton30.TabIndex = 1
         Me.RadioButton30.TabStop = True
         Me.RadioButton30.Tag = "1"
@@ -1332,10 +1313,9 @@ Partial Class EgenErklaering
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(3, 15)
-        Me.Label15.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label15.Location = New System.Drawing.Point(4, 18)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(155, 13)
+        Me.Label15.Size = New System.Drawing.Size(210, 17)
         Me.Label15.TabIndex = 0
         Me.Label15.Text = "- fått behandling med sprøyter? "
         '
@@ -1345,19 +1325,19 @@ Partial Class EgenErklaering
         Me.Panel16.Controls.Add(Me.RadioButton31)
         Me.Panel16.Controls.Add(Me.RadioButton32)
         Me.Panel16.Controls.Add(Me.Label16)
-        Me.Panel16.Location = New System.Drawing.Point(0, 72)
-        Me.Panel16.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel16.Location = New System.Drawing.Point(0, 89)
+        Me.Panel16.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel16.Name = "Panel16"
-        Me.Panel16.Size = New System.Drawing.Size(764, 46)
+        Me.Panel16.Size = New System.Drawing.Size(1019, 57)
         Me.Panel16.TabIndex = 8
         '
         'RadioButton31
         '
         Me.RadioButton31.AutoSize = True
-        Me.RadioButton31.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton31.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton31.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton31.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton31.Name = "RadioButton31"
-        Me.RadioButton31.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton31.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton31.TabIndex = 2
         Me.RadioButton31.TabStop = True
         Me.RadioButton31.Tag = "0"
@@ -1367,10 +1347,10 @@ Partial Class EgenErklaering
         'RadioButton32
         '
         Me.RadioButton32.AutoSize = True
-        Me.RadioButton32.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton32.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton32.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton32.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton32.Name = "RadioButton32"
-        Me.RadioButton32.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton32.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton32.TabIndex = 1
         Me.RadioButton32.TabStop = True
         Me.RadioButton32.Tag = "1"
@@ -1380,10 +1360,9 @@ Partial Class EgenErklaering
         'Label16
         '
         Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(3, 15)
-        Me.Label16.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label16.Location = New System.Drawing.Point(4, 18)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(395, 13)
+        Me.Label16.Size = New System.Drawing.Size(533, 17)
         Me.Label16.TabIndex = 0
         Me.Label16.Text = "- vært til legeundersøkelse eller på sykehus, eller fått behandling for noen sykd" &
     "om?"
@@ -1401,11 +1380,11 @@ Partial Class EgenErklaering
         Me.TabPage4.Controls.Add(Me.Panel22)
         Me.TabPage4.Controls.Add(Me.Panel21)
         Me.TabPage4.Controls.Add(Me.Panel20)
-        Me.TabPage4.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage4.Margin = New System.Windows.Forms.Padding(2)
+        Me.TabPage4.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TabPage4.Name = "TabPage4"
-        Me.TabPage4.Padding = New System.Windows.Forms.Padding(2)
-        Me.TabPage4.Size = New System.Drawing.Size(764, 541)
+        Me.TabPage4.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TabPage4.Size = New System.Drawing.Size(1021, 669)
         Me.TabPage4.TabIndex = 3
         Me.TabPage4.Text = "Del 4"
         Me.TabPage4.UseVisualStyleBackColor = True
@@ -1415,19 +1394,18 @@ Partial Class EgenErklaering
         Me.Panel67.BackColor = System.Drawing.Color.SkyBlue
         Me.Panel67.Controls.Add(Me.Label67)
         Me.Panel67.Location = New System.Drawing.Point(0, 0)
-        Me.Panel67.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel67.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel67.Name = "Panel67"
-        Me.Panel67.Size = New System.Drawing.Size(764, 64)
+        Me.Panel67.Size = New System.Drawing.Size(1019, 79)
         Me.Panel67.TabIndex = 18
         '
         'Label67
         '
         Me.Label67.AutoSize = True
         Me.Label67.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.875!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label67.Location = New System.Drawing.Point(3, 15)
-        Me.Label67.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label67.Location = New System.Drawing.Point(4, 18)
         Me.Label67.Name = "Label67"
-        Me.Label67.Size = New System.Drawing.Size(372, 24)
+        Me.Label67.Size = New System.Drawing.Size(466, 29)
         Me.Label67.TabIndex = 0
         Me.Label67.Text = "Har du iløpet av de siste seks måneder"
         '
@@ -1436,19 +1414,19 @@ Partial Class EgenErklaering
         Me.Panel29.Controls.Add(Me.RadioButton57)
         Me.Panel29.Controls.Add(Me.RadioButton58)
         Me.Panel29.Controls.Add(Me.Label29)
-        Me.Panel29.Location = New System.Drawing.Point(0, 419)
-        Me.Panel29.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel29.Location = New System.Drawing.Point(0, 516)
+        Me.Panel29.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel29.Name = "Panel29"
-        Me.Panel29.Size = New System.Drawing.Size(764, 35)
+        Me.Panel29.Size = New System.Drawing.Size(1019, 43)
         Me.Panel29.TabIndex = 17
         '
         'RadioButton57
         '
         Me.RadioButton57.AutoSize = True
-        Me.RadioButton57.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton57.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton57.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton57.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton57.Name = "RadioButton57"
-        Me.RadioButton57.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton57.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton57.TabIndex = 2
         Me.RadioButton57.TabStop = True
         Me.RadioButton57.Tag = "0"
@@ -1458,10 +1436,10 @@ Partial Class EgenErklaering
         'RadioButton58
         '
         Me.RadioButton58.AutoSize = True
-        Me.RadioButton58.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton58.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton58.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton58.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton58.Name = "RadioButton58"
-        Me.RadioButton58.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton58.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton58.TabIndex = 1
         Me.RadioButton58.TabStop = True
         Me.RadioButton58.Tag = "1"
@@ -1471,10 +1449,9 @@ Partial Class EgenErklaering
         'Label29
         '
         Me.Label29.AutoSize = True
-        Me.Label29.Location = New System.Drawing.Point(3, 15)
-        Me.Label29.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label29.Location = New System.Drawing.Point(4, 18)
         Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(138, 13)
+        Me.Label29.Size = New System.Drawing.Size(186, 17)
         Me.Label29.TabIndex = 0
         Me.Label29.Text = "- vært utenfor Vest-Europa?"
         '
@@ -1484,19 +1461,19 @@ Partial Class EgenErklaering
         Me.Panel28.Controls.Add(Me.RadioButton55)
         Me.Panel28.Controls.Add(Me.RadioButton56)
         Me.Panel28.Controls.Add(Me.Label28)
-        Me.Panel28.Location = New System.Drawing.Point(0, 380)
-        Me.Panel28.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel28.Location = New System.Drawing.Point(0, 468)
+        Me.Panel28.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel28.Name = "Panel28"
-        Me.Panel28.Size = New System.Drawing.Size(764, 35)
+        Me.Panel28.Size = New System.Drawing.Size(1019, 43)
         Me.Panel28.TabIndex = 16
         '
         'RadioButton55
         '
         Me.RadioButton55.AutoSize = True
-        Me.RadioButton55.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton55.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton55.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton55.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton55.Name = "RadioButton55"
-        Me.RadioButton55.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton55.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton55.TabIndex = 2
         Me.RadioButton55.TabStop = True
         Me.RadioButton55.Tag = "0"
@@ -1506,10 +1483,10 @@ Partial Class EgenErklaering
         'RadioButton56
         '
         Me.RadioButton56.AutoSize = True
-        Me.RadioButton56.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton56.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton56.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton56.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton56.Name = "RadioButton56"
-        Me.RadioButton56.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton56.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton56.TabIndex = 1
         Me.RadioButton56.TabStop = True
         Me.RadioButton56.Tag = "1"
@@ -1519,10 +1496,9 @@ Partial Class EgenErklaering
         'Label28
         '
         Me.Label28.AutoSize = True
-        Me.Label28.Location = New System.Drawing.Point(3, 15)
-        Me.Label28.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label28.Location = New System.Drawing.Point(4, 18)
         Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(123, 13)
+        Me.Label28.Size = New System.Drawing.Size(166, 17)
         Me.Label28.TabIndex = 0
         Me.Label28.Text = "- hatt ny seksualpartner?"
         '
@@ -1531,19 +1507,19 @@ Partial Class EgenErklaering
         Me.Panel27.Controls.Add(Me.RadioButton53)
         Me.Panel27.Controls.Add(Me.RadioButton54)
         Me.Panel27.Controls.Add(Me.Label27)
-        Me.Panel27.Location = New System.Drawing.Point(0, 342)
-        Me.Panel27.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel27.Location = New System.Drawing.Point(0, 421)
+        Me.Panel27.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel27.Name = "Panel27"
-        Me.Panel27.Size = New System.Drawing.Size(764, 35)
+        Me.Panel27.Size = New System.Drawing.Size(1019, 43)
         Me.Panel27.TabIndex = 15
         '
         'RadioButton53
         '
         Me.RadioButton53.AutoSize = True
-        Me.RadioButton53.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton53.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton53.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton53.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton53.Name = "RadioButton53"
-        Me.RadioButton53.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton53.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton53.TabIndex = 2
         Me.RadioButton53.TabStop = True
         Me.RadioButton53.Tag = "0"
@@ -1553,10 +1529,10 @@ Partial Class EgenErklaering
         'RadioButton54
         '
         Me.RadioButton54.AutoSize = True
-        Me.RadioButton54.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton54.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton54.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton54.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton54.Name = "RadioButton54"
-        Me.RadioButton54.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton54.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton54.TabIndex = 1
         Me.RadioButton54.TabStop = True
         Me.RadioButton54.Tag = "1"
@@ -1566,10 +1542,9 @@ Partial Class EgenErklaering
         'Label27
         '
         Me.Label27.AutoSize = True
-        Me.Label27.Location = New System.Drawing.Point(3, 15)
-        Me.Label27.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label27.Location = New System.Drawing.Point(4, 18)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(435, 13)
+        Me.Label27.Size = New System.Drawing.Size(586, 17)
         Me.Label27.TabIndex = 0
         Me.Label27.Text = "- hatt seksuell kontakt med en person som har fått blod eller blodprodukter utenf" &
     "or Norden?"
@@ -1580,19 +1555,19 @@ Partial Class EgenErklaering
         Me.Panel26.Controls.Add(Me.RadioButton51)
         Me.Panel26.Controls.Add(Me.RadioButton52)
         Me.Panel26.Controls.Add(Me.Label26)
-        Me.Panel26.Location = New System.Drawing.Point(0, 303)
-        Me.Panel26.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel26.Location = New System.Drawing.Point(0, 373)
+        Me.Panel26.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel26.Name = "Panel26"
-        Me.Panel26.Size = New System.Drawing.Size(764, 35)
+        Me.Panel26.Size = New System.Drawing.Size(1019, 43)
         Me.Panel26.TabIndex = 14
         '
         'RadioButton51
         '
         Me.RadioButton51.AutoSize = True
-        Me.RadioButton51.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton51.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton51.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton51.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton51.Name = "RadioButton51"
-        Me.RadioButton51.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton51.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton51.TabIndex = 2
         Me.RadioButton51.TabStop = True
         Me.RadioButton51.Tag = "0"
@@ -1602,10 +1577,10 @@ Partial Class EgenErklaering
         'RadioButton52
         '
         Me.RadioButton52.AutoSize = True
-        Me.RadioButton52.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton52.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton52.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton52.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton52.Name = "RadioButton52"
-        Me.RadioButton52.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton52.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton52.TabIndex = 1
         Me.RadioButton52.TabStop = True
         Me.RadioButton52.Tag = "1"
@@ -1615,10 +1590,9 @@ Partial Class EgenErklaering
         'Label26
         '
         Me.Label26.AutoSize = True
-        Me.Label26.Location = New System.Drawing.Point(3, 15)
-        Me.Label26.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label26.Location = New System.Drawing.Point(4, 18)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(209, 13)
+        Me.Label26.Size = New System.Drawing.Size(282, 17)
         Me.Label26.TabIndex = 0
         Me.Label26.Text = "- hatt seksualpartner som har vært i Afrika?"
         '
@@ -1627,19 +1601,19 @@ Partial Class EgenErklaering
         Me.Panel25.Controls.Add(Me.RadioButton49)
         Me.Panel25.Controls.Add(Me.RadioButton50)
         Me.Panel25.Controls.Add(Me.Label25)
-        Me.Panel25.Location = New System.Drawing.Point(0, 265)
-        Me.Panel25.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel25.Location = New System.Drawing.Point(0, 326)
+        Me.Panel25.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel25.Name = "Panel25"
-        Me.Panel25.Size = New System.Drawing.Size(764, 35)
+        Me.Panel25.Size = New System.Drawing.Size(1019, 43)
         Me.Panel25.TabIndex = 13
         '
         'RadioButton49
         '
         Me.RadioButton49.AutoSize = True
-        Me.RadioButton49.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton49.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton49.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton49.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton49.Name = "RadioButton49"
-        Me.RadioButton49.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton49.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton49.TabIndex = 2
         Me.RadioButton49.TabStop = True
         Me.RadioButton49.Tag = "0"
@@ -1649,10 +1623,10 @@ Partial Class EgenErklaering
         'RadioButton50
         '
         Me.RadioButton50.AutoSize = True
-        Me.RadioButton50.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton50.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton50.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton50.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton50.Name = "RadioButton50"
-        Me.RadioButton50.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton50.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton50.TabIndex = 1
         Me.RadioButton50.TabStop = True
         Me.RadioButton50.Tag = "1"
@@ -1662,10 +1636,9 @@ Partial Class EgenErklaering
         'Label25
         '
         Me.Label25.AutoSize = True
-        Me.Label25.Location = New System.Drawing.Point(3, 15)
-        Me.Label25.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label25.Location = New System.Drawing.Point(4, 18)
         Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(431, 13)
+        Me.Label25.Size = New System.Drawing.Size(584, 17)
         Me.Label25.TabIndex = 0
         Me.Label25.Text = "- hatt seksualpartner som har bodd mer enn ett år sammenhengende utenfor Vest-Eur" &
     "opa?"
@@ -1676,19 +1649,19 @@ Partial Class EgenErklaering
         Me.Panel24.Controls.Add(Me.RadioButton47)
         Me.Panel24.Controls.Add(Me.RadioButton48)
         Me.Panel24.Controls.Add(Me.Label24)
-        Me.Panel24.Location = New System.Drawing.Point(0, 226)
-        Me.Panel24.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel24.Location = New System.Drawing.Point(0, 278)
+        Me.Panel24.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel24.Name = "Panel24"
-        Me.Panel24.Size = New System.Drawing.Size(764, 35)
+        Me.Panel24.Size = New System.Drawing.Size(1019, 43)
         Me.Panel24.TabIndex = 10
         '
         'RadioButton47
         '
         Me.RadioButton47.AutoSize = True
-        Me.RadioButton47.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton47.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton47.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton47.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton47.Name = "RadioButton47"
-        Me.RadioButton47.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton47.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton47.TabIndex = 2
         Me.RadioButton47.TabStop = True
         Me.RadioButton47.Tag = "0"
@@ -1698,10 +1671,10 @@ Partial Class EgenErklaering
         'RadioButton48
         '
         Me.RadioButton48.AutoSize = True
-        Me.RadioButton48.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton48.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton48.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton48.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton48.Name = "RadioButton48"
-        Me.RadioButton48.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton48.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton48.TabIndex = 1
         Me.RadioButton48.TabStop = True
         Me.RadioButton48.Tag = "1"
@@ -1711,10 +1684,9 @@ Partial Class EgenErklaering
         'Label24
         '
         Me.Label24.AutoSize = True
-        Me.Label24.Location = New System.Drawing.Point(3, 15)
-        Me.Label24.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label24.Location = New System.Drawing.Point(4, 18)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(87, 13)
+        Me.Label24.Size = New System.Drawing.Size(116, 17)
         Me.Label24.TabIndex = 0
         Me.Label24.Text = "- blitt bitt av flått?"
         '
@@ -1723,19 +1695,19 @@ Partial Class EgenErklaering
         Me.Panel23.Controls.Add(Me.RadioButton45)
         Me.Panel23.Controls.Add(Me.RadioButton46)
         Me.Panel23.Controls.Add(Me.Label23)
-        Me.Panel23.Location = New System.Drawing.Point(-2, 188)
-        Me.Panel23.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel23.Location = New System.Drawing.Point(-3, 231)
+        Me.Panel23.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel23.Name = "Panel23"
-        Me.Panel23.Size = New System.Drawing.Size(764, 35)
+        Me.Panel23.Size = New System.Drawing.Size(1019, 43)
         Me.Panel23.TabIndex = 12
         '
         'RadioButton45
         '
         Me.RadioButton45.AutoSize = True
-        Me.RadioButton45.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton45.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton45.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton45.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton45.Name = "RadioButton45"
-        Me.RadioButton45.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton45.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton45.TabIndex = 2
         Me.RadioButton45.TabStop = True
         Me.RadioButton45.Tag = "0"
@@ -1745,10 +1717,10 @@ Partial Class EgenErklaering
         'RadioButton46
         '
         Me.RadioButton46.AutoSize = True
-        Me.RadioButton46.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton46.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton46.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton46.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton46.Name = "RadioButton46"
-        Me.RadioButton46.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton46.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton46.TabIndex = 1
         Me.RadioButton46.TabStop = True
         Me.RadioButton46.Tag = "1"
@@ -1758,10 +1730,9 @@ Partial Class EgenErklaering
         'Label23
         '
         Me.Label23.AutoSize = True
-        Me.Label23.Location = New System.Drawing.Point(3, 15)
-        Me.Label23.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label23.Location = New System.Drawing.Point(4, 18)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(212, 13)
+        Me.Label23.Size = New System.Drawing.Size(287, 17)
         Me.Label23.TabIndex = 0
         Me.Label23.Text = "- fått blodsøl på slimhinner eller skadet hud?"
         '
@@ -1771,19 +1742,19 @@ Partial Class EgenErklaering
         Me.Panel22.Controls.Add(Me.RadioButton43)
         Me.Panel22.Controls.Add(Me.RadioButton44)
         Me.Panel22.Controls.Add(Me.Label22)
-        Me.Panel22.Location = New System.Drawing.Point(0, 149)
-        Me.Panel22.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel22.Location = New System.Drawing.Point(0, 183)
+        Me.Panel22.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel22.Name = "Panel22"
-        Me.Panel22.Size = New System.Drawing.Size(764, 35)
+        Me.Panel22.Size = New System.Drawing.Size(1019, 43)
         Me.Panel22.TabIndex = 11
         '
         'RadioButton43
         '
         Me.RadioButton43.AutoSize = True
-        Me.RadioButton43.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton43.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton43.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton43.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton43.Name = "RadioButton43"
-        Me.RadioButton43.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton43.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton43.TabIndex = 2
         Me.RadioButton43.TabStop = True
         Me.RadioButton43.Tag = "0"
@@ -1793,10 +1764,10 @@ Partial Class EgenErklaering
         'RadioButton44
         '
         Me.RadioButton44.AutoSize = True
-        Me.RadioButton44.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton44.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton44.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton44.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton44.Name = "RadioButton44"
-        Me.RadioButton44.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton44.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton44.TabIndex = 1
         Me.RadioButton44.TabStop = True
         Me.RadioButton44.Tag = "1"
@@ -1806,10 +1777,9 @@ Partial Class EgenErklaering
         'Label22
         '
         Me.Label22.AutoSize = True
-        Me.Label22.Location = New System.Drawing.Point(3, 15)
-        Me.Label22.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label22.Location = New System.Drawing.Point(4, 18)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(290, 13)
+        Me.Label22.Size = New System.Drawing.Size(392, 17)
         Me.Label22.TabIndex = 0
         Me.Label22.Text = "- bodd i samme husstand som en person som har hepatitt B?"
         '
@@ -1818,19 +1788,19 @@ Partial Class EgenErklaering
         Me.Panel21.Controls.Add(Me.RadioButton41)
         Me.Panel21.Controls.Add(Me.RadioButton42)
         Me.Panel21.Controls.Add(Me.Label21)
-        Me.Panel21.Location = New System.Drawing.Point(0, 111)
-        Me.Panel21.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel21.Location = New System.Drawing.Point(0, 137)
+        Me.Panel21.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel21.Name = "Panel21"
-        Me.Panel21.Size = New System.Drawing.Size(764, 35)
+        Me.Panel21.Size = New System.Drawing.Size(1019, 43)
         Me.Panel21.TabIndex = 10
         '
         'RadioButton41
         '
         Me.RadioButton41.AutoSize = True
-        Me.RadioButton41.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton41.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton41.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton41.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton41.Name = "RadioButton41"
-        Me.RadioButton41.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton41.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton41.TabIndex = 2
         Me.RadioButton41.TabStop = True
         Me.RadioButton41.Tag = "0"
@@ -1840,10 +1810,10 @@ Partial Class EgenErklaering
         'RadioButton42
         '
         Me.RadioButton42.AutoSize = True
-        Me.RadioButton42.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton42.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton42.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton42.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton42.Name = "RadioButton42"
-        Me.RadioButton42.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton42.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton42.TabIndex = 1
         Me.RadioButton42.TabStop = True
         Me.RadioButton42.Tag = "1"
@@ -1853,10 +1823,9 @@ Partial Class EgenErklaering
         'Label21
         '
         Me.Label21.AutoSize = True
-        Me.Label21.Location = New System.Drawing.Point(3, 15)
-        Me.Label21.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label21.Location = New System.Drawing.Point(4, 18)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(425, 13)
+        Me.Label21.Size = New System.Drawing.Size(573, 17)
         Me.Label21.TabIndex = 0
         Me.Label21.Text = "- stukket eller skåret deg på gjenstander som var forurenset med blod eller kropp" &
     "svæsker"
@@ -1867,19 +1836,19 @@ Partial Class EgenErklaering
         Me.Panel20.Controls.Add(Me.RadioButton39)
         Me.Panel20.Controls.Add(Me.RadioButton40)
         Me.Panel20.Controls.Add(Me.Label20)
-        Me.Panel20.Location = New System.Drawing.Point(0, 72)
-        Me.Panel20.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel20.Location = New System.Drawing.Point(0, 89)
+        Me.Panel20.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel20.Name = "Panel20"
-        Me.Panel20.Size = New System.Drawing.Size(764, 35)
+        Me.Panel20.Size = New System.Drawing.Size(1019, 43)
         Me.Panel20.TabIndex = 9
         '
         'RadioButton39
         '
         Me.RadioButton39.AutoSize = True
-        Me.RadioButton39.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton39.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton39.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton39.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton39.Name = "RadioButton39"
-        Me.RadioButton39.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton39.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton39.TabIndex = 2
         Me.RadioButton39.TabStop = True
         Me.RadioButton39.Tag = "0"
@@ -1889,10 +1858,10 @@ Partial Class EgenErklaering
         'RadioButton40
         '
         Me.RadioButton40.AutoSize = True
-        Me.RadioButton40.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton40.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton40.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton40.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton40.Name = "RadioButton40"
-        Me.RadioButton40.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton40.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton40.TabIndex = 1
         Me.RadioButton40.TabStop = True
         Me.RadioButton40.Tag = "1"
@@ -1902,10 +1871,9 @@ Partial Class EgenErklaering
         'Label20
         '
         Me.Label20.AutoSize = True
-        Me.Label20.Location = New System.Drawing.Point(3, 15)
-        Me.Label20.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label20.Location = New System.Drawing.Point(4, 18)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(91, 13)
+        Me.Label20.Size = New System.Drawing.Size(120, 17)
         Me.Label20.TabIndex = 0
         Me.Label20.Text = "- fått akupunktur?"
         '
@@ -1913,11 +1881,11 @@ Partial Class EgenErklaering
         '
         Me.TabPage5.Controls.Add(Me.Panel68)
         Me.TabPage5.Controls.Add(Me.Panel30)
-        Me.TabPage5.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage5.Margin = New System.Windows.Forms.Padding(2)
+        Me.TabPage5.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TabPage5.Name = "TabPage5"
-        Me.TabPage5.Padding = New System.Windows.Forms.Padding(2)
-        Me.TabPage5.Size = New System.Drawing.Size(764, 541)
+        Me.TabPage5.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TabPage5.Size = New System.Drawing.Size(1021, 669)
         Me.TabPage5.TabIndex = 4
         Me.TabPage5.Text = "Del 5"
         Me.TabPage5.UseVisualStyleBackColor = True
@@ -1927,19 +1895,18 @@ Partial Class EgenErklaering
         Me.Panel68.BackColor = System.Drawing.Color.SkyBlue
         Me.Panel68.Controls.Add(Me.Label68)
         Me.Panel68.Location = New System.Drawing.Point(0, 0)
-        Me.Panel68.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel68.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel68.Name = "Panel68"
-        Me.Panel68.Size = New System.Drawing.Size(764, 64)
+        Me.Panel68.Size = New System.Drawing.Size(1019, 79)
         Me.Panel68.TabIndex = 10
         '
         'Label68
         '
         Me.Label68.AutoSize = True
         Me.Label68.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.875!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label68.Location = New System.Drawing.Point(3, 15)
-        Me.Label68.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label68.Location = New System.Drawing.Point(4, 18)
         Me.Label68.Name = "Label68"
-        Me.Label68.Size = New System.Drawing.Size(282, 24)
+        Me.Label68.Size = New System.Drawing.Size(354, 29)
         Me.Label68.TabIndex = 0
         Me.Label68.Text = "Har du iløpet av de siste to år"
         '
@@ -1949,19 +1916,19 @@ Partial Class EgenErklaering
         Me.Panel30.Controls.Add(Me.RadioButton59)
         Me.Panel30.Controls.Add(Me.RadioButton60)
         Me.Panel30.Controls.Add(Me.Label30)
-        Me.Panel30.Location = New System.Drawing.Point(0, 72)
-        Me.Panel30.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel30.Location = New System.Drawing.Point(0, 89)
+        Me.Panel30.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel30.Name = "Panel30"
-        Me.Panel30.Size = New System.Drawing.Size(764, 46)
+        Me.Panel30.Size = New System.Drawing.Size(1019, 57)
         Me.Panel30.TabIndex = 9
         '
         'RadioButton59
         '
         Me.RadioButton59.AutoSize = True
-        Me.RadioButton59.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton59.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton59.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton59.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton59.Name = "RadioButton59"
-        Me.RadioButton59.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton59.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton59.TabIndex = 2
         Me.RadioButton59.TabStop = True
         Me.RadioButton59.Tag = "0"
@@ -1971,10 +1938,10 @@ Partial Class EgenErklaering
         'RadioButton60
         '
         Me.RadioButton60.AutoSize = True
-        Me.RadioButton60.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton60.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton60.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton60.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton60.Name = "RadioButton60"
-        Me.RadioButton60.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton60.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton60.TabIndex = 1
         Me.RadioButton60.TabStop = True
         Me.RadioButton60.Tag = "1"
@@ -1984,10 +1951,9 @@ Partial Class EgenErklaering
         'Label30
         '
         Me.Label30.AutoSize = True
-        Me.Label30.Location = New System.Drawing.Point(3, 15)
-        Me.Label30.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label30.Location = New System.Drawing.Point(4, 18)
         Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(240, 13)
+        Me.Label30.Size = New System.Drawing.Size(325, 17)
         Me.Label30.TabIndex = 0
         Me.Label30.Text = "- hatt sjeldne eller alvorlige infeksjonssykdommer?"
         '
@@ -2009,11 +1975,11 @@ Partial Class EgenErklaering
         Me.TabPage6.Controls.Add(Me.Panel31)
         Me.TabPage6.Controls.Add(Me.Panel39)
         Me.TabPage6.Controls.Add(Me.Panel40)
-        Me.TabPage6.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage6.Margin = New System.Windows.Forms.Padding(2)
+        Me.TabPage6.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TabPage6.Name = "TabPage6"
-        Me.TabPage6.Padding = New System.Windows.Forms.Padding(2)
-        Me.TabPage6.Size = New System.Drawing.Size(764, 541)
+        Me.TabPage6.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TabPage6.Size = New System.Drawing.Size(1021, 669)
         Me.TabPage6.TabIndex = 5
         Me.TabPage6.Text = "Del 6"
         Me.TabPage6.UseVisualStyleBackColor = True
@@ -2023,19 +1989,18 @@ Partial Class EgenErklaering
         Me.Panel69.BackColor = System.Drawing.Color.SkyBlue
         Me.Panel69.Controls.Add(Me.Label69)
         Me.Panel69.Location = New System.Drawing.Point(0, 0)
-        Me.Panel69.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel69.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel69.Name = "Panel69"
-        Me.Panel69.Size = New System.Drawing.Size(764, 64)
+        Me.Panel69.Size = New System.Drawing.Size(1019, 79)
         Me.Panel69.TabIndex = 32
         '
         'Label69
         '
         Me.Label69.AutoSize = True
         Me.Label69.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.875!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label69.Location = New System.Drawing.Point(3, 15)
-        Me.Label69.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label69.Location = New System.Drawing.Point(4, 18)
         Me.Label69.Name = "Label69"
-        Me.Label69.Size = New System.Drawing.Size(364, 24)
+        Me.Label69.Size = New System.Drawing.Size(452, 29)
         Me.Label69.TabIndex = 0
         Me.Label69.Text = "Har du på noe tidspunkt gjennom livet"
         '
@@ -2045,19 +2010,19 @@ Partial Class EgenErklaering
         Me.Panel41.Controls.Add(Me.RadioButton81)
         Me.Panel41.Controls.Add(Me.RadioButton82)
         Me.Panel41.Controls.Add(Me.Label41)
-        Me.Panel41.Location = New System.Drawing.Point(3, 509)
-        Me.Panel41.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel41.Location = New System.Drawing.Point(4, 626)
+        Me.Panel41.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel41.Name = "Panel41"
-        Me.Panel41.Size = New System.Drawing.Size(764, 28)
+        Me.Panel41.Size = New System.Drawing.Size(1019, 34)
         Me.Panel41.TabIndex = 28
         '
         'RadioButton81
         '
         Me.RadioButton81.AutoSize = True
-        Me.RadioButton81.Location = New System.Drawing.Point(662, 5)
-        Me.RadioButton81.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton81.Location = New System.Drawing.Point(883, 6)
+        Me.RadioButton81.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton81.Name = "RadioButton81"
-        Me.RadioButton81.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton81.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton81.TabIndex = 2
         Me.RadioButton81.TabStop = True
         Me.RadioButton81.Tag = "0"
@@ -2067,10 +2032,10 @@ Partial Class EgenErklaering
         'RadioButton82
         '
         Me.RadioButton82.AutoSize = True
-        Me.RadioButton82.Location = New System.Drawing.Point(554, 5)
-        Me.RadioButton82.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton82.Location = New System.Drawing.Point(739, 6)
+        Me.RadioButton82.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton82.Name = "RadioButton82"
-        Me.RadioButton82.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton82.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton82.TabIndex = 1
         Me.RadioButton82.TabStop = True
         Me.RadioButton82.Tag = "1"
@@ -2080,10 +2045,9 @@ Partial Class EgenErklaering
         'Label41
         '
         Me.Label41.AutoSize = True
-        Me.Label41.Location = New System.Drawing.Point(3, 7)
-        Me.Label41.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label41.Location = New System.Drawing.Point(4, 9)
         Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(262, 13)
+        Me.Label41.Size = New System.Drawing.Size(354, 17)
         Me.Label41.TabIndex = 0
         Me.Label41.Text = "- mottatt penger eller narkotika som gjenytelse for sex?"
         '
@@ -2092,19 +2056,19 @@ Partial Class EgenErklaering
         Me.Panel42.Controls.Add(Me.RadioButton83)
         Me.Panel42.Controls.Add(Me.RadioButton84)
         Me.Panel42.Controls.Add(Me.Label42)
-        Me.Panel42.Location = New System.Drawing.Point(3, 478)
-        Me.Panel42.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel42.Location = New System.Drawing.Point(4, 588)
+        Me.Panel42.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel42.Name = "Panel42"
-        Me.Panel42.Size = New System.Drawing.Size(764, 28)
+        Me.Panel42.Size = New System.Drawing.Size(1019, 34)
         Me.Panel42.TabIndex = 31
         '
         'RadioButton83
         '
         Me.RadioButton83.AutoSize = True
-        Me.RadioButton83.Location = New System.Drawing.Point(662, 5)
-        Me.RadioButton83.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton83.Location = New System.Drawing.Point(883, 6)
+        Me.RadioButton83.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton83.Name = "RadioButton83"
-        Me.RadioButton83.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton83.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton83.TabIndex = 2
         Me.RadioButton83.TabStop = True
         Me.RadioButton83.Tag = "0"
@@ -2114,10 +2078,10 @@ Partial Class EgenErklaering
         'RadioButton84
         '
         Me.RadioButton84.AutoSize = True
-        Me.RadioButton84.Location = New System.Drawing.Point(554, 5)
-        Me.RadioButton84.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton84.Location = New System.Drawing.Point(739, 6)
+        Me.RadioButton84.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton84.Name = "RadioButton84"
-        Me.RadioButton84.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton84.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton84.TabIndex = 1
         Me.RadioButton84.TabStop = True
         Me.RadioButton84.Tag = "1"
@@ -2127,10 +2091,9 @@ Partial Class EgenErklaering
         'Label42
         '
         Me.Label42.AutoSize = True
-        Me.Label42.Location = New System.Drawing.Point(3, 7)
-        Me.Label42.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label42.Location = New System.Drawing.Point(4, 9)
         Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(271, 13)
+        Me.Label42.Size = New System.Drawing.Size(370, 17)
         Me.Label42.TabIndex = 0
         Me.Label42.Text = "- brukt dopingmidler eller narkotiske midler som sprøyter?"
         '
@@ -2140,19 +2103,19 @@ Partial Class EgenErklaering
         Me.Panel43.Controls.Add(Me.RadioButton85)
         Me.Panel43.Controls.Add(Me.RadioButton86)
         Me.Panel43.Controls.Add(Me.Label43)
-        Me.Panel43.Location = New System.Drawing.Point(3, 447)
-        Me.Panel43.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel43.Location = New System.Drawing.Point(4, 550)
+        Me.Panel43.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel43.Name = "Panel43"
-        Me.Panel43.Size = New System.Drawing.Size(764, 28)
+        Me.Panel43.Size = New System.Drawing.Size(1019, 34)
         Me.Panel43.TabIndex = 30
         '
         'RadioButton85
         '
         Me.RadioButton85.AutoSize = True
-        Me.RadioButton85.Location = New System.Drawing.Point(662, 5)
-        Me.RadioButton85.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton85.Location = New System.Drawing.Point(883, 6)
+        Me.RadioButton85.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton85.Name = "RadioButton85"
-        Me.RadioButton85.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton85.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton85.TabIndex = 2
         Me.RadioButton85.TabStop = True
         Me.RadioButton85.Tag = "0"
@@ -2162,10 +2125,10 @@ Partial Class EgenErklaering
         'RadioButton86
         '
         Me.RadioButton86.AutoSize = True
-        Me.RadioButton86.Location = New System.Drawing.Point(554, 5)
-        Me.RadioButton86.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton86.Location = New System.Drawing.Point(739, 6)
+        Me.RadioButton86.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton86.Name = "RadioButton86"
-        Me.RadioButton86.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton86.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton86.TabIndex = 1
         Me.RadioButton86.TabStop = True
         Me.RadioButton86.Tag = "1"
@@ -2175,10 +2138,9 @@ Partial Class EgenErklaering
         'Label43
         '
         Me.Label43.AutoSize = True
-        Me.Label43.Location = New System.Drawing.Point(3, 7)
-        Me.Label43.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label43.Location = New System.Drawing.Point(4, 9)
         Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(217, 13)
+        Me.Label43.Size = New System.Drawing.Size(290, 17)
         Me.Label43.TabIndex = 0
         Me.Label43.Text = "- hatt alvorlig sykdom som ikke er nevnt her?"
         '
@@ -2187,19 +2149,19 @@ Partial Class EgenErklaering
         Me.Panel44.Controls.Add(Me.RadioButton87)
         Me.Panel44.Controls.Add(Me.RadioButton88)
         Me.Panel44.Controls.Add(Me.Label44)
-        Me.Panel44.Location = New System.Drawing.Point(2, 415)
-        Me.Panel44.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel44.Location = New System.Drawing.Point(3, 511)
+        Me.Panel44.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel44.Name = "Panel44"
-        Me.Panel44.Size = New System.Drawing.Size(764, 28)
+        Me.Panel44.Size = New System.Drawing.Size(1019, 34)
         Me.Panel44.TabIndex = 29
         '
         'RadioButton87
         '
         Me.RadioButton87.AutoSize = True
-        Me.RadioButton87.Location = New System.Drawing.Point(662, 5)
-        Me.RadioButton87.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton87.Location = New System.Drawing.Point(883, 6)
+        Me.RadioButton87.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton87.Name = "RadioButton87"
-        Me.RadioButton87.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton87.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton87.TabIndex = 2
         Me.RadioButton87.TabStop = True
         Me.RadioButton87.Tag = "0"
@@ -2209,10 +2171,10 @@ Partial Class EgenErklaering
         'RadioButton88
         '
         Me.RadioButton88.AutoSize = True
-        Me.RadioButton88.Location = New System.Drawing.Point(554, 5)
-        Me.RadioButton88.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton88.Location = New System.Drawing.Point(739, 6)
+        Me.RadioButton88.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton88.Name = "RadioButton88"
-        Me.RadioButton88.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton88.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton88.TabIndex = 1
         Me.RadioButton88.TabStop = True
         Me.RadioButton88.Tag = "1"
@@ -2222,10 +2184,9 @@ Partial Class EgenErklaering
         'Label44
         '
         Me.Label44.AutoSize = True
-        Me.Label44.Location = New System.Drawing.Point(3, 7)
-        Me.Label44.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label44.Location = New System.Drawing.Point(4, 9)
         Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(64, 13)
+        Me.Label44.Size = New System.Drawing.Size(87, 17)
         Me.Label44.TabIndex = 0
         Me.Label44.Text = "- hatt syfilis?"
         '
@@ -2235,19 +2196,19 @@ Partial Class EgenErklaering
         Me.Panel45.Controls.Add(Me.RadioButton89)
         Me.Panel45.Controls.Add(Me.RadioButton90)
         Me.Panel45.Controls.Add(Me.Label45)
-        Me.Panel45.Location = New System.Drawing.Point(2, 384)
-        Me.Panel45.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel45.Location = New System.Drawing.Point(3, 473)
+        Me.Panel45.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel45.Name = "Panel45"
-        Me.Panel45.Size = New System.Drawing.Size(764, 28)
+        Me.Panel45.Size = New System.Drawing.Size(1019, 34)
         Me.Panel45.TabIndex = 27
         '
         'RadioButton89
         '
         Me.RadioButton89.AutoSize = True
-        Me.RadioButton89.Location = New System.Drawing.Point(662, 5)
-        Me.RadioButton89.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton89.Location = New System.Drawing.Point(883, 6)
+        Me.RadioButton89.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton89.Name = "RadioButton89"
-        Me.RadioButton89.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton89.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton89.TabIndex = 2
         Me.RadioButton89.TabStop = True
         Me.RadioButton89.Tag = "0"
@@ -2257,10 +2218,10 @@ Partial Class EgenErklaering
         'RadioButton90
         '
         Me.RadioButton90.AutoSize = True
-        Me.RadioButton90.Location = New System.Drawing.Point(554, 5)
-        Me.RadioButton90.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton90.Location = New System.Drawing.Point(739, 6)
+        Me.RadioButton90.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton90.Name = "RadioButton90"
-        Me.RadioButton90.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton90.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton90.TabIndex = 1
         Me.RadioButton90.TabStop = True
         Me.RadioButton90.Tag = "1"
@@ -2270,10 +2231,9 @@ Partial Class EgenErklaering
         'Label45
         '
         Me.Label45.AutoSize = True
-        Me.Label45.Location = New System.Drawing.Point(3, 7)
-        Me.Label45.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label45.Location = New System.Drawing.Point(4, 9)
         Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(139, 13)
+        Me.Label45.Size = New System.Drawing.Size(188, 17)
         Me.Label45.TabIndex = 0
         Me.Label45.Text = "- fått hornhinnetransplantat?"
         '
@@ -2282,19 +2242,19 @@ Partial Class EgenErklaering
         Me.Panel35.Controls.Add(Me.RadioButton69)
         Me.Panel35.Controls.Add(Me.RadioButton70)
         Me.Panel35.Controls.Add(Me.Label35)
-        Me.Panel35.Location = New System.Drawing.Point(2, 353)
-        Me.Panel35.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel35.Location = New System.Drawing.Point(3, 434)
+        Me.Panel35.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel35.Name = "Panel35"
-        Me.Panel35.Size = New System.Drawing.Size(764, 28)
+        Me.Panel35.Size = New System.Drawing.Size(1019, 34)
         Me.Panel35.TabIndex = 23
         '
         'RadioButton69
         '
         Me.RadioButton69.AutoSize = True
-        Me.RadioButton69.Location = New System.Drawing.Point(662, 5)
-        Me.RadioButton69.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton69.Location = New System.Drawing.Point(883, 6)
+        Me.RadioButton69.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton69.Name = "RadioButton69"
-        Me.RadioButton69.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton69.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton69.TabIndex = 2
         Me.RadioButton69.TabStop = True
         Me.RadioButton69.Tag = "0"
@@ -2304,10 +2264,10 @@ Partial Class EgenErklaering
         'RadioButton70
         '
         Me.RadioButton70.AutoSize = True
-        Me.RadioButton70.Location = New System.Drawing.Point(554, 5)
-        Me.RadioButton70.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton70.Location = New System.Drawing.Point(739, 6)
+        Me.RadioButton70.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton70.Name = "RadioButton70"
-        Me.RadioButton70.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton70.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton70.TabIndex = 1
         Me.RadioButton70.TabStop = True
         Me.RadioButton70.Tag = "1"
@@ -2317,10 +2277,9 @@ Partial Class EgenErklaering
         'Label35
         '
         Me.Label35.AutoSize = True
-        Me.Label35.Location = New System.Drawing.Point(3, 7)
-        Me.Label35.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label35.Location = New System.Drawing.Point(4, 9)
         Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(98, 13)
+        Me.Label35.Size = New System.Drawing.Size(130, 17)
         Me.Label35.TabIndex = 0
         Me.Label35.Text = "- fått veksthormon?"
         '
@@ -2330,19 +2289,19 @@ Partial Class EgenErklaering
         Me.Panel34.Controls.Add(Me.RadioButton67)
         Me.Panel34.Controls.Add(Me.RadioButton68)
         Me.Panel34.Controls.Add(Me.Label34)
-        Me.Panel34.Location = New System.Drawing.Point(2, 197)
-        Me.Panel34.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel34.Location = New System.Drawing.Point(3, 242)
+        Me.Panel34.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel34.Name = "Panel34"
-        Me.Panel34.Size = New System.Drawing.Size(764, 28)
+        Me.Panel34.Size = New System.Drawing.Size(1019, 34)
         Me.Panel34.TabIndex = 19
         '
         'RadioButton67
         '
         Me.RadioButton67.AutoSize = True
-        Me.RadioButton67.Location = New System.Drawing.Point(662, 5)
-        Me.RadioButton67.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton67.Location = New System.Drawing.Point(883, 6)
+        Me.RadioButton67.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton67.Name = "RadioButton67"
-        Me.RadioButton67.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton67.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton67.TabIndex = 2
         Me.RadioButton67.TabStop = True
         Me.RadioButton67.Tag = "0"
@@ -2352,10 +2311,10 @@ Partial Class EgenErklaering
         'RadioButton68
         '
         Me.RadioButton68.AutoSize = True
-        Me.RadioButton68.Location = New System.Drawing.Point(554, 5)
-        Me.RadioButton68.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton68.Location = New System.Drawing.Point(739, 6)
+        Me.RadioButton68.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton68.Name = "RadioButton68"
-        Me.RadioButton68.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton68.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton68.TabIndex = 1
         Me.RadioButton68.TabStop = True
         Me.RadioButton68.Tag = "1"
@@ -2365,10 +2324,9 @@ Partial Class EgenErklaering
         'Label34
         '
         Me.Label34.AutoSize = True
-        Me.Label34.Location = New System.Drawing.Point(3, 7)
-        Me.Label34.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label34.Location = New System.Drawing.Point(4, 9)
         Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(76, 13)
+        Me.Label34.Size = New System.Drawing.Size(103, 17)
         Me.Label34.TabIndex = 0
         Me.Label34.Text = "- hatt malaria? "
         '
@@ -2378,19 +2336,19 @@ Partial Class EgenErklaering
         Me.Panel36.Controls.Add(Me.RadioButton71)
         Me.Panel36.Controls.Add(Me.RadioButton72)
         Me.Panel36.Controls.Add(Me.Label36)
-        Me.Panel36.Location = New System.Drawing.Point(2, 322)
-        Me.Panel36.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel36.Location = New System.Drawing.Point(3, 396)
+        Me.Panel36.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel36.Name = "Panel36"
-        Me.Panel36.Size = New System.Drawing.Size(764, 28)
+        Me.Panel36.Size = New System.Drawing.Size(1019, 34)
         Me.Panel36.TabIndex = 26
         '
         'RadioButton71
         '
         Me.RadioButton71.AutoSize = True
-        Me.RadioButton71.Location = New System.Drawing.Point(662, 5)
-        Me.RadioButton71.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton71.Location = New System.Drawing.Point(883, 6)
+        Me.RadioButton71.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton71.Name = "RadioButton71"
-        Me.RadioButton71.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton71.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton71.TabIndex = 2
         Me.RadioButton71.TabStop = True
         Me.RadioButton71.Tag = "0"
@@ -2400,10 +2358,10 @@ Partial Class EgenErklaering
         'RadioButton72
         '
         Me.RadioButton72.AutoSize = True
-        Me.RadioButton72.Location = New System.Drawing.Point(554, 5)
-        Me.RadioButton72.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton72.Location = New System.Drawing.Point(739, 6)
+        Me.RadioButton72.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton72.Name = "RadioButton72"
-        Me.RadioButton72.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton72.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton72.TabIndex = 1
         Me.RadioButton72.TabStop = True
         Me.RadioButton72.Tag = "1"
@@ -2413,10 +2371,9 @@ Partial Class EgenErklaering
         'Label36
         '
         Me.Label36.AutoSize = True
-        Me.Label36.Location = New System.Drawing.Point(3, 7)
-        Me.Label36.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label36.Location = New System.Drawing.Point(4, 9)
         Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(104, 13)
+        Me.Label36.Size = New System.Drawing.Size(140, 17)
         Me.Label36.TabIndex = 0
         Me.Label36.Text = "- fått blodoverføring?"
         '
@@ -2425,19 +2382,19 @@ Partial Class EgenErklaering
         Me.Panel33.Controls.Add(Me.RadioButton65)
         Me.Panel33.Controls.Add(Me.RadioButton66)
         Me.Panel33.Controls.Add(Me.Label33)
-        Me.Panel33.Location = New System.Drawing.Point(2, 166)
-        Me.Panel33.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel33.Location = New System.Drawing.Point(3, 204)
+        Me.Panel33.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel33.Name = "Panel33"
-        Me.Panel33.Size = New System.Drawing.Size(764, 28)
+        Me.Panel33.Size = New System.Drawing.Size(1019, 34)
         Me.Panel33.TabIndex = 21
         '
         'RadioButton65
         '
         Me.RadioButton65.AutoSize = True
-        Me.RadioButton65.Location = New System.Drawing.Point(662, 5)
-        Me.RadioButton65.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton65.Location = New System.Drawing.Point(883, 6)
+        Me.RadioButton65.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton65.Name = "RadioButton65"
-        Me.RadioButton65.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton65.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton65.TabIndex = 2
         Me.RadioButton65.TabStop = True
         Me.RadioButton65.Tag = "0"
@@ -2447,10 +2404,10 @@ Partial Class EgenErklaering
         'RadioButton66
         '
         Me.RadioButton66.AutoSize = True
-        Me.RadioButton66.Location = New System.Drawing.Point(554, 5)
-        Me.RadioButton66.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton66.Location = New System.Drawing.Point(739, 6)
+        Me.RadioButton66.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton66.Name = "RadioButton66"
-        Me.RadioButton66.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton66.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton66.TabIndex = 1
         Me.RadioButton66.TabStop = True
         Me.RadioButton66.Tag = "1"
@@ -2460,10 +2417,9 @@ Partial Class EgenErklaering
         'Label33
         '
         Me.Label33.AutoSize = True
-        Me.Label33.Location = New System.Drawing.Point(3, 7)
-        Me.Label33.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label33.Location = New System.Drawing.Point(4, 9)
         Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(176, 13)
+        Me.Label33.Size = New System.Drawing.Size(241, 17)
         Me.Label33.TabIndex = 0
         Me.Label33.Text = "- hatt allergi mot mat eller medisiner?"
         '
@@ -2472,19 +2428,19 @@ Partial Class EgenErklaering
         Me.Panel37.Controls.Add(Me.RadioButton73)
         Me.Panel37.Controls.Add(Me.RadioButton74)
         Me.Panel37.Controls.Add(Me.Label37)
-        Me.Panel37.Location = New System.Drawing.Point(2, 291)
-        Me.Panel37.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel37.Location = New System.Drawing.Point(3, 358)
+        Me.Panel37.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel37.Name = "Panel37"
-        Me.Panel37.Size = New System.Drawing.Size(764, 28)
+        Me.Panel37.Size = New System.Drawing.Size(1019, 34)
         Me.Panel37.TabIndex = 25
         '
         'RadioButton73
         '
         Me.RadioButton73.AutoSize = True
-        Me.RadioButton73.Location = New System.Drawing.Point(662, 5)
-        Me.RadioButton73.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton73.Location = New System.Drawing.Point(883, 6)
+        Me.RadioButton73.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton73.Name = "RadioButton73"
-        Me.RadioButton73.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton73.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton73.TabIndex = 2
         Me.RadioButton73.TabStop = True
         Me.RadioButton73.Tag = "0"
@@ -2494,10 +2450,10 @@ Partial Class EgenErklaering
         'RadioButton74
         '
         Me.RadioButton74.AutoSize = True
-        Me.RadioButton74.Location = New System.Drawing.Point(554, 5)
-        Me.RadioButton74.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton74.Location = New System.Drawing.Point(739, 6)
+        Me.RadioButton74.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton74.Name = "RadioButton74"
-        Me.RadioButton74.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton74.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton74.TabIndex = 1
         Me.RadioButton74.TabStop = True
         Me.RadioButton74.Tag = "1"
@@ -2507,10 +2463,9 @@ Partial Class EgenErklaering
         'Label37
         '
         Me.Label37.AutoSize = True
-        Me.Label37.Location = New System.Drawing.Point(3, 7)
-        Me.Label37.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label37.Location = New System.Drawing.Point(4, 9)
         Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(281, 13)
+        Me.Label37.Size = New System.Drawing.Size(379, 17)
         Me.Label37.TabIndex = 0
         Me.Label37.Text = "- hatt positiv prøve for hepatitt (gulsott) eller HIV-infeksjon?"
         '
@@ -2520,19 +2475,19 @@ Partial Class EgenErklaering
         Me.Panel32.Controls.Add(Me.RadioButton63)
         Me.Panel32.Controls.Add(Me.RadioButton64)
         Me.Panel32.Controls.Add(Me.Label32)
-        Me.Panel32.Location = New System.Drawing.Point(2, 135)
-        Me.Panel32.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel32.Location = New System.Drawing.Point(3, 166)
+        Me.Panel32.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel32.Name = "Panel32"
-        Me.Panel32.Size = New System.Drawing.Size(764, 28)
+        Me.Panel32.Size = New System.Drawing.Size(1019, 34)
         Me.Panel32.TabIndex = 20
         '
         'RadioButton63
         '
         Me.RadioButton63.AutoSize = True
-        Me.RadioButton63.Location = New System.Drawing.Point(662, 5)
-        Me.RadioButton63.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton63.Location = New System.Drawing.Point(883, 6)
+        Me.RadioButton63.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton63.Name = "RadioButton63"
-        Me.RadioButton63.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton63.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton63.TabIndex = 2
         Me.RadioButton63.TabStop = True
         Me.RadioButton63.Tag = "0"
@@ -2542,10 +2497,10 @@ Partial Class EgenErklaering
         'RadioButton64
         '
         Me.RadioButton64.AutoSize = True
-        Me.RadioButton64.Location = New System.Drawing.Point(554, 5)
-        Me.RadioButton64.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton64.Location = New System.Drawing.Point(739, 6)
+        Me.RadioButton64.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton64.Name = "RadioButton64"
-        Me.RadioButton64.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton64.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton64.TabIndex = 1
         Me.RadioButton64.TabStop = True
         Me.RadioButton64.Tag = "1"
@@ -2555,10 +2510,9 @@ Partial Class EgenErklaering
         'Label32
         '
         Me.Label32.AutoSize = True
-        Me.Label32.Location = New System.Drawing.Point(3, 7)
-        Me.Label32.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label32.Location = New System.Drawing.Point(4, 9)
         Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(123, 13)
+        Me.Label32.Size = New System.Drawing.Size(165, 17)
         Me.Label32.TabIndex = 0
         Me.Label32.Text = "- hatt blødningstendens?"
         '
@@ -2568,19 +2522,19 @@ Partial Class EgenErklaering
         Me.Panel38.Controls.Add(Me.RadioButton75)
         Me.Panel38.Controls.Add(Me.RadioButton76)
         Me.Panel38.Controls.Add(Me.Label38)
-        Me.Panel38.Location = New System.Drawing.Point(0, 259)
-        Me.Panel38.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel38.Location = New System.Drawing.Point(0, 319)
+        Me.Panel38.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel38.Name = "Panel38"
-        Me.Panel38.Size = New System.Drawing.Size(764, 28)
+        Me.Panel38.Size = New System.Drawing.Size(1019, 34)
         Me.Panel38.TabIndex = 24
         '
         'RadioButton75
         '
         Me.RadioButton75.AutoSize = True
-        Me.RadioButton75.Location = New System.Drawing.Point(662, 5)
-        Me.RadioButton75.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton75.Location = New System.Drawing.Point(883, 6)
+        Me.RadioButton75.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton75.Name = "RadioButton75"
-        Me.RadioButton75.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton75.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton75.TabIndex = 2
         Me.RadioButton75.TabStop = True
         Me.RadioButton75.Tag = "0"
@@ -2590,10 +2544,10 @@ Partial Class EgenErklaering
         'RadioButton76
         '
         Me.RadioButton76.AutoSize = True
-        Me.RadioButton76.Location = New System.Drawing.Point(554, 5)
-        Me.RadioButton76.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton76.Location = New System.Drawing.Point(739, 6)
+        Me.RadioButton76.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton76.Name = "RadioButton76"
-        Me.RadioButton76.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton76.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton76.TabIndex = 1
         Me.RadioButton76.TabStop = True
         Me.RadioButton76.Tag = "1"
@@ -2603,10 +2557,9 @@ Partial Class EgenErklaering
         'Label38
         '
         Me.Label38.AutoSize = True
-        Me.Label38.Location = New System.Drawing.Point(3, 7)
-        Me.Label38.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label38.Location = New System.Drawing.Point(4, 9)
         Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(234, 13)
+        Me.Label38.Size = New System.Drawing.Size(313, 17)
         Me.Label38.TabIndex = 0
         Me.Label38.Text = "- hatt hepatitt (gulsott), HIV-infeksjon eller AIDS?"
         '
@@ -2615,19 +2568,19 @@ Partial Class EgenErklaering
         Me.Panel31.Controls.Add(Me.RadioButton61)
         Me.Panel31.Controls.Add(Me.RadioButton62)
         Me.Panel31.Controls.Add(Me.Label31)
-        Me.Panel31.Location = New System.Drawing.Point(0, 103)
-        Me.Panel31.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel31.Location = New System.Drawing.Point(0, 127)
+        Me.Panel31.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel31.Name = "Panel31"
-        Me.Panel31.Size = New System.Drawing.Size(764, 28)
+        Me.Panel31.Size = New System.Drawing.Size(1019, 34)
         Me.Panel31.TabIndex = 19
         '
         'RadioButton61
         '
         Me.RadioButton61.AutoSize = True
-        Me.RadioButton61.Location = New System.Drawing.Point(662, 5)
-        Me.RadioButton61.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton61.Location = New System.Drawing.Point(883, 6)
+        Me.RadioButton61.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton61.Name = "RadioButton61"
-        Me.RadioButton61.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton61.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton61.TabIndex = 2
         Me.RadioButton61.TabStop = True
         Me.RadioButton61.Text = "Nei"
@@ -2636,10 +2589,10 @@ Partial Class EgenErklaering
         'RadioButton62
         '
         Me.RadioButton62.AutoSize = True
-        Me.RadioButton62.Location = New System.Drawing.Point(554, 5)
-        Me.RadioButton62.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton62.Location = New System.Drawing.Point(739, 6)
+        Me.RadioButton62.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton62.Name = "RadioButton62"
-        Me.RadioButton62.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton62.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton62.TabIndex = 1
         Me.RadioButton62.TabStop = True
         Me.RadioButton62.Tag = "1"
@@ -2649,10 +2602,9 @@ Partial Class EgenErklaering
         'Label31
         '
         Me.Label31.AutoSize = True
-        Me.Label31.Location = New System.Drawing.Point(3, 7)
-        Me.Label31.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label31.Location = New System.Drawing.Point(4, 9)
         Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(61, 13)
+        Me.Label31.Size = New System.Drawing.Size(81, 17)
         Me.Label31.TabIndex = 0
         Me.Label31.Text = "- hatt kreft?"
         '
@@ -2661,19 +2613,19 @@ Partial Class EgenErklaering
         Me.Panel39.Controls.Add(Me.RadioButton77)
         Me.Panel39.Controls.Add(Me.RadioButton78)
         Me.Panel39.Controls.Add(Me.Label39)
-        Me.Panel39.Location = New System.Drawing.Point(0, 228)
-        Me.Panel39.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel39.Location = New System.Drawing.Point(0, 281)
+        Me.Panel39.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel39.Name = "Panel39"
-        Me.Panel39.Size = New System.Drawing.Size(764, 28)
+        Me.Panel39.Size = New System.Drawing.Size(1019, 34)
         Me.Panel39.TabIndex = 22
         '
         'RadioButton77
         '
         Me.RadioButton77.AutoSize = True
-        Me.RadioButton77.Location = New System.Drawing.Point(662, 5)
-        Me.RadioButton77.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton77.Location = New System.Drawing.Point(883, 6)
+        Me.RadioButton77.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton77.Name = "RadioButton77"
-        Me.RadioButton77.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton77.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton77.TabIndex = 2
         Me.RadioButton77.TabStop = True
         Me.RadioButton77.Text = "Nei"
@@ -2682,10 +2634,10 @@ Partial Class EgenErklaering
         'RadioButton78
         '
         Me.RadioButton78.AutoSize = True
-        Me.RadioButton78.Location = New System.Drawing.Point(554, 5)
-        Me.RadioButton78.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton78.Location = New System.Drawing.Point(739, 6)
+        Me.RadioButton78.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton78.Name = "RadioButton78"
-        Me.RadioButton78.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton78.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton78.TabIndex = 1
         Me.RadioButton78.TabStop = True
         Me.RadioButton78.Tag = "1"
@@ -2695,10 +2647,9 @@ Partial Class EgenErklaering
         'Label39
         '
         Me.Label39.AutoSize = True
-        Me.Label39.Location = New System.Drawing.Point(3, 7)
-        Me.Label39.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label39.Location = New System.Drawing.Point(4, 9)
         Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(117, 13)
+        Me.Label39.Size = New System.Drawing.Size(158, 17)
         Me.Label39.TabIndex = 0
         Me.Label39.Text = "- hatt tropesykdommer?"
         '
@@ -2708,19 +2659,19 @@ Partial Class EgenErklaering
         Me.Panel40.Controls.Add(Me.RadioButton79)
         Me.Panel40.Controls.Add(Me.RadioButton80)
         Me.Panel40.Controls.Add(Me.Label40)
-        Me.Panel40.Location = New System.Drawing.Point(0, 72)
-        Me.Panel40.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel40.Location = New System.Drawing.Point(0, 89)
+        Me.Panel40.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel40.Name = "Panel40"
-        Me.Panel40.Size = New System.Drawing.Size(764, 28)
+        Me.Panel40.Size = New System.Drawing.Size(1019, 34)
         Me.Panel40.TabIndex = 18
         '
         'RadioButton79
         '
         Me.RadioButton79.AutoSize = True
-        Me.RadioButton79.Location = New System.Drawing.Point(662, 5)
-        Me.RadioButton79.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton79.Location = New System.Drawing.Point(883, 6)
+        Me.RadioButton79.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton79.Name = "RadioButton79"
-        Me.RadioButton79.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton79.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton79.TabIndex = 2
         Me.RadioButton79.TabStop = True
         Me.RadioButton79.Tag = "0"
@@ -2730,10 +2681,10 @@ Partial Class EgenErklaering
         'RadioButton80
         '
         Me.RadioButton80.AutoSize = True
-        Me.RadioButton80.Location = New System.Drawing.Point(554, 5)
-        Me.RadioButton80.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton80.Location = New System.Drawing.Point(739, 6)
+        Me.RadioButton80.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton80.Name = "RadioButton80"
-        Me.RadioButton80.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton80.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton80.TabIndex = 1
         Me.RadioButton80.TabStop = True
         Me.RadioButton80.Tag = "1"
@@ -2743,10 +2694,9 @@ Partial Class EgenErklaering
         'Label40
         '
         Me.Label40.AutoSize = True
-        Me.Label40.Location = New System.Drawing.Point(3, 7)
-        Me.Label40.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label40.Location = New System.Drawing.Point(4, 9)
         Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(197, 13)
+        Me.Label40.Size = New System.Drawing.Size(268, 17)
         Me.Label40.TabIndex = 0
         Me.Label40.Text = "- hatt, hjerte-, lever-, eller lungesykdom? "
         '
@@ -2762,11 +2712,11 @@ Partial Class EgenErklaering
         Me.TabPage7.Controls.Add(Me.Panel59)
         Me.TabPage7.Controls.Add(Me.Panel60)
         Me.TabPage7.Controls.Add(Me.Panel61)
-        Me.TabPage7.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage7.Margin = New System.Windows.Forms.Padding(2)
+        Me.TabPage7.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage7.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TabPage7.Name = "TabPage7"
-        Me.TabPage7.Padding = New System.Windows.Forms.Padding(2)
-        Me.TabPage7.Size = New System.Drawing.Size(764, 541)
+        Me.TabPage7.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TabPage7.Size = New System.Drawing.Size(1021, 669)
         Me.TabPage7.TabIndex = 6
         Me.TabPage7.Text = "Del 7"
         Me.TabPage7.UseVisualStyleBackColor = True
@@ -2776,19 +2726,18 @@ Partial Class EgenErklaering
         Me.Panel70.BackColor = System.Drawing.Color.SkyBlue
         Me.Panel70.Controls.Add(Me.Label70)
         Me.Panel70.Location = New System.Drawing.Point(0, 0)
-        Me.Panel70.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel70.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel70.Name = "Panel70"
-        Me.Panel70.Size = New System.Drawing.Size(764, 64)
+        Me.Panel70.Size = New System.Drawing.Size(1019, 79)
         Me.Panel70.TabIndex = 28
         '
         'Label70
         '
         Me.Label70.AutoSize = True
         Me.Label70.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.875!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label70.Location = New System.Drawing.Point(3, 15)
-        Me.Label70.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label70.Location = New System.Drawing.Point(4, 18)
         Me.Label70.Name = "Label70"
-        Me.Label70.Size = New System.Drawing.Size(124, 24)
+        Me.Label70.Size = New System.Drawing.Size(157, 29)
         Me.Label70.TabIndex = 0
         Me.Label70.Text = "Besvar også"
         '
@@ -2798,19 +2747,19 @@ Partial Class EgenErklaering
         Me.Panel47.Controls.Add(Me.RadioButton93)
         Me.Panel47.Controls.Add(Me.RadioButton94)
         Me.Panel47.Controls.Add(Me.Label47)
-        Me.Panel47.Location = New System.Drawing.Point(0, 380)
-        Me.Panel47.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel47.Location = New System.Drawing.Point(0, 468)
+        Me.Panel47.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel47.Name = "Panel47"
-        Me.Panel47.Size = New System.Drawing.Size(764, 35)
+        Me.Panel47.Size = New System.Drawing.Size(1019, 43)
         Me.Panel47.TabIndex = 26
         '
         'RadioButton93
         '
         Me.RadioButton93.AutoSize = True
-        Me.RadioButton93.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton93.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton93.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton93.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton93.Name = "RadioButton93"
-        Me.RadioButton93.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton93.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton93.TabIndex = 2
         Me.RadioButton93.TabStop = True
         Me.RadioButton93.Tag = "0"
@@ -2820,10 +2769,10 @@ Partial Class EgenErklaering
         'RadioButton94
         '
         Me.RadioButton94.AutoSize = True
-        Me.RadioButton94.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton94.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton94.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton94.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton94.Name = "RadioButton94"
-        Me.RadioButton94.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton94.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton94.TabIndex = 1
         Me.RadioButton94.TabStop = True
         Me.RadioButton94.Tag = "1"
@@ -2833,10 +2782,9 @@ Partial Class EgenErklaering
         'Label47
         '
         Me.Label47.AutoSize = True
-        Me.Label47.Location = New System.Drawing.Point(3, 15)
-        Me.Label47.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label47.Location = New System.Drawing.Point(4, 18)
         Me.Label47.Name = "Label47"
-        Me.Label47.Size = New System.Drawing.Size(358, 13)
+        Me.Label47.Size = New System.Drawing.Size(482, 17)
         Me.Label47.TabIndex = 0
         Me.Label47.Text = "Jeg samtykker i at mitt plasma føres ut av Norge for legemiddelproduksjon. "
         '
@@ -2845,19 +2793,19 @@ Partial Class EgenErklaering
         Me.Panel48.Controls.Add(Me.RadioButton95)
         Me.Panel48.Controls.Add(Me.RadioButton96)
         Me.Panel48.Controls.Add(Me.Label48)
-        Me.Panel48.Location = New System.Drawing.Point(0, 342)
-        Me.Panel48.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel48.Location = New System.Drawing.Point(0, 421)
+        Me.Panel48.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel48.Name = "Panel48"
-        Me.Panel48.Size = New System.Drawing.Size(764, 35)
+        Me.Panel48.Size = New System.Drawing.Size(1019, 43)
         Me.Panel48.TabIndex = 25
         '
         'RadioButton95
         '
         Me.RadioButton95.AutoSize = True
-        Me.RadioButton95.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton95.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton95.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton95.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton95.Name = "RadioButton95"
-        Me.RadioButton95.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton95.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton95.TabIndex = 2
         Me.RadioButton95.TabStop = True
         Me.RadioButton95.Tag = "0"
@@ -2867,10 +2815,10 @@ Partial Class EgenErklaering
         'RadioButton96
         '
         Me.RadioButton96.AutoSize = True
-        Me.RadioButton96.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton96.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton96.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton96.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton96.Name = "RadioButton96"
-        Me.RadioButton96.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton96.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton96.TabIndex = 1
         Me.RadioButton96.TabStop = True
         Me.RadioButton96.Tag = "1"
@@ -2880,10 +2828,9 @@ Partial Class EgenErklaering
         'Label48
         '
         Me.Label48.AutoSize = True
-        Me.Label48.Location = New System.Drawing.Point(3, 15)
-        Me.Label48.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label48.Location = New System.Drawing.Point(4, 18)
         Me.Label48.Name = "Label48"
-        Me.Label48.Size = New System.Drawing.Size(269, 13)
+        Me.Label48.Size = New System.Drawing.Size(361, 17)
         Me.Label48.TabIndex = 0
         Me.Label48.Text = "Har du deltatt i medikamentforsøk de siste 12 måneder?"
         '
@@ -2893,19 +2840,19 @@ Partial Class EgenErklaering
         Me.Panel49.Controls.Add(Me.RadioButton97)
         Me.Panel49.Controls.Add(Me.RadioButton98)
         Me.Panel49.Controls.Add(Me.Label49)
-        Me.Panel49.Location = New System.Drawing.Point(0, 303)
-        Me.Panel49.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel49.Location = New System.Drawing.Point(0, 373)
+        Me.Panel49.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel49.Name = "Panel49"
-        Me.Panel49.Size = New System.Drawing.Size(764, 35)
+        Me.Panel49.Size = New System.Drawing.Size(1019, 43)
         Me.Panel49.TabIndex = 24
         '
         'RadioButton97
         '
         Me.RadioButton97.AutoSize = True
-        Me.RadioButton97.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton97.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton97.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton97.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton97.Name = "RadioButton97"
-        Me.RadioButton97.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton97.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton97.TabIndex = 2
         Me.RadioButton97.TabStop = True
         Me.RadioButton97.Tag = "0"
@@ -2915,10 +2862,10 @@ Partial Class EgenErklaering
         'RadioButton98
         '
         Me.RadioButton98.AutoSize = True
-        Me.RadioButton98.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton98.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton98.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton98.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton98.Name = "RadioButton98"
-        Me.RadioButton98.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton98.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton98.TabIndex = 1
         Me.RadioButton98.TabStop = True
         Me.RadioButton98.Tag = "1"
@@ -2928,10 +2875,9 @@ Partial Class EgenErklaering
         'Label49
         '
         Me.Label49.AutoSize = True
-        Me.Label49.Location = New System.Drawing.Point(3, 15)
-        Me.Label49.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label49.Location = New System.Drawing.Point(4, 18)
         Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(221, 13)
+        Me.Label49.Size = New System.Drawing.Size(299, 17)
         Me.Label49.TabIndex = 0
         Me.Label49.Text = "Er du eller din mor født i Amerika sør for USA?"
         '
@@ -2940,19 +2886,19 @@ Partial Class EgenErklaering
         Me.Panel56.Controls.Add(Me.RadioButton111)
         Me.Panel56.Controls.Add(Me.RadioButton112)
         Me.Panel56.Controls.Add(Me.Label56)
-        Me.Panel56.Location = New System.Drawing.Point(0, 265)
-        Me.Panel56.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel56.Location = New System.Drawing.Point(0, 326)
+        Me.Panel56.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel56.Name = "Panel56"
-        Me.Panel56.Size = New System.Drawing.Size(764, 35)
+        Me.Panel56.Size = New System.Drawing.Size(1019, 43)
         Me.Panel56.TabIndex = 23
         '
         'RadioButton111
         '
         Me.RadioButton111.AutoSize = True
-        Me.RadioButton111.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton111.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton111.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton111.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton111.Name = "RadioButton111"
-        Me.RadioButton111.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton111.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton111.TabIndex = 2
         Me.RadioButton111.TabStop = True
         Me.RadioButton111.Tag = "0"
@@ -2962,10 +2908,10 @@ Partial Class EgenErklaering
         'RadioButton112
         '
         Me.RadioButton112.AutoSize = True
-        Me.RadioButton112.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton112.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton112.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton112.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton112.Name = "RadioButton112"
-        Me.RadioButton112.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton112.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton112.TabIndex = 1
         Me.RadioButton112.TabStop = True
         Me.RadioButton112.Tag = "1"
@@ -2975,10 +2921,9 @@ Partial Class EgenErklaering
         'Label56
         '
         Me.Label56.AutoSize = True
-        Me.Label56.Location = New System.Drawing.Point(3, 15)
-        Me.Label56.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label56.Location = New System.Drawing.Point(4, 18)
         Me.Label56.Name = "Label56"
-        Me.Label56.Size = New System.Drawing.Size(275, 13)
+        Me.Label56.Size = New System.Drawing.Size(371, 17)
         Me.Label56.TabIndex = 0
         Me.Label56.Text = "Har du oppholdt deg i Afrika i mer enn fem år til sammen?"
         '
@@ -2988,19 +2933,19 @@ Partial Class EgenErklaering
         Me.Panel57.Controls.Add(Me.RadioButton113)
         Me.Panel57.Controls.Add(Me.RadioButton114)
         Me.Panel57.Controls.Add(Me.Label57)
-        Me.Panel57.Location = New System.Drawing.Point(0, 226)
-        Me.Panel57.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel57.Location = New System.Drawing.Point(0, 278)
+        Me.Panel57.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel57.Name = "Panel57"
-        Me.Panel57.Size = New System.Drawing.Size(764, 35)
+        Me.Panel57.Size = New System.Drawing.Size(1019, 43)
         Me.Panel57.TabIndex = 19
         '
         'RadioButton113
         '
         Me.RadioButton113.AutoSize = True
-        Me.RadioButton113.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton113.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton113.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton113.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton113.Name = "RadioButton113"
-        Me.RadioButton113.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton113.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton113.TabIndex = 2
         Me.RadioButton113.TabStop = True
         Me.RadioButton113.Tag = "0"
@@ -3010,10 +2955,10 @@ Partial Class EgenErklaering
         'RadioButton114
         '
         Me.RadioButton114.AutoSize = True
-        Me.RadioButton114.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton114.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton114.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton114.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton114.Name = "RadioButton114"
-        Me.RadioButton114.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton114.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton114.TabIndex = 1
         Me.RadioButton114.TabStop = True
         Me.RadioButton114.Tag = "1"
@@ -3023,10 +2968,9 @@ Partial Class EgenErklaering
         'Label57
         '
         Me.Label57.AutoSize = True
-        Me.Label57.Location = New System.Drawing.Point(3, 15)
-        Me.Label57.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label57.Location = New System.Drawing.Point(4, 18)
         Me.Label57.Name = "Label57"
-        Me.Label57.Size = New System.Drawing.Size(462, 13)
+        Me.Label57.Size = New System.Drawing.Size(626, 17)
         Me.Label57.TabIndex = 0
         Me.Label57.Text = "Har du oppholdt deg sammenhengende i minst seks måneder i områder der malaria for" &
     "ekommer? "
@@ -3036,19 +2980,19 @@ Partial Class EgenErklaering
         Me.Panel58.Controls.Add(Me.RadioButton115)
         Me.Panel58.Controls.Add(Me.RadioButton116)
         Me.Panel58.Controls.Add(Me.Label58)
-        Me.Panel58.Location = New System.Drawing.Point(-2, 188)
-        Me.Panel58.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel58.Location = New System.Drawing.Point(-3, 231)
+        Me.Panel58.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel58.Name = "Panel58"
-        Me.Panel58.Size = New System.Drawing.Size(764, 35)
+        Me.Panel58.Size = New System.Drawing.Size(1019, 43)
         Me.Panel58.TabIndex = 22
         '
         'RadioButton115
         '
         Me.RadioButton115.AutoSize = True
-        Me.RadioButton115.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton115.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton115.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton115.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton115.Name = "RadioButton115"
-        Me.RadioButton115.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton115.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton115.TabIndex = 2
         Me.RadioButton115.TabStop = True
         Me.RadioButton115.Tag = "0"
@@ -3058,10 +3002,10 @@ Partial Class EgenErklaering
         'RadioButton116
         '
         Me.RadioButton116.AutoSize = True
-        Me.RadioButton116.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton116.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton116.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton116.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton116.Name = "RadioButton116"
-        Me.RadioButton116.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton116.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton116.TabIndex = 1
         Me.RadioButton116.TabStop = True
         Me.RadioButton116.Tag = "1"
@@ -3071,10 +3015,9 @@ Partial Class EgenErklaering
         'Label58
         '
         Me.Label58.AutoSize = True
-        Me.Label58.Location = New System.Drawing.Point(3, 15)
-        Me.Label58.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label58.Location = New System.Drawing.Point(4, 18)
         Me.Label58.Name = "Label58"
-        Me.Label58.Size = New System.Drawing.Size(343, 13)
+        Me.Label58.Size = New System.Drawing.Size(466, 17)
         Me.Label58.TabIndex = 0
         Me.Label58.Text = "Har du i løpet av de siste tre år vært i områder der malaria forekommer? "
         '
@@ -3084,19 +3027,19 @@ Partial Class EgenErklaering
         Me.Panel59.Controls.Add(Me.RadioButton117)
         Me.Panel59.Controls.Add(Me.RadioButton118)
         Me.Panel59.Controls.Add(Me.Label59)
-        Me.Panel59.Location = New System.Drawing.Point(0, 149)
-        Me.Panel59.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel59.Location = New System.Drawing.Point(0, 183)
+        Me.Panel59.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel59.Name = "Panel59"
-        Me.Panel59.Size = New System.Drawing.Size(764, 35)
+        Me.Panel59.Size = New System.Drawing.Size(1019, 43)
         Me.Panel59.TabIndex = 21
         '
         'RadioButton117
         '
         Me.RadioButton117.AutoSize = True
-        Me.RadioButton117.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton117.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton117.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton117.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton117.Name = "RadioButton117"
-        Me.RadioButton117.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton117.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton117.TabIndex = 2
         Me.RadioButton117.TabStop = True
         Me.RadioButton117.Tag = "0"
@@ -3106,10 +3049,10 @@ Partial Class EgenErklaering
         'RadioButton118
         '
         Me.RadioButton118.AutoSize = True
-        Me.RadioButton118.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton118.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton118.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton118.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton118.Name = "RadioButton118"
-        Me.RadioButton118.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton118.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton118.TabIndex = 1
         Me.RadioButton118.TabStop = True
         Me.RadioButton118.Tag = "1"
@@ -3119,10 +3062,9 @@ Partial Class EgenErklaering
         'Label59
         '
         Me.Label59.AutoSize = True
-        Me.Label59.Location = New System.Drawing.Point(3, 15)
-        Me.Label59.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label59.Location = New System.Drawing.Point(4, 18)
         Me.Label59.Name = "Label59"
-        Me.Label59.Size = New System.Drawing.Size(458, 13)
+        Me.Label59.Size = New System.Drawing.Size(620, 17)
         Me.Label59.TabIndex = 0
         Me.Label59.Text = "Har du oppholdt deg i Storbritannia i mer enn ett år til sammen i perioden mellom" &
     " 1980 og 1996? "
@@ -3132,19 +3074,19 @@ Partial Class EgenErklaering
         Me.Panel60.Controls.Add(Me.RadioButton119)
         Me.Panel60.Controls.Add(Me.RadioButton120)
         Me.Panel60.Controls.Add(Me.Label60)
-        Me.Panel60.Location = New System.Drawing.Point(0, 111)
-        Me.Panel60.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel60.Location = New System.Drawing.Point(0, 137)
+        Me.Panel60.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel60.Name = "Panel60"
-        Me.Panel60.Size = New System.Drawing.Size(764, 35)
+        Me.Panel60.Size = New System.Drawing.Size(1019, 43)
         Me.Panel60.TabIndex = 20
         '
         'RadioButton119
         '
         Me.RadioButton119.AutoSize = True
-        Me.RadioButton119.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton119.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton119.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton119.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton119.Name = "RadioButton119"
-        Me.RadioButton119.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton119.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton119.TabIndex = 2
         Me.RadioButton119.TabStop = True
         Me.RadioButton119.Tag = "0"
@@ -3154,10 +3096,10 @@ Partial Class EgenErklaering
         'RadioButton120
         '
         Me.RadioButton120.AutoSize = True
-        Me.RadioButton120.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton120.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton120.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton120.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton120.Name = "RadioButton120"
-        Me.RadioButton120.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton120.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton120.TabIndex = 1
         Me.RadioButton120.TabStop = True
         Me.RadioButton120.Tag = "1"
@@ -3167,10 +3109,9 @@ Partial Class EgenErklaering
         'Label60
         '
         Me.Label60.AutoSize = True
-        Me.Label60.Location = New System.Drawing.Point(3, 15)
-        Me.Label60.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label60.Location = New System.Drawing.Point(4, 18)
         Me.Label60.Name = "Label60"
-        Me.Label60.Size = New System.Drawing.Size(365, 13)
+        Me.Label60.Size = New System.Drawing.Size(492, 17)
         Me.Label60.TabIndex = 0
         Me.Label60.Text = "Har du eller noen i familien hatt Creutzfeldt-Jakob sykdom eller variant CJD? "
         '
@@ -3180,19 +3121,19 @@ Partial Class EgenErklaering
         Me.Panel61.Controls.Add(Me.RadioButton121)
         Me.Panel61.Controls.Add(Me.RadioButton122)
         Me.Panel61.Controls.Add(Me.Label61)
-        Me.Panel61.Location = New System.Drawing.Point(0, 72)
-        Me.Panel61.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel61.Location = New System.Drawing.Point(0, 89)
+        Me.Panel61.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel61.Name = "Panel61"
-        Me.Panel61.Size = New System.Drawing.Size(764, 35)
+        Me.Panel61.Size = New System.Drawing.Size(1019, 43)
         Me.Panel61.TabIndex = 18
         '
         'RadioButton121
         '
         Me.RadioButton121.AutoSize = True
-        Me.RadioButton121.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton121.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton121.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton121.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton121.Name = "RadioButton121"
-        Me.RadioButton121.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton121.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton121.TabIndex = 2
         Me.RadioButton121.TabStop = True
         Me.RadioButton121.Tag = "0"
@@ -3202,10 +3143,10 @@ Partial Class EgenErklaering
         'RadioButton122
         '
         Me.RadioButton122.AutoSize = True
-        Me.RadioButton122.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton122.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton122.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton122.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton122.Name = "RadioButton122"
-        Me.RadioButton122.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton122.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton122.TabIndex = 1
         Me.RadioButton122.TabStop = True
         Me.RadioButton122.Tag = "1"
@@ -3215,10 +3156,9 @@ Partial Class EgenErklaering
         'Label61
         '
         Me.Label61.AutoSize = True
-        Me.Label61.Location = New System.Drawing.Point(3, 15)
-        Me.Label61.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label61.Location = New System.Drawing.Point(4, 18)
         Me.Label61.Name = "Label61"
-        Me.Label61.Size = New System.Drawing.Size(313, 13)
+        Me.Label61.Size = New System.Drawing.Size(422, 17)
         Me.Label61.TabIndex = 0
         Me.Label61.Text = "Har du brukt narkotika en eller flere ganger de siste 12 måneder?"
         '
@@ -3229,11 +3169,11 @@ Partial Class EgenErklaering
         Me.TabPage8.Controls.Add(Me.Panel50)
         Me.TabPage8.Controls.Add(Me.Panel62)
         Me.TabPage8.Controls.Add(Me.Panel63)
-        Me.TabPage8.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage8.Margin = New System.Windows.Forms.Padding(2)
+        Me.TabPage8.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage8.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TabPage8.Name = "TabPage8"
-        Me.TabPage8.Padding = New System.Windows.Forms.Padding(2)
-        Me.TabPage8.Size = New System.Drawing.Size(764, 541)
+        Me.TabPage8.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TabPage8.Size = New System.Drawing.Size(1021, 669)
         Me.TabPage8.TabIndex = 7
         Me.TabPage8.Text = "Del 8"
         Me.TabPage8.UseVisualStyleBackColor = True
@@ -3243,19 +3183,19 @@ Partial Class EgenErklaering
         Me.Panel46.Controls.Add(Me.RadioButton33)
         Me.Panel46.Controls.Add(Me.RadioButton34)
         Me.Panel46.Controls.Add(Me.Label46)
-        Me.Panel46.Location = New System.Drawing.Point(0, 241)
-        Me.Panel46.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel46.Location = New System.Drawing.Point(0, 297)
+        Me.Panel46.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel46.Name = "Panel46"
-        Me.Panel46.Size = New System.Drawing.Size(764, 46)
+        Me.Panel46.Size = New System.Drawing.Size(1019, 57)
         Me.Panel46.TabIndex = 15
         '
         'RadioButton33
         '
         Me.RadioButton33.AutoSize = True
-        Me.RadioButton33.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton33.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton33.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton33.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton33.Name = "RadioButton33"
-        Me.RadioButton33.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton33.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton33.TabIndex = 2
         Me.RadioButton33.TabStop = True
         Me.RadioButton33.Tag = "0"
@@ -3265,10 +3205,10 @@ Partial Class EgenErklaering
         'RadioButton34
         '
         Me.RadioButton34.AutoSize = True
-        Me.RadioButton34.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton34.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton34.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton34.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton34.Name = "RadioButton34"
-        Me.RadioButton34.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton34.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton34.TabIndex = 1
         Me.RadioButton34.TabStop = True
         Me.RadioButton34.Tag = "1"
@@ -3278,10 +3218,9 @@ Partial Class EgenErklaering
         'Label46
         '
         Me.Label46.AutoSize = True
-        Me.Label46.Location = New System.Drawing.Point(3, 15)
-        Me.Label46.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label46.Location = New System.Drawing.Point(4, 18)
         Me.Label46.Name = "Label46"
-        Me.Label46.Size = New System.Drawing.Size(54, 13)
+        Me.Label46.Size = New System.Drawing.Size(69, 17)
         Me.Label46.TabIndex = 0
         Me.Label46.Text = "Samtykke"
         '
@@ -3290,19 +3229,18 @@ Partial Class EgenErklaering
         Me.Panel71.BackColor = System.Drawing.Color.SkyBlue
         Me.Panel71.Controls.Add(Me.Label71)
         Me.Panel71.Location = New System.Drawing.Point(0, 0)
-        Me.Panel71.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel71.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel71.Name = "Panel71"
-        Me.Panel71.Size = New System.Drawing.Size(764, 64)
+        Me.Panel71.Size = New System.Drawing.Size(1019, 79)
         Me.Panel71.TabIndex = 16
         '
         'Label71
         '
         Me.Label71.AutoSize = True
         Me.Label71.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.875!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label71.Location = New System.Drawing.Point(3, 15)
-        Me.Label71.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label71.Location = New System.Drawing.Point(4, 18)
         Me.Label71.Name = "Label71"
-        Me.Label71.Size = New System.Drawing.Size(93, 24)
+        Me.Label71.Size = New System.Drawing.Size(122, 29)
         Me.Label71.TabIndex = 0
         Me.Label71.Text = "Tillatelse"
         '
@@ -3311,27 +3249,26 @@ Partial Class EgenErklaering
         Me.Panel50.BackColor = System.Drawing.Color.WhiteSmoke
         Me.Panel50.Controls.Add(Me.TextBox1)
         Me.Panel50.Controls.Add(Me.Label50)
-        Me.Panel50.Location = New System.Drawing.Point(0, 186)
-        Me.Panel50.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel50.Location = New System.Drawing.Point(0, 229)
+        Me.Panel50.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel50.Name = "Panel50"
-        Me.Panel50.Size = New System.Drawing.Size(764, 46)
+        Me.Panel50.Size = New System.Drawing.Size(1019, 57)
         Me.Panel50.TabIndex = 15
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(359, 11)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox1.Location = New System.Drawing.Point(479, 14)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(344, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(457, 22)
         Me.TextBox1.TabIndex = 1
         '
         'Label50
         '
         Me.Label50.AutoSize = True
-        Me.Label50.Location = New System.Drawing.Point(3, 15)
-        Me.Label50.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label50.Location = New System.Drawing.Point(4, 18)
         Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(96, 13)
+        Me.Label50.Size = New System.Drawing.Size(130, 17)
         Me.Label50.TabIndex = 0
         Me.Label50.Text = "Tilleggsinformasjon"
         '
@@ -3339,29 +3276,28 @@ Partial Class EgenErklaering
         '
         Me.Panel62.Controls.Add(Me.ComboBox1)
         Me.Panel62.Controls.Add(Me.Label62)
-        Me.Panel62.Location = New System.Drawing.Point(0, 128)
-        Me.Panel62.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel62.Location = New System.Drawing.Point(0, 158)
+        Me.Panel62.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel62.Name = "Panel62"
-        Me.Panel62.Size = New System.Drawing.Size(764, 46)
+        Me.Panel62.Size = New System.Drawing.Size(1019, 57)
         Me.Panel62.TabIndex = 14
         '
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Afghanistan", "Albania", "Algerie", "Andorra", "Angola", "Antigua og Barbuda", "Argentina", "Armenia", "Aserbajdsjan", "Australia", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belgia", "Belize", "Benin", "Bhutan", "Bolivia", "Bosnia-Hercegovina", "Botswana", "Brasil", "Brunei", "Bulgaria", "Burnina Faso", "Burundi", "Canada", "Chile", "Colombia", "Cookøyene", "Costa Rica", "Cuba", "Danmark", "Den dominikanske republikk", "Den sentralafrikanske republikk", "Djibouti", "Dominica", "Ecuador", "Egypt", "Ekvatorial-Guinea", "El Salvador", "Elfenbenskysten", "Eritrea", "Estland", "Etiopia", "Fiji", "Filippinene", "Finland", "Forente arabiske emirater", "Frankrike", "Gabon", "Gambia", "Georgia", "Ghana", "Grenada", "Guatemala", "Guinea", "Guinea-Bissau", "Guyana", "Haiti", "Hellas", "Honduras", "Hviterussland", "India", "Indonesia", "Irak", "Iran", "Irland", "Island", "Israel", "Italia", "Jamaica", "Japan", "Jemen", "Jordan", "Kambodsja", "Kamerun", "Kapp Verde", "Kasakhstan", "Kenya", "Kina", "Kirgisistan", "Kiribati", "Komorene", "Kongo", "Kosovo", "Kroatia", "Kuwait", "Kypros", "Laos", "Latvia", "Lesotho", "Libanon", "Liberia", "Libya", "Liechtenstein", "Litauen", "Luxembourg", "Madagaskar", "Makedonia", "Malawi", "Malaysia", "Maldivene", "Malta", "Marokko", "Marshalløyene", "Mauritania", "Mauritius", "Mexico", "Mikronesia", "Moldova", "Monaco", "Mongolia", "Montenegro", "Mosambik", "Myanmar", "Namibia", "Nauru", "Nederland", "Nepal", "New Zealand", "Nicaragua", "Niger", "Nigeria", "Niue", "Nord-Korea", "Norge", "Oman", "Pakistan", "Palau", "Palestina", "Panama", "Papua Ny-Guinea", "Paraguay", "Peru", "Polen", "Portugal", "Qatar", "Romania", "Russland", "Rwanda", "Saint Kitts og Nevis", "Saint Lucia", "Saint Vincent og Grenadinene", "Salomonøyene", "Samoa", "San Marino", "São Tomé og Príncipe", "Saudi-Arabia", "Senegal", "Serbia", "Seychellene", "Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Somalia", "Spania", "Sri Lanka", "Storbritannia", "Sudan", "Surinam", "Sveits", "Sverige", "Swaziland", "Syria", "Sør-Afrika", "Sør-Korea", "Sør-Sudan", "Tadsjikistan", "Taiwan", "Tanzania", "Thailand", "Togo", "Tonga", "Trinidad og Tobago", "Tsjad", "Tsjekkia", "Tunisia", "Turkmenistan", "Tuvalu", "Tyrkia", "Tyskland", "Uganda", "Ukraina", "Ungarn", "Uruguay", "USA", "Usbekistan", "Vanuatu", "Vatikanstaten", "Venezuela", "Vest-Sahara", "Vietnam", "Zambia", "Zimbabwe", "Øst-Timor", "Østerrike"})
-        Me.ComboBox1.Location = New System.Drawing.Point(556, 13)
-        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(2)
+        Me.ComboBox1.Location = New System.Drawing.Point(741, 16)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(146, 21)
+        Me.ComboBox1.Size = New System.Drawing.Size(193, 24)
         Me.ComboBox1.TabIndex = 1
         '
         'Label62
         '
         Me.Label62.AutoSize = True
-        Me.Label62.Location = New System.Drawing.Point(3, 15)
-        Me.Label62.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label62.Location = New System.Drawing.Point(4, 18)
         Me.Label62.Name = "Label62"
-        Me.Label62.Size = New System.Drawing.Size(183, 13)
+        Me.Label62.Size = New System.Drawing.Size(240, 17)
         Me.Label62.TabIndex = 0
         Me.Label62.Text = "I hvilket land er du født og oppvokst?"
         '
@@ -3371,19 +3307,19 @@ Partial Class EgenErklaering
         Me.Panel63.Controls.Add(Me.RadioButton125)
         Me.Panel63.Controls.Add(Me.RadioButton126)
         Me.Panel63.Controls.Add(Me.Label63)
-        Me.Panel63.Location = New System.Drawing.Point(0, 72)
-        Me.Panel63.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel63.Location = New System.Drawing.Point(0, 89)
+        Me.Panel63.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel63.Name = "Panel63"
-        Me.Panel63.Size = New System.Drawing.Size(764, 46)
+        Me.Panel63.Size = New System.Drawing.Size(1019, 57)
         Me.Panel63.TabIndex = 13
         '
         'RadioButton125
         '
         Me.RadioButton125.AutoSize = True
-        Me.RadioButton125.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton125.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton125.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton125.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton125.Name = "RadioButton125"
-        Me.RadioButton125.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton125.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton125.TabIndex = 2
         Me.RadioButton125.TabStop = True
         Me.RadioButton125.Tag = "0"
@@ -3393,10 +3329,10 @@ Partial Class EgenErklaering
         'RadioButton126
         '
         Me.RadioButton126.AutoSize = True
-        Me.RadioButton126.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton126.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton126.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton126.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton126.Name = "RadioButton126"
-        Me.RadioButton126.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton126.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton126.TabIndex = 1
         Me.RadioButton126.TabStop = True
         Me.RadioButton126.Tag = "1"
@@ -3406,10 +3342,9 @@ Partial Class EgenErklaering
         'Label63
         '
         Me.Label63.AutoSize = True
-        Me.Label63.Location = New System.Drawing.Point(3, 15)
-        Me.Label63.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label63.Location = New System.Drawing.Point(4, 18)
         Me.Label63.Name = "Label63"
-        Me.Label63.Size = New System.Drawing.Size(510, 26)
+        Me.Label63.Size = New System.Drawing.Size(684, 34)
         Me.Label63.TabIndex = 0
         Me.Label63.Text = resources.GetString("Label63.Text")
         '
@@ -3420,11 +3355,11 @@ Partial Class EgenErklaering
         Me.Kvinne.Controls.Add(Me.Panel52)
         Me.Kvinne.Controls.Add(Me.Panel53)
         Me.Kvinne.Controls.Add(Me.Panel54)
-        Me.Kvinne.Location = New System.Drawing.Point(4, 22)
-        Me.Kvinne.Margin = New System.Windows.Forms.Padding(2)
+        Me.Kvinne.Location = New System.Drawing.Point(4, 25)
+        Me.Kvinne.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Kvinne.Name = "Kvinne"
-        Me.Kvinne.Padding = New System.Windows.Forms.Padding(2)
-        Me.Kvinne.Size = New System.Drawing.Size(764, 541)
+        Me.Kvinne.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Kvinne.Size = New System.Drawing.Size(1021, 669)
         Me.Kvinne.TabIndex = 8
         Me.Kvinne.Text = "Kvinne"
         Me.Kvinne.UseVisualStyleBackColor = True
@@ -3434,19 +3369,18 @@ Partial Class EgenErklaering
         Me.Panel72.BackColor = System.Drawing.Color.SkyBlue
         Me.Panel72.Controls.Add(Me.Label72)
         Me.Panel72.Location = New System.Drawing.Point(0, 0)
-        Me.Panel72.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel72.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel72.Name = "Panel72"
-        Me.Panel72.Size = New System.Drawing.Size(764, 64)
+        Me.Panel72.Size = New System.Drawing.Size(1019, 79)
         Me.Panel72.TabIndex = 24
         '
         'Label72
         '
         Me.Label72.AutoSize = True
         Me.Label72.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.875!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label72.Location = New System.Drawing.Point(3, 15)
-        Me.Label72.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label72.Location = New System.Drawing.Point(4, 18)
         Me.Label72.Name = "Label72"
-        Me.Label72.Size = New System.Drawing.Size(196, 24)
+        Me.Label72.Size = New System.Drawing.Size(245, 29)
         Me.Label72.TabIndex = 0
         Me.Label72.Text = "Besvares av kvinner"
         '
@@ -3455,19 +3389,19 @@ Partial Class EgenErklaering
         Me.Panel51.Controls.Add(Me.RadioButton101)
         Me.Panel51.Controls.Add(Me.RadioButton102)
         Me.Panel51.Controls.Add(Me.Label51)
-        Me.Panel51.Location = New System.Drawing.Point(0, 238)
-        Me.Panel51.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel51.Location = New System.Drawing.Point(0, 293)
+        Me.Panel51.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel51.Name = "Panel51"
-        Me.Panel51.Size = New System.Drawing.Size(764, 46)
+        Me.Panel51.Size = New System.Drawing.Size(1019, 57)
         Me.Panel51.TabIndex = 23
         '
         'RadioButton101
         '
         Me.RadioButton101.AutoSize = True
-        Me.RadioButton101.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton101.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton101.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton101.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton101.Name = "RadioButton101"
-        Me.RadioButton101.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton101.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton101.TabIndex = 2
         Me.RadioButton101.TabStop = True
         Me.RadioButton101.Tag = "0"
@@ -3477,10 +3411,10 @@ Partial Class EgenErklaering
         'RadioButton102
         '
         Me.RadioButton102.AutoSize = True
-        Me.RadioButton102.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton102.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton102.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton102.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton102.Name = "RadioButton102"
-        Me.RadioButton102.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton102.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton102.TabIndex = 1
         Me.RadioButton102.TabStop = True
         Me.RadioButton102.Tag = "1"
@@ -3490,10 +3424,9 @@ Partial Class EgenErklaering
         'Label51
         '
         Me.Label51.AutoSize = True
-        Me.Label51.Location = New System.Drawing.Point(3, 15)
-        Me.Label51.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label51.Location = New System.Drawing.Point(4, 18)
         Me.Label51.Name = "Label51"
-        Me.Label51.Size = New System.Drawing.Size(416, 26)
+        Me.Label51.Size = New System.Drawing.Size(554, 34)
         Me.Label51.TabIndex = 0
         Me.Label51.Text = "Har du i løpet av de siste seks måneder hatt seksuell kontakt med en mann som du " &
     "vet" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " har hatt seksuell kontakt med andre menn? "
@@ -3504,19 +3437,19 @@ Partial Class EgenErklaering
         Me.Panel52.Controls.Add(Me.RadioButton103)
         Me.Panel52.Controls.Add(Me.RadioButton104)
         Me.Panel52.Controls.Add(Me.Label52)
-        Me.Panel52.Location = New System.Drawing.Point(0, 72)
-        Me.Panel52.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel52.Location = New System.Drawing.Point(0, 89)
+        Me.Panel52.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel52.Name = "Panel52"
-        Me.Panel52.Size = New System.Drawing.Size(764, 46)
+        Me.Panel52.Size = New System.Drawing.Size(1019, 57)
         Me.Panel52.TabIndex = 20
         '
         'RadioButton103
         '
         Me.RadioButton103.AutoSize = True
-        Me.RadioButton103.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton103.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton103.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton103.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton103.Name = "RadioButton103"
-        Me.RadioButton103.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton103.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton103.TabIndex = 2
         Me.RadioButton103.TabStop = True
         Me.RadioButton103.Tag = "0"
@@ -3526,10 +3459,10 @@ Partial Class EgenErklaering
         'RadioButton104
         '
         Me.RadioButton104.AutoSize = True
-        Me.RadioButton104.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton104.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton104.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton104.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton104.Name = "RadioButton104"
-        Me.RadioButton104.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton104.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton104.TabIndex = 1
         Me.RadioButton104.TabStop = True
         Me.RadioButton104.Tag = "1"
@@ -3539,10 +3472,9 @@ Partial Class EgenErklaering
         'Label52
         '
         Me.Label52.AutoSize = True
-        Me.Label52.Location = New System.Drawing.Point(3, 15)
-        Me.Label52.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label52.Location = New System.Drawing.Point(4, 18)
         Me.Label52.Name = "Label52"
-        Me.Label52.Size = New System.Drawing.Size(70, 13)
+        Me.Label52.Size = New System.Drawing.Size(93, 17)
         Me.Label52.TabIndex = 0
         Me.Label52.Text = "Er du gravid?"
         '
@@ -3552,19 +3484,19 @@ Partial Class EgenErklaering
         Me.Panel53.Controls.Add(Me.RadioButton105)
         Me.Panel53.Controls.Add(Me.RadioButton106)
         Me.Panel53.Controls.Add(Me.Label53)
-        Me.Panel53.Location = New System.Drawing.Point(0, 183)
-        Me.Panel53.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel53.Location = New System.Drawing.Point(0, 225)
+        Me.Panel53.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel53.Name = "Panel53"
-        Me.Panel53.Size = New System.Drawing.Size(764, 46)
+        Me.Panel53.Size = New System.Drawing.Size(1019, 57)
         Me.Panel53.TabIndex = 22
         '
         'RadioButton105
         '
         Me.RadioButton105.AutoSize = True
-        Me.RadioButton105.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton105.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton105.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton105.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton105.Name = "RadioButton105"
-        Me.RadioButton105.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton105.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton105.TabIndex = 2
         Me.RadioButton105.TabStop = True
         Me.RadioButton105.Tag = "0"
@@ -3574,10 +3506,10 @@ Partial Class EgenErklaering
         'RadioButton106
         '
         Me.RadioButton106.AutoSize = True
-        Me.RadioButton106.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton106.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton106.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton106.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton106.Name = "RadioButton106"
-        Me.RadioButton106.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton106.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton106.TabIndex = 1
         Me.RadioButton106.TabStop = True
         Me.RadioButton106.Tag = "1"
@@ -3587,10 +3519,9 @@ Partial Class EgenErklaering
         'Label53
         '
         Me.Label53.AutoSize = True
-        Me.Label53.Location = New System.Drawing.Point(3, 15)
-        Me.Label53.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label53.Location = New System.Drawing.Point(4, 18)
         Me.Label53.Name = "Label53"
-        Me.Label53.Size = New System.Drawing.Size(356, 13)
+        Me.Label53.Size = New System.Drawing.Size(480, 17)
         Me.Label53.TabIndex = 0
         Me.Label53.Text = "Hvis du har gitt blod tidligere, har du vært gravid siden forrige blodgivning?"
         '
@@ -3599,19 +3530,19 @@ Partial Class EgenErklaering
         Me.Panel54.Controls.Add(Me.RadioButton107)
         Me.Panel54.Controls.Add(Me.RadioButton108)
         Me.Panel54.Controls.Add(Me.Label54)
-        Me.Panel54.Location = New System.Drawing.Point(0, 127)
-        Me.Panel54.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel54.Location = New System.Drawing.Point(0, 156)
+        Me.Panel54.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel54.Name = "Panel54"
-        Me.Panel54.Size = New System.Drawing.Size(764, 46)
+        Me.Panel54.Size = New System.Drawing.Size(1019, 57)
         Me.Panel54.TabIndex = 21
         '
         'RadioButton107
         '
         Me.RadioButton107.AutoSize = True
-        Me.RadioButton107.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton107.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton107.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton107.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton107.Name = "RadioButton107"
-        Me.RadioButton107.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton107.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton107.TabIndex = 2
         Me.RadioButton107.TabStop = True
         Me.RadioButton107.Tag = "0"
@@ -3621,10 +3552,10 @@ Partial Class EgenErklaering
         'RadioButton108
         '
         Me.RadioButton108.AutoSize = True
-        Me.RadioButton108.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton108.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton108.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton108.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton108.Name = "RadioButton108"
-        Me.RadioButton108.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton108.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton108.TabIndex = 1
         Me.RadioButton108.TabStop = True
         Me.RadioButton108.Tag = "1"
@@ -3634,10 +3565,9 @@ Partial Class EgenErklaering
         'Label54
         '
         Me.Label54.AutoSize = True
-        Me.Label54.Location = New System.Drawing.Point(3, 15)
-        Me.Label54.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label54.Location = New System.Drawing.Point(4, 18)
         Me.Label54.Name = "Label54"
-        Me.Label54.Size = New System.Drawing.Size(340, 13)
+        Me.Label54.Size = New System.Drawing.Size(457, 17)
         Me.Label54.TabIndex = 0
         Me.Label54.Text = "Har du vært gravid i løpet av de siste tolv måneder, eller ammer du nå?"
         '
@@ -3645,11 +3575,11 @@ Partial Class EgenErklaering
         '
         Me.Mann.Controls.Add(Me.Panel73)
         Me.Mann.Controls.Add(Me.Panel55)
-        Me.Mann.Location = New System.Drawing.Point(4, 22)
-        Me.Mann.Margin = New System.Windows.Forms.Padding(2)
+        Me.Mann.Location = New System.Drawing.Point(4, 25)
+        Me.Mann.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Mann.Name = "Mann"
-        Me.Mann.Padding = New System.Windows.Forms.Padding(2)
-        Me.Mann.Size = New System.Drawing.Size(764, 541)
+        Me.Mann.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Mann.Size = New System.Drawing.Size(1021, 669)
         Me.Mann.TabIndex = 9
         Me.Mann.Text = "Mann"
         Me.Mann.UseVisualStyleBackColor = True
@@ -3659,19 +3589,18 @@ Partial Class EgenErklaering
         Me.Panel73.BackColor = System.Drawing.Color.SkyBlue
         Me.Panel73.Controls.Add(Me.Label73)
         Me.Panel73.Location = New System.Drawing.Point(0, 0)
-        Me.Panel73.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel73.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel73.Name = "Panel73"
-        Me.Panel73.Size = New System.Drawing.Size(764, 64)
+        Me.Panel73.Size = New System.Drawing.Size(1019, 79)
         Me.Panel73.TabIndex = 22
         '
         'Label73
         '
         Me.Label73.AutoSize = True
         Me.Label73.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.875!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label73.Location = New System.Drawing.Point(3, 15)
-        Me.Label73.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label73.Location = New System.Drawing.Point(4, 18)
         Me.Label73.Name = "Label73"
-        Me.Label73.Size = New System.Drawing.Size(181, 24)
+        Me.Label73.Size = New System.Drawing.Size(225, 29)
         Me.Label73.TabIndex = 0
         Me.Label73.Text = "Besvares av menn"
         '
@@ -3681,19 +3610,19 @@ Partial Class EgenErklaering
         Me.Panel55.Controls.Add(Me.RadioButton109)
         Me.Panel55.Controls.Add(Me.RadioButton110)
         Me.Panel55.Controls.Add(Me.Label55)
-        Me.Panel55.Location = New System.Drawing.Point(0, 71)
-        Me.Panel55.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel55.Location = New System.Drawing.Point(0, 87)
+        Me.Panel55.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel55.Name = "Panel55"
-        Me.Panel55.Size = New System.Drawing.Size(764, 46)
+        Me.Panel55.Size = New System.Drawing.Size(1019, 57)
         Me.Panel55.TabIndex = 21
         '
         'RadioButton109
         '
         Me.RadioButton109.AutoSize = True
-        Me.RadioButton109.Location = New System.Drawing.Point(663, 12)
-        Me.RadioButton109.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton109.Location = New System.Drawing.Point(884, 15)
+        Me.RadioButton109.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton109.Name = "RadioButton109"
-        Me.RadioButton109.Size = New System.Drawing.Size(41, 17)
+        Me.RadioButton109.Size = New System.Drawing.Size(50, 21)
         Me.RadioButton109.TabIndex = 2
         Me.RadioButton109.TabStop = True
         Me.RadioButton109.Tag = "0"
@@ -3703,10 +3632,10 @@ Partial Class EgenErklaering
         'RadioButton110
         '
         Me.RadioButton110.AutoSize = True
-        Me.RadioButton110.Location = New System.Drawing.Point(556, 12)
-        Me.RadioButton110.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButton110.Location = New System.Drawing.Point(741, 15)
+        Me.RadioButton110.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButton110.Name = "RadioButton110"
-        Me.RadioButton110.Size = New System.Drawing.Size(36, 17)
+        Me.RadioButton110.Size = New System.Drawing.Size(44, 21)
         Me.RadioButton110.TabIndex = 1
         Me.RadioButton110.TabStop = True
         Me.RadioButton110.Tag = "1"
@@ -3716,28 +3645,30 @@ Partial Class EgenErklaering
         'Label55
         '
         Me.Label55.AutoSize = True
-        Me.Label55.Location = New System.Drawing.Point(3, 15)
-        Me.Label55.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label55.Location = New System.Drawing.Point(4, 18)
         Me.Label55.Name = "Label55"
-        Me.Label55.Size = New System.Drawing.Size(268, 13)
+        Me.Label55.Size = New System.Drawing.Size(359, 17)
         Me.Label55.TabIndex = 0
         Me.Label55.Text = "Har eller har du hatt seksuell kontakt med andre menn?"
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(656, 606)
+        Me.Button1.Location = New System.Drawing.Point(875, 746)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(156, 61)
+        Me.Button1.Size = New System.Drawing.Size(208, 75)
         Me.Button1.TabIndex = 3
         Me.Button1.Text = "Send inn skjema"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'MenuStrip1
         '
+        Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(866, 24)
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(8, 2, 0, 2)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1155, 28)
         Me.MenuStrip1.TabIndex = 4
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -3745,30 +3676,31 @@ Partial Class EgenErklaering
         '
         Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RestartToolStripMenuItem, Me.AvsluttToolStripMenuItem})
         Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
-        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
+        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(44, 24)
         Me.FileToolStripMenuItem.Text = "File"
         '
         'RestartToolStripMenuItem
         '
         Me.RestartToolStripMenuItem.Name = "RestartToolStripMenuItem"
-        Me.RestartToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.RestartToolStripMenuItem.Text = "Restart"
+        Me.RestartToolStripMenuItem.Size = New System.Drawing.Size(181, 26)
+        Me.RestartToolStripMenuItem.Text = "Logg av"
         '
         'AvsluttToolStripMenuItem
         '
         Me.AvsluttToolStripMenuItem.Name = "AvsluttToolStripMenuItem"
-        Me.AvsluttToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AvsluttToolStripMenuItem.Size = New System.Drawing.Size(181, 26)
         Me.AvsluttToolStripMenuItem.Text = "Avslutt"
         '
         'EgenErklaering
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(866, 701)
+        Me.ClientSize = New System.Drawing.Size(1155, 863)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TabControl1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "EgenErklaering"
         Me.Text = "EgenEgerklaering"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized

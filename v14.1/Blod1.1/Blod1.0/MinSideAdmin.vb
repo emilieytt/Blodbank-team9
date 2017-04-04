@@ -11,6 +11,7 @@ Public Class MinSideAdmin
     Dim dt As New DataTable()
     Dim adapter As MySqlDataAdapter
     Dim cmd As MySqlCommand
+    Dim BtnCLickCount As Integer = 1
 
 
 
@@ -242,16 +243,19 @@ VALUES (1,1 ,'" & Endre_fornavn.Text & "','" & Endre_enavn.Text & "','" & Endre_
 
 
     Private Sub RestartToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RestartToolStripMenuItem.Click
-        'Restarter programmet
-        Application.Restart()
+        BtnClickCount = 1
+
+        Dim loggav As DialogResult
+
+        loggav = MessageBox.Show("Vil du logge av?", "Logg av", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
+        If loggav = DialogResult.Yes Then
+            Application.Restart()
+        Else
+        End If
     End Sub
-
-
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Update_btn.Click
         Dim id As String = DataGridView2.SelectedRows(0).Cells(0).Value
         UpdateDG(id)
-
-
     End Sub
 
 
@@ -268,19 +272,14 @@ VALUES (1,1 ,'" & Endre_fornavn.Text & "','" & Endre_enavn.Text & "','" & Endre_
             Application.ExitThread()
 
         End If
-
-
     End Sub
 
     Private Sub Add_btn_Click(sender As Object, e As EventArgs) Handles Add_btn.Click
         Add()
         Retrieve()
-
-
-
     End Sub
-
     Private Sub DataGridView2_MouseClick(sender As Object, e As MouseEventArgs) Handles DataGridView2.MouseClick
+
         Dim bruker_id As Integer = DataGridView2.SelectedRows(0).Cells(0).Value
         Dim bruker_type As Integer = DataGridView2.SelectedRows(0).Cells(1).Value
         Dim fodselsdato As Date = DataGridView2.SelectedRows(0).Cells(2).Value
@@ -295,8 +294,6 @@ VALUES (1,1 ,'" & Endre_fornavn.Text & "','" & Endre_enavn.Text & "','" & Endre_
         Dim Epostgodtatt As Boolean = DataGridView2.SelectedRows(0).Cells(11).Value
         Dim blodtype As String = DataGridView2.SelectedRows(0).Cells(12).Value
 
-
-
         Endre_bruker.Text = bruker_id
         Endre_brukertype.Text = bruker_type
         Endre_fodselsdato.Text = fodselsdato
@@ -310,11 +307,6 @@ VALUES (1,1 ,'" & Endre_fornavn.Text & "','" & Endre_enavn.Text & "','" & Endre_
         Endre_kjønn.Text = kjonn
         Epost_godtatt.Text = Epostgodtatt
         Endre_blodtype.Text = blodtype
-
-
-
-
-
 
     End Sub
 
@@ -359,11 +351,7 @@ VALUES (1,1 ,'" & Endre_fornavn.Text & "','" & Endre_enavn.Text & "','" & Endre_
             tilkobling3.Close()
 
         End Try
-
-
     End Sub
-
-
     Private Sub Endre_kjønn_Leave(sender As Object, e As EventArgs) Handles Endre_kjønn.Leave
         If IsNumeric(Endre_kjønn.Text) = 0 Or IsNumeric(Endre_kjønn.Text) = 1 Then
 
@@ -371,9 +359,6 @@ VALUES (1,1 ,'" & Endre_fornavn.Text & "','" & Endre_enavn.Text & "','" & Endre_
             Endre_kjønn.Focus()
         End If
     End Sub
-
-
-
     Private Sub Epost_godtatt_Leave(sender As Object, e As EventArgs) Handles Epost_godtatt.Leave
         If IsNumeric(Epost_godtatt.Text) = 0 Or IsNumeric(Epost_godtatt.Text) = 1 Then
 
@@ -381,6 +366,4 @@ VALUES (1,1 ,'" & Endre_fornavn.Text & "','" & Endre_enavn.Text & "','" & Endre_
             Epost_godtatt.Focus()
         End If
     End Sub
-
-
 End Class

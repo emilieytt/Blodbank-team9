@@ -9,7 +9,7 @@ Public Class MinSideAnsatt
     Private Sub MinSideAnsatt_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'Setter bakgrunnsfarge til hvit, endrer programmets tittel, endrer farge på menylinje
 
-        Me.BackColor = Color.White
+        Me.BackColor = Color.WhiteSmoke
         Me.Text = "Blodbanken St. Olavs"
         MenuStrip2.BackColor = Color.CornflowerBlue
         Normal.Checked = True
@@ -70,7 +70,13 @@ Public Class MinSideAnsatt
     Private Sub RestartToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RestartToolStripMenuItem.Click
         BtnClickCount = 1
         'Restarter programmet
-        Application.Restart()
+        Dim loggav As DialogResult
+
+        loggav = MessageBox.Show("Vil du logge av?", "Logg av", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
+        If loggav = DialogResult.Yes Then
+            Application.Restart()
+        Else
+        End If
     End Sub
 
     Private Sub AvsluttToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AvsluttToolStripMenuItem.Click
@@ -79,7 +85,7 @@ Public Class MinSideAnsatt
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Logg_ut.Click
-        BtnClickCount += 1
+        BtnClickCount = 1
 
         Dim loggav As DialogResult
 
@@ -100,10 +106,14 @@ Public Class MinSideAnsatt
         Statistikk.Show()
         Me.Close()
     End Sub
-
     Private Sub Bestillinger_Click(sender As Object, e As EventArgs) Handles Bestillinger.Click
         BtnClickCount = 1
-        Bestillinger.Show()
+        SeBestillinger.Show()
+        Me.Close()
+    End Sub
+    Private Sub Blodlager_Click(sender As Object, e As EventArgs) Handles Blodlager.Click
+        BtnClickCount = 1
+        AdministrerBlod.Show()
         Me.Close()
     End Sub
 
@@ -113,19 +123,15 @@ Public Class MinSideAnsatt
 
             Dim dialog As DialogResult
 
-            dialog = MessageBox.Show("Vil du avslutte?", "Avslutt", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
+            dialog = MessageBox.Show("Vil du logge ut og avslutte?", "Avslutt", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
             If dialog = DialogResult.No Then
 
                 e.Cancel = True
 
+            Else
+                Application.Exit()
+
             End If
         End If
     End Sub
-
-    Private Sub Blodlager_Click(sender As Object, e As EventArgs) Handles Blodlager.Click
-        AdministrerBlod.Show()
-        Me.Close()
-    End Sub
-
-
 End Class

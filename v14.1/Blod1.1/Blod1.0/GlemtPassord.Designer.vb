@@ -62,13 +62,13 @@ Partial Class GlemtPassord
         'RestartToolStripMenuItem
         '
         Me.RestartToolStripMenuItem.Name = "RestartToolStripMenuItem"
-        Me.RestartToolStripMenuItem.Size = New System.Drawing.Size(130, 26)
-        Me.RestartToolStripMenuItem.Text = "Restart"
+        Me.RestartToolStripMenuItem.Size = New System.Drawing.Size(181, 26)
+        Me.RestartToolStripMenuItem.Text = "Logg ut"
         '
         'AvsluttToolStripMenuItem
         '
         Me.AvsluttToolStripMenuItem.Name = "AvsluttToolStripMenuItem"
-        Me.AvsluttToolStripMenuItem.Size = New System.Drawing.Size(130, 26)
+        Me.AvsluttToolStripMenuItem.Size = New System.Drawing.Size(181, 26)
         Me.AvsluttToolStripMenuItem.Text = "Avslutt"
         '
         'Avbryt_knapp

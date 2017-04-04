@@ -2,6 +2,7 @@
 
 Public Class AdministrerBlod
     Public tilkobling As MySqlConnection
+    Dim BtnClickCount As Integer = 1
     Private Sub AdministrerBlod_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         tilkobling = New MySqlConnection("Server=mysql.stud.iie.ntnu.no;" &
@@ -26,8 +27,15 @@ Public Class AdministrerBlod
 
 
     Private Sub RestartToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RestartToolStripMenuItem.Click
+        BtnClickCount = 1
         'Restarter programmet
-        Application.Restart()
+        Dim loggav As DialogResult
+
+        loggav = MessageBox.Show("Vil du logge av?", "Logg av", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
+        If loggav = DialogResult.Yes Then
+            Application.Restart()
+        Else
+        End If
 
     End Sub
 
@@ -834,9 +842,27 @@ Public Class AdministrerBlod
     End Sub
 
     Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
+        BtnClickCount = 1
         MinSideAnsatt.Show()
         Me.Close()
 
 
+    End Sub
+
+    Private Sub AdministrerBlod_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
+        If BtnClickCount = 0 Then
+
+            Dim dialog As DialogResult
+
+            dialog = MessageBox.Show("Vil du logge ut og avslutte?", "Avslutt", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
+            If dialog = DialogResult.No Then
+
+                e.Cancel = True
+
+            Else
+                Application.Exit()
+
+            End If
+        End If
     End Sub
 End Class

@@ -82,12 +82,6 @@
     <Compile Include="AdministrerBlod.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Bestillinger.Designer.vb">
-      <DependentUpon>Bestillinger.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Bestillinger.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="EgenErklaering.Designer.vb">
       <DependentUpon>EgenErklaering.vb</DependentUpon>
     </Compile>
@@ -122,6 +116,12 @@
       <DependentUpon>RegistrerAnsatt.vb</DependentUpon>
     </Compile>
     <Compile Include="RegistrerAnsatt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeBestillinger.Designer.vb">
+      <DependentUpon>SeBestillinger.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SeBestillinger.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Startside.vb">
@@ -181,9 +181,6 @@
     <EmbeddedResource Include="AdministrerBlod.resx">
       <DependentUpon>AdministrerBlod.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Bestillinger.resx">
-      <DependentUpon>Bestillinger.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="EgenErklaering.resx">
       <DependentUpon>EgenErklaering.vb</DependentUpon>
     </EmbeddedResource>
@@ -201,6 +198,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RegistrerAnsatt.resx">
       <DependentUpon>RegistrerAnsatt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeBestillinger.resx">
+      <DependentUpon>SeBestillinger.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Startside.resx">
       <DependentUpon>Startside.vb</DependentUpon>

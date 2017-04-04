@@ -4,6 +4,7 @@
 Public Class GlemtPassord
 
     Private tilkobling As MySqlConnection
+    Dim BtnClickCount As Integer = 0
 
     Private Sub GlemtPassord_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'Setter bakgrunnsfarge til hvit, endrer programmets tittel, endrer farge på menylinje
@@ -23,23 +24,6 @@ Public Class GlemtPassord
 
 
     End Sub
-
-    Private Sub RestartToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RestartToolStripMenuItem.Click
-        'Restarter programmet
-        Application.Restart()
-
-    End Sub
-
-    Private Sub AvsluttToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AvsluttToolStripMenuItem.Click
-        'Avslutter programmet
-        Me.Close()
-    End Sub
-
-    Private Sub Avbryt_knapp_Click(sender As Object, e As EventArgs) Handles Avbryt_knapp.Click
-        Startside.Show()
-        Me.Close()
-    End Sub
-
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles se_passord.Click
 
         If Glemt1.Text <> Glemt2.Text Then
@@ -57,29 +41,56 @@ Public Class GlemtPassord
 
                 Label4.Text = lesernavn("passord")
 
-
-
             End While
             lesernavn.Close()
 
         End If
+    End Sub
+    Private Sub RestartToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RestartToolStripMenuItem.Click
+        BtnClickCount = 1
 
+        Dim loggav As DialogResult
 
+        loggav = MessageBox.Show("Vil du logge av?", "Logg av", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
+        If loggav = DialogResult.Yes Then
+            Application.Restart()
+        Else
+        End If
+    End Sub
 
+    Private Sub AvsluttToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AvsluttToolStripMenuItem.Click
+        'Avslutter programmet
+        Me.Close()
+    End Sub
+
+    Private Sub Avbryt_knapp_Click(sender As Object, e As EventArgs) Handles Avbryt_knapp.Click
+        BtnClickCount = 1
+
+        Dim loggav As DialogResult
+
+        loggav = MessageBox.Show("Er du sikker på at du vil avbryte?", "Avbryt", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
+        If loggav = DialogResult.Yes Then
+            Application.Restart()
+        Else
+        End If
     End Sub
 
     Private Sub GlemtPassord_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
 
-        Dim dialog As DialogResult
+        If BtnClickCount = 0 Then
 
-        dialog = MessageBox.Show("Vil du avslutte?", "Avslutt", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
-        If dialog = DialogResult.No Then
+            Dim dialog As DialogResult
 
-            e.Cancel = True
+            dialog = MessageBox.Show("Vil du logge ut og avslutte?", "Avslutt", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
+            If dialog = DialogResult.No Then
 
-        Else
-            Application.ExitThread()
+                e.Cancel = True
 
+            Else
+                Application.Exit()
+
+            End If
         End If
+    End Sub
     End Sub
 End Class

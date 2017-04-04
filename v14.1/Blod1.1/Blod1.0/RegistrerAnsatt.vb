@@ -8,6 +8,7 @@ Public Class RegistrerAnsatt
 
     Private tilkobling As New MySqlConnection
     Private connstring As String
+    Dim BtnClickCount As Integer = 1
 
     Private Sub RegitrerAnsatt_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'Setter bakgrunnsfarge til hvit, endrer programmets tittel, endrer farge på menylinje
@@ -449,12 +450,14 @@ Public Class RegistrerAnsatt
             sporring("INSERT INTO Bruker (bruker_type, epost_godtatt, f_navn ,e_navn ,fodselsdato ,tlf_nr ,epost ,adresse , postnr,kjonn, passord)
 VALUES (2,1 ,'" & Fornavn.Text & "','" & Etternavn.Text & "','" & År.Text + "/" + Måned.Text + "/" + Dag.Text & "','" & tlf_nr.Text & "','" & Epost.Text & "','" & Adresse.Text & "','" & Post_nr.Text & "','" & valgt_kjonn & "','" & Passord1.Text & "')")
 
+            MsgBox("Bruker registrert")
+            BtnClickCount = 1
+            Startside.Show()
+            Me.Close()
         Catch ex As MySqlException
             MsgBox(ex.Message)
-            MsgBox("Bruker registrert")
+
         End Try
-        Me.Close()
-        Startside.Show()
     End Sub
     'Gir brukeren muligheten til å se hvilke krav som stilles til passord
     Private Sub Passordtips(sender As Object, e As EventArgs) Handles label14.MouseHover
@@ -463,8 +466,38 @@ VALUES (2,1 ,'" & Fornavn.Text & "','" & Etternavn.Text & "','" & År.Text + "/"
     End Sub
 
     Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
-
+        BtnClickCount = 1
         Startside.Show()
         Me.Close()
+    End Sub
+    Private Sub RestartToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RestartToolStripMenuItem.Click
+        BtnClickCount = 1
+
+        Dim loggav As DialogResult
+
+        loggav = MessageBox.Show("Er du sikker på at du vil avbryte?", "Avbryt", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
+        If loggav = DialogResult.Yes Then
+            Application.Restart()
+        Else
+        End If
+    End Sub
+    Private Sub AvsluttToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AvsluttToolStripMenuItem.Click
+        Me.Close()
+    End Sub
+    Private Sub RegistrerAnsatt_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
+        If BtnClickCount = 0 Then
+
+            Dim dialog As DialogResult
+
+            dialog = MessageBox.Show("Vil du logge ut og avslutte?", "Avslutt", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
+            If dialog = DialogResult.No Then
+
+                e.Cancel = True
+
+            Else
+                Application.Exit()
+
+            End If
+        End If
     End Sub
 End Class

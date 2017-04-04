@@ -88,8 +88,15 @@ Public Class MinSideGiver
 
 
     Private Sub RestartToolStripMenuItem2_Click(sender As Object, e As EventArgs) Handles RestartToolStripMenuItem2.Click
-        'Logger ut brukeren og restarter applikasjonen
-        Application.Restart()
+        BtnClickCount = 1
+
+        Dim loggav As DialogResult
+
+        loggav = MessageBox.Show("Vil du logge av?", "Logg av", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
+        If loggav = DialogResult.Yes Then
+            Application.Restart()
+        Else
+        End If
     End Sub
 
     Private Sub AvsluttToolStripMenuItem2_Click(sender As Object, e As EventArgs) Handles AvsluttToolStripMenuItem2.Click
@@ -162,17 +169,25 @@ Public Class MinSideGiver
     End Sub
 
     Private Sub MinSideGiver_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
+        If BtnClickCount = 0 Then
 
-        If BtnClickCount = 1 Then
+            Dim dialog As DialogResult
 
-        Else
-            Application.ExitThread()
+            dialog = MessageBox.Show("Vil du logge ut og avslutte?", "Avslutt", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
+            If dialog = DialogResult.No Then
+
+                e.Cancel = True
+
+            Else
+                Application.Exit()
+
+            End If
         End If
-
-
     End Sub
 
     Private Sub Egenerklæring_knapp_Click(sender As Object, e As EventArgs) Handles Egenerklæring_knapp.Click
         BtnClickCount = 1
+        EgenErklaering.Show()
+        Me.Close()
     End Sub
 End Class

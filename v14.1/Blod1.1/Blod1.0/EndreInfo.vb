@@ -94,13 +94,21 @@ Public Class EndreInfo
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Avbryt_knapp.Click
+        BtnClickCount = 1
         MinSideGiver.Show()
         Me.Hide()
     End Sub
 
     Private Sub RestartToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RestartToolStripMenuItem.Click
-        'Restarter programmet
-        Application.Restart()
+        BtnClickCount = 1
+
+        Dim loggav As DialogResult
+
+        loggav = MessageBox.Show("Vil du logge av?", "Logg av", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
+        If loggav = DialogResult.Yes Then
+            Application.Restart()
+        Else
+        End If
     End Sub
 
     Private Sub AvsluttToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AvsluttToolStripMenuItem.Click

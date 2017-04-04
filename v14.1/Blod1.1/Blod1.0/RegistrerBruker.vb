@@ -9,13 +9,14 @@ Public Class RegistrerBruker
 
     Private tilkobling As New MySqlConnection
     Private connstring As String
+    Dim BtnClickCount As Integer = 0
 
 
 
 
     Private Sub RegistrerBruker_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'Setter bakgrunnsfarge til hvit, endrer programmets tittel, endrer farge på menylinje
-        Me.BackColor = Color.White
+        Me.BackColor = Color.WhiteSmoke
         Me.Text = "Blodbanken St. Olavs"
         MenuStrip1.BackColor = Color.CornflowerBlue
 
@@ -465,24 +466,8 @@ VALUES (1,1 ,'" & Fornavn.Text & "','" & Etternavn.Text & "','" & År.Text + "/"
         ToolTip1.Active = True
         ToolTip1.SetToolTip(Me.label14, "Passordet må inneholde minst en stor bokstav[A-Å]," & vbCrLf & "minst en liten bokstav[a-å] ogto tall [0-9-]")
     End Sub
-
-
-    Private Sub RegistrerBruker_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
-
-        Dim dialog As DialogResult
-
-        dialog = MessageBox.Show("Vil du avslutte?", "Avslutt", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
-        If dialog = DialogResult.No Then
-
-            e.Cancel = True
-
-        Else
-            Application.ExitThread()
-
-        End If
-    End Sub
-
     Private Sub RestartToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RestartToolStripMenuItem.Click
+        BtnClickCount = 1
         'Restarter programmet
         Application.Restart()
 
@@ -494,8 +479,31 @@ VALUES (1,1 ,'" & Fornavn.Text & "','" & Etternavn.Text & "','" & År.Text + "/"
     End Sub
 
     Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
+        BtnClickCount = 1
 
-        Startside.Show()
-        Me.Close()
+        Dim loggav As DialogResult
+
+        loggav = MessageBox.Show("Er du sikker på at du vil avbryte?", "Avbryt", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
+        If loggav = DialogResult.Yes Then
+            Application.Restart()
+        Else
+        End If
+    End Sub
+    Private Sub RegistrerBruker_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
+
+        If BtnClickCount = 0 Then
+
+            Dim dialog As DialogResult
+
+            dialog = MessageBox.Show("Vil du logge ut og avslutte?", "Avslutt", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
+            If dialog = DialogResult.No Then
+
+                e.Cancel = True
+
+            Else
+                Application.Exit()
+
+            End If
+        End If
     End Sub
 End Class
