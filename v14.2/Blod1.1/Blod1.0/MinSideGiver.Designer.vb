@@ -27,6 +27,8 @@ Partial Class MinSideGiver
         Me.RestartToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.AvsluttToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
         Me.Endre_informasjon = New System.Windows.Forms.LinkLabel()
         Me.Blodtype = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
@@ -57,8 +59,6 @@ Partial Class MinSideGiver
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Header = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
         Me.MenuStrip2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -72,7 +72,8 @@ Partial Class MinSideGiver
         Me.MenuStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem})
         Me.MenuStrip2.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip2.Name = "MenuStrip2"
-        Me.MenuStrip2.Size = New System.Drawing.Size(1071, 24)
+        Me.MenuStrip2.Padding = New System.Windows.Forms.Padding(8, 2, 0, 2)
+        Me.MenuStrip2.Size = New System.Drawing.Size(1428, 28)
         Me.MenuStrip2.TabIndex = 1
         Me.MenuStrip2.Text = "MenuStrip1"
         '
@@ -80,19 +81,19 @@ Partial Class MinSideGiver
         '
         Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RestartToolStripMenuItem2, Me.AvsluttToolStripMenuItem2})
         Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
-        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
+        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(44, 24)
         Me.FileToolStripMenuItem.Text = "File"
         '
         'RestartToolStripMenuItem2
         '
         Me.RestartToolStripMenuItem2.Name = "RestartToolStripMenuItem2"
-        Me.RestartToolStripMenuItem2.Size = New System.Drawing.Size(115, 22)
+        Me.RestartToolStripMenuItem2.Size = New System.Drawing.Size(135, 26)
         Me.RestartToolStripMenuItem2.Text = "Logg ut"
         '
         'AvsluttToolStripMenuItem2
         '
         Me.AvsluttToolStripMenuItem2.Name = "AvsluttToolStripMenuItem2"
-        Me.AvsluttToolStripMenuItem2.Size = New System.Drawing.Size(115, 22)
+        Me.AvsluttToolStripMenuItem2.Size = New System.Drawing.Size(135, 26)
         Me.AvsluttToolStripMenuItem2.Text = "Avslutt"
         '
         'GroupBox1
@@ -114,22 +115,45 @@ Partial Class MinSideGiver
         Me.GroupBox1.Controls.Add(Me.Label6)
         Me.GroupBox1.Font = New System.Drawing.Font("Calibri Light", 12.0!, System.Drawing.FontStyle.Bold)
         Me.GroupBox1.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.GroupBox1.Location = New System.Drawing.Point(42, 129)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Location = New System.Drawing.Point(56, 159)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.GroupBox1.Size = New System.Drawing.Size(368, 314)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.GroupBox1.Size = New System.Drawing.Size(491, 386)
         Me.GroupBox1.TabIndex = 13
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Min informasjon:"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Calibri Light", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label11.ForeColor = System.Drawing.Color.Black
+        Me.Label11.Location = New System.Drawing.Point(23, 65)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(74, 24)
+        Me.Label11.TabIndex = 19
+        Me.Label11.Text = "Postnr:"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Calibri Light", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label10.ForeColor = System.Drawing.Color.Black
+        Me.Label10.Location = New System.Drawing.Point(23, 27)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(61, 24)
+        Me.Label10.TabIndex = 18
+        Me.Label10.Text = "Navn:"
         '
         'Endre_informasjon
         '
         Me.Endre_informasjon.AutoSize = True
         Me.Endre_informasjon.Font = New System.Drawing.Font("Calibri Light", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Endre_informasjon.Location = New System.Drawing.Point(17, 273)
+        Me.Endre_informasjon.Location = New System.Drawing.Point(23, 336)
+        Me.Endre_informasjon.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Endre_informasjon.Name = "Endre_informasjon"
-        Me.Endre_informasjon.Size = New System.Drawing.Size(146, 19)
+        Me.Endre_informasjon.Size = New System.Drawing.Size(175, 24)
         Me.Endre_informasjon.TabIndex = 17
         Me.Endre_informasjon.TabStop = True
         Me.Endre_informasjon.Text = "Endre Informasjon"
@@ -139,10 +163,9 @@ Partial Class MinSideGiver
         Me.Blodtype.AutoSize = True
         Me.Blodtype.Font = New System.Drawing.Font("Calibri Light", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Blodtype.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Blodtype.Location = New System.Drawing.Point(152, 210)
-        Me.Blodtype.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Blodtype.Location = New System.Drawing.Point(203, 258)
         Me.Blodtype.Name = "Blodtype"
-        Me.Blodtype.Size = New System.Drawing.Size(0, 19)
+        Me.Blodtype.Size = New System.Drawing.Size(0, 24)
         Me.Blodtype.TabIndex = 14
         '
         'Label7
@@ -150,10 +173,9 @@ Partial Class MinSideGiver
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Calibri Light", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Label7.ForeColor = System.Drawing.Color.Black
-        Me.Label7.Location = New System.Drawing.Point(17, 210)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label7.Location = New System.Drawing.Point(23, 258)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(79, 19)
+        Me.Label7.Size = New System.Drawing.Size(95, 24)
         Me.Label7.TabIndex = 13
         Me.Label7.Text = "Blodtype:"
         '
@@ -162,10 +184,9 @@ Partial Class MinSideGiver
         Me.Epost.AutoSize = True
         Me.Epost.Font = New System.Drawing.Font("Calibri Light", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Epost.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Epost.Location = New System.Drawing.Point(152, 178)
-        Me.Epost.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Epost.Location = New System.Drawing.Point(203, 219)
         Me.Epost.Name = "Epost"
-        Me.Epost.Size = New System.Drawing.Size(0, 19)
+        Me.Epost.Size = New System.Drawing.Size(0, 24)
         Me.Epost.TabIndex = 12
         '
         'Navn
@@ -173,10 +194,9 @@ Partial Class MinSideGiver
         Me.Navn.AutoSize = True
         Me.Navn.Font = New System.Drawing.Font("Calibri Light", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Navn.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Navn.Location = New System.Drawing.Point(152, 22)
-        Me.Navn.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Navn.Location = New System.Drawing.Point(203, 27)
         Me.Navn.Name = "Navn"
-        Me.Navn.Size = New System.Drawing.Size(0, 19)
+        Me.Navn.Size = New System.Drawing.Size(0, 24)
         Me.Navn.TabIndex = 1
         '
         'fdato
@@ -184,10 +204,9 @@ Partial Class MinSideGiver
         Me.fdato.AutoSize = True
         Me.fdato.Font = New System.Drawing.Font("Calibri Light", 12.0!, System.Drawing.FontStyle.Bold)
         Me.fdato.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.fdato.Location = New System.Drawing.Point(152, 115)
-        Me.fdato.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.fdato.Location = New System.Drawing.Point(203, 142)
         Me.fdato.Name = "fdato"
-        Me.fdato.Size = New System.Drawing.Size(0, 19)
+        Me.fdato.Size = New System.Drawing.Size(0, 24)
         Me.fdato.TabIndex = 11
         '
         'Mobilnummer
@@ -195,10 +214,9 @@ Partial Class MinSideGiver
         Me.Mobilnummer.AutoSize = True
         Me.Mobilnummer.Font = New System.Drawing.Font("Calibri Light", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Mobilnummer.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Mobilnummer.Location = New System.Drawing.Point(151, 145)
-        Me.Mobilnummer.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Mobilnummer.Location = New System.Drawing.Point(201, 178)
         Me.Mobilnummer.Name = "Mobilnummer"
-        Me.Mobilnummer.Size = New System.Drawing.Size(0, 19)
+        Me.Mobilnummer.Size = New System.Drawing.Size(0, 24)
         Me.Mobilnummer.TabIndex = 10
         '
         'Label3
@@ -206,10 +224,9 @@ Partial Class MinSideGiver
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Calibri Light", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Label3.ForeColor = System.Drawing.Color.Black
-        Me.Label3.Location = New System.Drawing.Point(17, 84)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label3.Location = New System.Drawing.Point(23, 103)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(72, 19)
+        Me.Label3.Size = New System.Drawing.Size(87, 24)
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "Adresse:"
         '
@@ -218,10 +235,9 @@ Partial Class MinSideGiver
         Me.Postnr.AutoSize = True
         Me.Postnr.Font = New System.Drawing.Font("Calibri Light", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Postnr.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Postnr.Location = New System.Drawing.Point(152, 53)
-        Me.Postnr.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Postnr.Location = New System.Drawing.Point(203, 65)
         Me.Postnr.Name = "Postnr"
-        Me.Postnr.Size = New System.Drawing.Size(0, 19)
+        Me.Postnr.Size = New System.Drawing.Size(0, 24)
         Me.Postnr.TabIndex = 9
         '
         'Label4
@@ -229,10 +245,9 @@ Partial Class MinSideGiver
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Calibri Light", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Label4.ForeColor = System.Drawing.Color.Black
-        Me.Label4.Location = New System.Drawing.Point(17, 115)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label4.Location = New System.Drawing.Point(23, 142)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(101, 19)
+        Me.Label4.Size = New System.Drawing.Size(122, 24)
         Me.Label4.TabIndex = 5
         Me.Label4.Text = "Fødselsdato:"
         '
@@ -241,10 +256,9 @@ Partial Class MinSideGiver
         Me.Adresse.AutoSize = True
         Me.Adresse.Font = New System.Drawing.Font("Calibri Light", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Adresse.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Adresse.Location = New System.Drawing.Point(152, 84)
-        Me.Adresse.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Adresse.Location = New System.Drawing.Point(203, 103)
         Me.Adresse.Name = "Adresse"
-        Me.Adresse.Size = New System.Drawing.Size(0, 19)
+        Me.Adresse.Size = New System.Drawing.Size(0, 24)
         Me.Adresse.TabIndex = 8
         '
         'Label5
@@ -252,10 +266,9 @@ Partial Class MinSideGiver
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Calibri Light", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Label5.ForeColor = System.Drawing.Color.Black
-        Me.Label5.Location = New System.Drawing.Point(17, 145)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label5.Location = New System.Drawing.Point(23, 178)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(119, 19)
+        Me.Label5.Size = New System.Drawing.Size(141, 24)
         Me.Label5.TabIndex = 6
         Me.Label5.Text = "Mobilnummer:"
         '
@@ -264,10 +277,9 @@ Partial Class MinSideGiver
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Calibri Light", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Label6.ForeColor = System.Drawing.Color.Black
-        Me.Label6.Location = New System.Drawing.Point(17, 178)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label6.Location = New System.Drawing.Point(23, 219)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(117, 19)
+        Me.Label6.Size = New System.Drawing.Size(142, 24)
         Me.Label6.TabIndex = 7
         Me.Label6.Text = "E-postadresse:"
         '
@@ -308,11 +320,11 @@ Partial Class MinSideGiver
         Me.GroupBox2.Controls.Add(Me.Label8)
         Me.GroupBox2.Font = New System.Drawing.Font("Calibri Light", 12.0!, System.Drawing.FontStyle.Bold)
         Me.GroupBox2.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.GroupBox2.Location = New System.Drawing.Point(424, 129)
-        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox2.Location = New System.Drawing.Point(565, 159)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.GroupBox2.Size = New System.Drawing.Size(402, 314)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.GroupBox2.Size = New System.Drawing.Size(536, 386)
         Me.GroupBox2.TabIndex = 14
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Givning:"
@@ -322,9 +334,10 @@ Partial Class MinSideGiver
         Me.Bestill.BackColor = System.Drawing.Color.CornflowerBlue
         Me.Bestill.Font = New System.Drawing.Font("Calibri Light", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Bestill.ForeColor = System.Drawing.Color.White
-        Me.Bestill.Location = New System.Drawing.Point(76, 178)
+        Me.Bestill.Location = New System.Drawing.Point(101, 219)
+        Me.Bestill.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Bestill.Name = "Bestill"
-        Me.Bestill.Size = New System.Drawing.Size(251, 35)
+        Me.Bestill.Size = New System.Drawing.Size(335, 43)
         Me.Bestill.TabIndex = 26
         Me.Bestill.Text = "Bestill time"
         Me.Bestill.UseVisualStyleBackColor = False
@@ -333,9 +346,10 @@ Partial Class MinSideGiver
         '
         Me.Logg_ut.BackColor = System.Drawing.Color.CornflowerBlue
         Me.Logg_ut.ForeColor = System.Drawing.Color.White
-        Me.Logg_ut.Location = New System.Drawing.Point(314, 273)
+        Me.Logg_ut.Location = New System.Drawing.Point(419, 336)
+        Me.Logg_ut.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Logg_ut.Name = "Logg_ut"
-        Me.Logg_ut.Size = New System.Drawing.Size(83, 35)
+        Me.Logg_ut.Size = New System.Drawing.Size(111, 43)
         Me.Logg_ut.TabIndex = 25
         Me.Logg_ut.Text = "Logg ut"
         Me.Logg_ut.UseVisualStyleBackColor = False
@@ -344,20 +358,22 @@ Partial Class MinSideGiver
         '
         Me.Se_tidligere.AutoSize = True
         Me.Se_tidligere.Font = New System.Drawing.Font("Calibri Light", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Se_tidligere.Location = New System.Drawing.Point(19, 273)
+        Me.Se_tidligere.Location = New System.Drawing.Point(25, 336)
+        Me.Se_tidligere.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Se_tidligere.Name = "Se_tidligere"
-        Me.Se_tidligere.Size = New System.Drawing.Size(227, 19)
+        Me.Se_tidligere.Size = New System.Drawing.Size(276, 24)
         Me.Se_tidligere.TabIndex = 24
         Me.Se_tidligere.TabStop = True
-        Me.Se_tidligere.Text = "Se alle tidliger blodtappinger"
+        Me.Se_tidligere.Text = "Se alle tidligere blodtappinger"
         '
         'Nestetekst
         '
         Me.Nestetekst.AutoSize = True
         Me.Nestetekst.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Nestetekst.Location = New System.Drawing.Point(19, 84)
+        Me.Nestetekst.Location = New System.Drawing.Point(25, 103)
+        Me.Nestetekst.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Nestetekst.Name = "Nestetekst"
-        Me.Nestetekst.Size = New System.Drawing.Size(0, 19)
+        Me.Nestetekst.Size = New System.Drawing.Size(0, 24)
         Me.Nestetekst.TabIndex = 23
         '
         'ComboBox1
@@ -365,9 +381,10 @@ Partial Class MinSideGiver
         Me.ComboBox1.Font = New System.Drawing.Font("Calibri Light", 12.0!, System.Drawing.FontStyle.Bold)
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"08:00", "08:30", "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30"})
-        Me.ComboBox1.Location = New System.Drawing.Point(77, 146)
+        Me.ComboBox1.Location = New System.Drawing.Point(103, 180)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(251, 27)
+        Me.ComboBox1.Size = New System.Drawing.Size(333, 32)
         Me.ComboBox1.TabIndex = 22
         Me.ComboBox1.Text = "Klokkeslett"
         '
@@ -376,9 +393,10 @@ Partial Class MinSideGiver
         Me.Egenerklæring_knapp.BackColor = System.Drawing.Color.CornflowerBlue
         Me.Egenerklæring_knapp.Font = New System.Drawing.Font("Calibri Light", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Egenerklæring_knapp.ForeColor = System.Drawing.Color.White
-        Me.Egenerklæring_knapp.Location = New System.Drawing.Point(77, 222)
+        Me.Egenerklæring_knapp.Location = New System.Drawing.Point(103, 273)
+        Me.Egenerklæring_knapp.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Egenerklæring_knapp.Name = "Egenerklæring_knapp"
-        Me.Egenerklæring_knapp.Size = New System.Drawing.Size(251, 35)
+        Me.Egenerklæring_knapp.Size = New System.Drawing.Size(335, 43)
         Me.Egenerklæring_knapp.TabIndex = 21
         Me.Egenerklæring_knapp.Text = "Egenerklæring"
         Me.Egenerklæring_knapp.UseVisualStyleBackColor = False
@@ -386,10 +404,10 @@ Partial Class MinSideGiver
         'DateTimePicker1
         '
         Me.DateTimePicker1.Font = New System.Drawing.Font("Calibri Light", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.DateTimePicker1.Location = New System.Drawing.Point(77, 115)
-        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(103, 142)
+        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(251, 27)
+        Me.DateTimePicker1.Size = New System.Drawing.Size(333, 32)
         Me.DateTimePicker1.TabIndex = 19
         '
         'Neste
@@ -397,10 +415,9 @@ Partial Class MinSideGiver
         Me.Neste.AutoSize = True
         Me.Neste.Font = New System.Drawing.Font("Calibri Light", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Neste.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Neste.Location = New System.Drawing.Point(263, 53)
-        Me.Neste.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Neste.Location = New System.Drawing.Point(351, 65)
         Me.Neste.Name = "Neste"
-        Me.Neste.Size = New System.Drawing.Size(51, 19)
+        Me.Neste.Size = New System.Drawing.Size(63, 24)
         Me.Neste.TabIndex = 18
         Me.Neste.Text = "Neste"
         '
@@ -409,10 +426,9 @@ Partial Class MinSideGiver
         Me.Forrige.AutoSize = True
         Me.Forrige.Font = New System.Drawing.Font("Calibri Light", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Forrige.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Forrige.Location = New System.Drawing.Point(163, 22)
-        Me.Forrige.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Forrige.Location = New System.Drawing.Point(217, 27)
         Me.Forrige.Name = "Forrige"
-        Me.Forrige.Size = New System.Drawing.Size(63, 19)
+        Me.Forrige.Size = New System.Drawing.Size(73, 24)
         Me.Forrige.TabIndex = 17
         Me.Forrige.Text = "Forrige"
         '
@@ -421,10 +437,9 @@ Partial Class MinSideGiver
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Calibri Light", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Label9.ForeColor = System.Drawing.Color.Black
-        Me.Label9.Location = New System.Drawing.Point(16, 22)
-        Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label9.Location = New System.Drawing.Point(21, 27)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(142, 19)
+        Me.Label9.Size = New System.Drawing.Size(169, 24)
         Me.Label9.TabIndex = 16
         Me.Label9.Text = "Siste blodtapping:"
         '
@@ -433,10 +448,9 @@ Partial Class MinSideGiver
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Calibri Light", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Label8.ForeColor = System.Drawing.Color.Black
-        Me.Label8.Location = New System.Drawing.Point(16, 53)
-        Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label8.Location = New System.Drawing.Point(21, 65)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(241, 19)
+        Me.Label8.Size = New System.Drawing.Size(284, 24)
         Me.Label8.TabIndex = 15
         Me.Label8.Text = "Dager til neste mulige tapping:"
         '
@@ -458,10 +472,9 @@ Partial Class MinSideGiver
         Me.Header.AutoSize = True
         Me.Header.Font = New System.Drawing.Font("Calibri", 51.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Header.ForeColor = System.Drawing.Color.RoyalBlue
-        Me.Header.Location = New System.Drawing.Point(284, 19)
-        Me.Header.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Header.Location = New System.Drawing.Point(379, 23)
         Me.Header.Name = "Header"
-        Me.Header.Size = New System.Drawing.Size(298, 83)
+        Me.Header.Size = New System.Drawing.Size(375, 104)
         Me.Header.TabIndex = 0
         Me.Header.Text = "MIN SIDE"
         '
@@ -470,45 +483,22 @@ Partial Class MinSideGiver
         Me.Panel1.Controls.Add(Me.GroupBox1)
         Me.Panel1.Controls.Add(Me.GroupBox2)
         Me.Panel1.Controls.Add(Me.Header)
-        Me.Panel1.Location = New System.Drawing.Point(84, 105)
+        Me.Panel1.Location = New System.Drawing.Point(112, 129)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(849, 484)
+        Me.Panel1.Size = New System.Drawing.Size(1132, 596)
         Me.Panel1.TabIndex = 17
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Calibri Light", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label10.ForeColor = System.Drawing.Color.Black
-        Me.Label10.Location = New System.Drawing.Point(17, 22)
-        Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(51, 19)
-        Me.Label10.TabIndex = 18
-        Me.Label10.Text = "Navn:"
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Calibri Light", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label11.ForeColor = System.Drawing.Color.Black
-        Me.Label11.Location = New System.Drawing.Point(17, 53)
-        Me.Label11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(61, 19)
-        Me.Label11.TabIndex = 19
-        Me.Label11.Text = "Postnr:"
         '
         'MinSideGiver
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.ClientSize = New System.Drawing.Size(1071, 703)
+        Me.ClientSize = New System.Drawing.Size(1428, 865)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.MenuStrip2)
         Me.MainMenuStrip = Me.MenuStrip2
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "MinSideGiver"
         Me.Text = "E"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized

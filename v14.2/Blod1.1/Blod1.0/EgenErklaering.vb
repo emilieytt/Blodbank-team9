@@ -3,7 +3,7 @@
 
 Public Class EgenErklaering
     Public tilkobling As MySqlConnection
-    Dim BtnClickCount As Integer = 1
+    Dim BtnClickCount As Integer = 0
     Private Sub EgenEgerklaering_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'Setter bakgrunnsfarge til hvit, endrer programmets tittel, endrer farge på menylinje
         Me.BackColor = Color.WhiteSmoke
@@ -45,5 +45,18 @@ Public Class EgenErklaering
 
             End If
         End If
+    End Sub
+
+    Private Sub Avbryt_Click(sender As Object, e As EventArgs) Handles Avbryt.Click
+        Dim loggav As DialogResult
+
+        loggav = MessageBox.Show("Er du sikker på at du vil avbryte?", "Avbryt", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
+        If loggav = DialogResult.Yes Then
+            BtnClickCount = 1
+            MinSideGiver.Show()
+            Me.Close()
+        Else
+        End If
+
     End Sub
 End Class

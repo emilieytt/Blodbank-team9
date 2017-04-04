@@ -305,6 +305,9 @@ Partial Class EgenErklaering
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.RestartToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AvsluttToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Avbryt = New System.Windows.Forms.Button()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Panel17 = New System.Windows.Forms.Panel()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.Panel65.SuspendLayout()
@@ -389,6 +392,7 @@ Partial Class EgenErklaering
         Me.Panel73.SuspendLayout()
         Me.Panel55.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
+        Me.Panel17.SuspendLayout()
         Me.SuspendLayout()
         '
         'TabControl1
@@ -403,11 +407,11 @@ Partial Class EgenErklaering
         Me.TabControl1.Controls.Add(Me.TabPage8)
         Me.TabControl1.Controls.Add(Me.Kvinne)
         Me.TabControl1.Controls.Add(Me.Mann)
-        Me.TabControl1.Location = New System.Drawing.Point(53, 26)
+        Me.TabControl1.Location = New System.Drawing.Point(25, 87)
         Me.TabControl1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(1029, 698)
+        Me.TabControl1.Size = New System.Drawing.Size(1029, 708)
         Me.TabControl1.TabIndex = 2
         '
         'TabPage1
@@ -424,7 +428,7 @@ Partial Class EgenErklaering
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TabPage1.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.TabPage1.Size = New System.Drawing.Size(1021, 669)
+        Me.TabPage1.Size = New System.Drawing.Size(1021, 679)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Del 1"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -741,7 +745,7 @@ Partial Class EgenErklaering
         Me.TabPage2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TabPage2.Size = New System.Drawing.Size(1021, 669)
+        Me.TabPage2.Size = New System.Drawing.Size(1021, 679)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Del 2"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -1012,7 +1016,7 @@ Partial Class EgenErklaering
         Me.TabPage3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TabPage3.Size = New System.Drawing.Size(1021, 669)
+        Me.TabPage3.Size = New System.Drawing.Size(1021, 679)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "Del 3"
         Me.TabPage3.UseVisualStyleBackColor = True
@@ -1384,7 +1388,7 @@ Partial Class EgenErklaering
         Me.TabPage4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TabPage4.Name = "TabPage4"
         Me.TabPage4.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TabPage4.Size = New System.Drawing.Size(1021, 669)
+        Me.TabPage4.Size = New System.Drawing.Size(1021, 679)
         Me.TabPage4.TabIndex = 3
         Me.TabPage4.Text = "Del 4"
         Me.TabPage4.UseVisualStyleBackColor = True
@@ -1885,7 +1889,7 @@ Partial Class EgenErklaering
         Me.TabPage5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TabPage5.Name = "TabPage5"
         Me.TabPage5.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TabPage5.Size = New System.Drawing.Size(1021, 669)
+        Me.TabPage5.Size = New System.Drawing.Size(1021, 679)
         Me.TabPage5.TabIndex = 4
         Me.TabPage5.Text = "Del 5"
         Me.TabPage5.UseVisualStyleBackColor = True
@@ -1979,7 +1983,7 @@ Partial Class EgenErklaering
         Me.TabPage6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TabPage6.Name = "TabPage6"
         Me.TabPage6.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TabPage6.Size = New System.Drawing.Size(1021, 669)
+        Me.TabPage6.Size = New System.Drawing.Size(1021, 679)
         Me.TabPage6.TabIndex = 5
         Me.TabPage6.Text = "Del 6"
         Me.TabPage6.UseVisualStyleBackColor = True
@@ -2716,7 +2720,7 @@ Partial Class EgenErklaering
         Me.TabPage7.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TabPage7.Name = "TabPage7"
         Me.TabPage7.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TabPage7.Size = New System.Drawing.Size(1021, 669)
+        Me.TabPage7.Size = New System.Drawing.Size(1021, 679)
         Me.TabPage7.TabIndex = 6
         Me.TabPage7.Text = "Del 7"
         Me.TabPage7.UseVisualStyleBackColor = True
@@ -3173,7 +3177,7 @@ Partial Class EgenErklaering
         Me.TabPage8.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TabPage8.Name = "TabPage8"
         Me.TabPage8.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TabPage8.Size = New System.Drawing.Size(1021, 669)
+        Me.TabPage8.Size = New System.Drawing.Size(1021, 679)
         Me.TabPage8.TabIndex = 7
         Me.TabPage8.Text = "Del 8"
         Me.TabPage8.UseVisualStyleBackColor = True
@@ -3359,7 +3363,7 @@ Partial Class EgenErklaering
         Me.Kvinne.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Kvinne.Name = "Kvinne"
         Me.Kvinne.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Kvinne.Size = New System.Drawing.Size(1021, 669)
+        Me.Kvinne.Size = New System.Drawing.Size(1021, 679)
         Me.Kvinne.TabIndex = 8
         Me.Kvinne.Text = "Kvinne"
         Me.Kvinne.UseVisualStyleBackColor = True
@@ -3579,7 +3583,7 @@ Partial Class EgenErklaering
         Me.Mann.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Mann.Name = "Mann"
         Me.Mann.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Mann.Size = New System.Drawing.Size(1021, 669)
+        Me.Mann.Size = New System.Drawing.Size(1021, 679)
         Me.Mann.TabIndex = 9
         Me.Mann.Text = "Mann"
         Me.Mann.UseVisualStyleBackColor = True
@@ -3653,13 +3657,15 @@ Partial Class EgenErklaering
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(875, 746)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button1.BackColor = System.Drawing.Color.CornflowerBlue
+        Me.Button1.Font = New System.Drawing.Font("Calibri Light", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Button1.Location = New System.Drawing.Point(840, 797)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(208, 75)
         Me.Button1.TabIndex = 3
         Me.Button1.Text = "Send inn skjema"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'MenuStrip1
         '
@@ -3682,25 +3688,59 @@ Partial Class EgenErklaering
         'RestartToolStripMenuItem
         '
         Me.RestartToolStripMenuItem.Name = "RestartToolStripMenuItem"
-        Me.RestartToolStripMenuItem.Size = New System.Drawing.Size(181, 26)
+        Me.RestartToolStripMenuItem.Size = New System.Drawing.Size(137, 26)
         Me.RestartToolStripMenuItem.Text = "Logg av"
         '
         'AvsluttToolStripMenuItem
         '
         Me.AvsluttToolStripMenuItem.Name = "AvsluttToolStripMenuItem"
-        Me.AvsluttToolStripMenuItem.Size = New System.Drawing.Size(181, 26)
+        Me.AvsluttToolStripMenuItem.Size = New System.Drawing.Size(137, 26)
         Me.AvsluttToolStripMenuItem.Text = "Avslutt"
+        '
+        'Avbryt
+        '
+        Me.Avbryt.BackColor = System.Drawing.Color.CornflowerBlue
+        Me.Avbryt.Font = New System.Drawing.Font("Calibri Light", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Avbryt.Location = New System.Drawing.Point(624, 797)
+        Me.Avbryt.Margin = New System.Windows.Forms.Padding(4)
+        Me.Avbryt.Name = "Avbryt"
+        Me.Avbryt.Size = New System.Drawing.Size(208, 75)
+        Me.Avbryt.TabIndex = 5
+        Me.Avbryt.Text = "Avbryt"
+        Me.Avbryt.UseVisualStyleBackColor = False
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New System.Drawing.Font("Calibri", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.ForeColor = System.Drawing.Color.RoyalBlue
+        Me.Label17.Location = New System.Drawing.Point(239, 27)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(195, 37)
+        Me.Label17.TabIndex = 7
+        Me.Label17.Text = "Egenerklæring"
+        '
+        'Panel17
+        '
+        Me.Panel17.Controls.Add(Me.Label17)
+        Me.Panel17.Controls.Add(Me.Button1)
+        Me.Panel17.Controls.Add(Me.Avbryt)
+        Me.Panel17.Controls.Add(Me.TabControl1)
+        Me.Panel17.Location = New System.Drawing.Point(29, 48)
+        Me.Panel17.Name = "Panel17"
+        Me.Panel17.Size = New System.Drawing.Size(1392, 911)
+        Me.Panel17.TabIndex = 8
         '
         'EgenErklaering
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1155, 863)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TabControl1)
+        Me.ClientSize = New System.Drawing.Size(1155, 998)
+        Me.Controls.Add(Me.Panel17)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "EgenErklaering"
         Me.Text = "EgenEgerklaering"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
@@ -3861,6 +3901,8 @@ Partial Class EgenErklaering
         Me.Panel55.PerformLayout()
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
+        Me.Panel17.ResumeLayout(False)
+        Me.Panel17.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -4148,4 +4190,7 @@ Partial Class EgenErklaering
     Friend WithEvents FileToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents RestartToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AvsluttToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Avbryt As Button
+    Friend WithEvents Label17 As Label
+    Friend WithEvents Panel17 As Panel
 End Class
